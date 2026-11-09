@@ -11,3 +11,4 @@ Work_Log.docx
 .neon
 node_modules/
 node_modules/
+.env*
