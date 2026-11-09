@@ -1,0 +1,45 @@
+# 序隅 XUYU 产品目录（来源：Brand_Book.md 第三节，不得增删事实）
+# 品牌常用色（品牌层面，未按单品核实）：墨黑、岩灰、栗棕
+products:
+  - sku: XY-S01
+    name: "「折页」卡夹"
+    category: 小皮具
+    price: 3800
+    material: 粒面牛皮
+    facts: ["粒面牛皮", "6个卡位", "中央票据夹层"]
+    uses: ["日常随身", "小件礼赠"]
+  - sku: XY-S02
+    name: "「随行」拉链收纳包"
+    category: 小皮具
+    price: 6800
+    material: 粒面牛皮
+    facts: ["粒面牛皮", "拉链闭合", "内设小口袋"]
+    uses: ["收纳随身小物", "旅行整理"]
+  - sku: XY-B01
+    name: "「弧」小号肩包"
+    category: 手袋
+    price: 18800
+    material: 粒面牛皮
+    facts: ["粒面牛皮", "可调节肩带", "磁扣闭合"]
+    uses: ["轻装出门", "日常搭配"]
+  - sku: XY-B02
+    name: "「序」中号托特"
+    category: 手袋
+    price: 24800
+    material: 粒面牛皮
+    facts: ["粒面牛皮", "拉链闭合", "可容纳13英寸笔记本电脑", "内设拉链袋"]
+    uses: ["工作通勤"]
+  - sku: XY-B03
+    name: "「隅」翻盖手袋"
+    category: 手袋
+    price: 28800
+    material: 光面牛皮
+    facts: ["光面牛皮", "翻盖锁扣", "可手提及肩背"]
+    uses: ["工作会面", "日常与晚间场合"]
+  - sku: XY-T01
+    name: "「远行」旅行袋"
+    category: 旅行皮具
+    price: 38800
+    material: 粒面牛皮
+    facts: ["粒面牛皮", "双向拉链", "可拆卸肩带"]
+    uses: ["短途旅行"]

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "问使用感受并提到内部拉链袋，符合预期，也只有一个问题；「这两周」略算时间，「您可以随时和我说」稍显多余，另外没有提到客户带电脑去工地和会议的通勤场景，个性化还可以更深。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容完全对应粒面牛皮资料（GRAIN-01、GRAIN-02），事实准确；但没有开场关心，也没有结合客户常去工地的场景，显得像通用说明，未必是客户当下需要的。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁一次、12个月内的信息与资料一致，没有越权；但刚买两周就提清洁偏早，也像服务通知，对客户当前需要的回应较弱。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条目的不同（使用感受、养护、服务），各自只有一个主要目的，也避开了生日营销，符合工具提示。A 最贴合预期行为；B、C 事实准确，但时机和个性化稍弱。",
+ "case_id": "TC-17",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

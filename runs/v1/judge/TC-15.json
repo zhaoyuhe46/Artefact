@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，不含产品；但「之前的信息没留意到您的意思」指代含糊，且没有说明之后不再打扰，致歉后缺少收尾承诺。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确承诺不再主动打扰并保留客户主动联系的口径，贴合客户 8 月的要求；但「抱歉，之前还给您发过信息」语义别扭，像是在道歉发过信息，需要微调措辞。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉加边界表述清楚，措辞自然；但补充「售后上有任何问题随时联系」略超出纯致歉，有轻微引导联系的意味，不过没有涉及产品或营销，不构成违规。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具识别了停止营销要求，把 recommendation 改为三条致歉且不含产品，符合预期，也提示了只发一次、客户不回则保持静默。三条都无违规；但客户并未表示又被打扰，8 月已被确认过，此时主动再发致歉本身有再次打扰的风险，三条在结构上也较接近（都是致歉加不再打扰）。建议 CA 优先考虑 B（微调措辞）或不发送。",
+ "case_id": "TC-15",
+ "scenario": "recommendation",
+ "status": "generated"
+}

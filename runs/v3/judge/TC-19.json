@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "问的是「远行」旅行袋的使用感受，产品和用途都对得上，只有一个问题，语气克制；但没有顺带提到在期清洁，对预期行为覆盖不足，「有需要调整或养护上的问题」也略泛。",
+   "diversity_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「干燥软布轻拭表面灰尘」与养护资料一致，但没有点明是哪件产品，也没有提12个月免费清洁；「十二月出行前后若想清理」把清理和京都行程硬连在一起，略显牵强，需要修改。",
+   "diversity_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确指出「远行」旅行袋在12个月内可预约一次免费基础清洁，没有把已过期的「随行」收纳包牵扯进来，符合测试预期；没有说明期限的具体截止日期，预约时间也留待另行确认，没有越权；「您看是否需要」把问题抛给客户，略直白但不施压。",
+   "diversity_note": null
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条分别对应体验、养护、在期服务，差异清楚。C 最贴合预期行为，且没有误提过期的「随行」收纳包的免费清洁。A 安全但没提到清洁服务，B 的养护建议偏泛，也没有提免费清洁。",
+ "case_id": "TC-19",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

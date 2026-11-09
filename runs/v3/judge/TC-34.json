@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间地点内容准确、结构清晰；「我留个位」属于提供帮助，但资料未说明活动需要预留位置，略有隐含的编造，且「想到您日常通勤用「序」」承接略生硬。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "把岩灰托特与粒面养护联系起来，个性化最强，信息也准确；但「上次您说「序」的岩灰色很好看」时间表述不准（是10月30日、已有一周），「来坐坐」略随意，发送前需微调。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动体验描述准确，只有一个轻问题，语气自然；但完全没有用到客户的购买或通勤信息，个性化弱，「周六下午」与日期并用稍冗余。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都准确给出了11月14日周六14:00-16:00及静安店，没有抬高身份，也没有提生日，符合预期。A偏信息，B偏关联已购产品，C偏活动体验，差异清晰。B个性化最好但有小的表述瑕疵，A的「留个位」需确认能否预留。",
+ "case_id": "TC-34",
+ "scenario": "event",
+ "status": "generated"
+}

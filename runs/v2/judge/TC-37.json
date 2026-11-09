@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动信息与资料一致，也结合了通勤带电脑的需求。但「我帮您留个位置」是资料里没有的承诺，活动是否需要留位并不清楚，且这句又是邀约式的提问，需要 CA 确认后才能发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「选包时挺看重内部拉链袋」对应客户备注，个性化自然，且与活动内容衔接。但「地址再发您一遍」暗示之前发过地址，与对话历史不符，需要修改。客户已购买托特，用「选包时」略显过时，也没有承接收货后的反馈。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料完全一致，语气克制，不做不实承诺，基本可直接发送。但没有用到客户的通勤、电脑或拉链袋偏好，个性化偏弱；「再跟您说怎么安排」略含糊。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "三条都使用了 CA 手填的活动信息，没有编造活动细节，也没有越权承诺。但结构和措辞高度相似，差异主要在结尾和个性化程度。A 的「留位置」和 B 的「再发地址」都有小问题，需要 CA 确认或修改。C 最稳妥但偏平。三条都没有提到活动距今约三周，发送时机由 CA 自行把握。",
+ "case_id": "TC-37",
+ "scenario": "event",
+ "status": "generated"
+}

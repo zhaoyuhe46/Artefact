@@ -1,0 +1,372 @@
+{
+ "case_id": "TC-50",
+ "scenario": "recommendation",
+ "mode": "recommendation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "需求对应",
+   "text": "周先生，价格这边是统一售价，我确认后回复您。您找的带拉链、能放13英寸电脑的通勤包，「序」中号托特这两点都符合，粒面牛皮，内设拉链袋。",
+   "rationale": "先如实回应降价请求，再把客户明确的需求对应到产品两个硬事实。",
+   "refs": [
+    "C:C02",
+    "H:1",
+    "P:XY-B02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "67字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "使用场景",
+   "text": "周先生，价格这边没有优惠空间，我先如实回您。您通勤要装13英寸电脑，「序」中号托特是拉链闭合，内设拉链袋，东西能分开收。",
+   "rationale": "先如实回应议价，再以客户提过的通勤装电脑场景切入，只讲拉链闭合与内设拉链袋两个事实。",
+   "refs": [
+    "P:XY-B02",
+    "H:1",
+    "H:3"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "60字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "周先生，优惠我这边答不了，核实后回您。通勤路上要装13英寸电脑的话，「序」中号托特是拉链闭合，内设拉链袋，东西分开放。",
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "轻量下一步",
+   "text": "周先生，价格问题我先核实再答复您。「序」中号托特是拉链闭合、可放13英寸电脑，您方便时到店看实物，或者我把能确认的资料整理给您。",
+   "rationale": "给一个可拒绝的低压力下一步：到店看实物或等核实后的资料。",
+   "refs": [
+    "P:XY-B02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "64字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.23"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.16"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.20"
+  }
+ ],
+ "ca_note": [
+  "降价权限不在资料内，发送前请先与上级确认口径；三条均未承诺尺寸表或内部布局图，若客户要资料，需核实后再发。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "P:XY-B02",
+    "text": "「序」中号托特（XY-B02，手袋）：统一售价24,800元；粒面牛皮，拉链闭合，可容纳13英寸笔记本电脑，内设拉链袋；主要用途：工作通勤"
+   }
+  ],
+  "rag_query": "产品推荐；24,800有点贵，能便宜一点吗？；工作通勤；简洁；在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+  "rag": [
+   {
+    "ref": "BB:6.2",
+    "score": 0.655,
+    "text": "产品推荐：场景「产品推荐」。沟通重点：用客户明确表达的需求连接具体产品。可以说：「您上次提到想找一只带拉链、能放13英寸电脑的通勤包。「序」中号托特符合这两点，售价24,800元。您想先看看内部布局吗？」。不该说：「这款特别符合您的身份，我已经替您留好了。」"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.461,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "BB:3",
+    "score": 0.453,
+    "text": "定价逻辑：价格均为人民币含税标价。\n\n\n价格结构：\n\n- **¥3,800–¥6,800**：小皮具，满足轻量购买和礼赠需求。\n- **¥18,800–¥28,800**：品牌核心手袋。\n- **¥38,800**：旅行皮具，满足更明确的出行用途。\n\n定价逻辑围绕设计、材料、制作与服务展开。客户经理解释价格时，必须对应具体产品事实，不能只说「品牌价值」或「身份象征」。\n\n库存、重量、产地、交期、限量数量等未列出的信息，必须另行提供并核实后才能使用。"
+   },
+   {
+    "ref": "POL:FIT-USE",
+    "score": 0.434,
+    "text": "尊重用途：政策「尊重用途」：较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.406,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "周先生",
+  "client_waiting": true,
+  "reply_to": "24,800有点贵，能便宜一点吗？",
+  "usable_hooks": [
+   "客户在找带拉链、能放13英寸电脑的通勤包（C:C02 notes / H:1）",
+   "客户已被告知「序」中号托特售价24,800元（H:2）"
+  ],
+  "do_not_mention": [
+   "折扣",
+   "抹零",
+   "赠品",
+   "库存",
+   "会员等级",
+   "内部布局图承诺"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 7.7,
+  "calls": [
+   [
+    "generate",
+    3.67
+   ],
+   [
+    "repair",
+    1.84
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-50",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "recommendation",
+  "scenario_context": {},
+  "client": {
+   "id": "C02",
+   "address": "周先生",
+   "relationship": "新客",
+   "since": "2026-10",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "简洁",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C02"
+  },
+  "history": [
+   {
+    "time": "2026-11-07 21:02",
+    "role": "client",
+    "text": "你们那个能放电脑的托特多少钱？"
+   },
+   {
+    "time": "2026-11-07 21:05",
+    "role": "ca",
+    "text": "周先生您好，「序」中号托特目前统一售价24,800元，可容纳13英寸笔记本电脑，拉链闭合。"
+   },
+   {
+    "time": "2026-11-07 21:30",
+    "role": "client",
+    "text": "24,800有点贵，能便宜一点吗？"
+   }
+  ],
+  "products": []
+ },
+ "expect": "先回应价格问题，不另外推荐新品",
+ "edge": "选的是产品推荐，客户正在等价格回复"
+}

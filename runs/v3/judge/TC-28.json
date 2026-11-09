@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短温和，没有违规，但「天气渐热，问候一声」比较泛，没有用到客户的真实偏好或历史；以问候重启联系，未回应皮面养护这一预期由头。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「上次您问光面和粒面的区别」确有依据，个性化好；但上次对话实际是在问光面是否容易刮花，且已相隔近8个月。「我整理了」暗示资料已备好，而工具要求先核实养护注意事项，目前并无现成资料，需改成「可以为您说明」之类的措辞才能发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "事实准确：「隅」翻盖手袋，购买后12个月内可预约一次免费基础清洁，且仍在期内，有实际价值。「去年九月买的」略带提及购买时间，「如需要我帮您约」语气稍显生硬，且未提及该包是墨黑光面皮，也未与皮面养护兴趣挂钩。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条目的各不相同：问候、养护资料、免费清洁服务，且都控制在一句话左右。C 最贴合预期，事实正确且有实际意义；B 个性化最强，但「我整理了」需先核实资料后才能发；A 最保守，缺少具体由头。",
+ "case_id": "TC-28",
+ "scenario": "reactivation",
+ "status": "generated"
+}

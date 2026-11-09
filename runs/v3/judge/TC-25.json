@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 1,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「隔了一阵没联系」直接点出久未联系，违背预期行为；全文没有用到肩包需求，只是泛泛问候，没有具体理由。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确接上轻便肩包需求，「弧」小号的粒面牛皮、可调肩带、18,800元均与资料一致，且只有一个问题；小瑕疵是没点明「放手机钥匙」是否适配，也未提她栗棕偏好，价格出现得稍直接。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，但与她的肩包需求关联弱；客户资料没有说明她在上海，却默认约静安店，并且「留位置」需先确认名额，距活动只有5天，需CA修改。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条策略区分清楚。B最贴合预期（接上肩包需求且不提多久没来）；A明确提到「隔了一阵没联系」，与预期不符；C活动与客户需求关联不强，且城市未经确认。",
+ "case_id": "TC-25",
+ "scenario": "reactivation",
+ "status": "generated"
+}

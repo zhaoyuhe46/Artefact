@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制、没有营销内容，但「之前的消息」指代含糊，也没有说明之后不再打扰，客户看了可能不确定，边界交代不足。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉后明确承诺不再主动发这类信息，并保留「有需要找我」，呼应客户 8 月的原话，分寸最好；唯一的小瑕疵是「这类信息」略笼统。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确不再推送，但补充「售后方面的问题随时联系」略显多余，且这一条本身就是一次主动联系，客户可能觉得又被提醒；不算营销，不构成否决。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具识别了停止营销要求，没有生成唤醒内容，改为三条致歉，符合预期。三条都没有营销、没有提购买记录或消费金额，也没有施压。三条结构相近，差异主要在是否明确承诺与是否提及售后。提示建议只发一条，B 最适合，也可以选择不发送。",
+ "case_id": "TC-31",
+ "scenario": "reactivation",
+ "status": "generated"
+}

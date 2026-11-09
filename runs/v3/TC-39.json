@@ -1,0 +1,360 @@
+{
+ "case_id": "TC-39",
+ "scenario": "event",
+ "mode": "_no_marketing",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": true
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短致歉",
+   "text": "赵女士，抱歉之前的信息打扰到您，是我没把握好分寸，给您添麻烦了。",
+   "rationale": "只做一句致歉，最轻，几乎不占客户注意力。",
+   "refs": [
+    "C:C05"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "32字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "确认边界",
+   "text": "赵女士，之前的推送打扰到您，抱歉。您的意思我已记下，之后不会再主动给您发这类信息。您需要时联系我就好。",
+   "rationale": "致歉并确认不再主动推送，用「这类信息」替代具体营销字眼，避开场景禁区词。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "51字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "赵女士，之前的信息打扰到您，抱歉。我已记下您的要求，之后不会再主动发产品和活动信息给您。",
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "保留服务渠道",
+   "text": "赵女士，为之前的信息打扰说声抱歉，以后不会再主动推送。若包袋使用上有任何问题，随时找我，我会照常处理。",
+   "rationale": "在致歉基础上把售后通道留着，让客户知道边界不等于断联。",
+   "refs": [
+    "H:1",
+    "POL:CONTACT"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "51字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.14"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.12"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.15"
+  }
+ ],
+ "ca_note": [
+  "客户要求过停止营销联系，不生成「活动邀约」内容，改为三条简短致歉；也可以选择不发送。",
+  "客户 8 月已明确拒绝营销，这三条只做边界确认，不必带任何产品信息；若 CA 判断不宜再打扰，A 条也可不发。发送频率上建议仅此一次，之后保持静默。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [],
+  "rag_query": "停止营销时的替代输出；以后新品和活动就别发给我了，有需要我会找你；工作会面；简洁；2026 年 8 月明确表示不想再收到新品和活动信息",
+  "rag": [
+   {
+    "ref": "BB:R3",
+    "score": 0.579,
+    "text": "修订：**停止营销**：客户明确要求停止营销联系时，产品推荐、活动邀约、沉睡客户唤醒三个场景不按原场景生成，改为三条发给客户的简短致歉，尊重客户边界，不含任何营销内容。生日与节日祝福、购后关怀、价格异议照常生成。"
+   },
+   {
+    "ref": "BB:8.8",
+    "score": 0.508,
+    "text": "明确禁止：**纠缠式跟进**：连续追问「考虑好了吗」，或客户明确拒绝后继续营销。"
+   },
+   {
+    "ref": "POL:CONTACT",
+    "score": 0.479,
+    "text": "联系偏好：政策「联系偏好」：客户明确要求停止营销联系后，停止主动营销；客户主动提出的服务问题仍正常处理"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "赵女士",
+  "client_waiting": false,
+  "do_not_mention": [
+   "新品",
+   "活动",
+   "价格",
+   "产品推荐",
+   "生日"
+  ],
+  "usable_hooks": [
+   "2026-08 明确提出不想再收到新品和活动信息[C:C05][H:1]",
+   "此前承诺有需要随时找我[H:2]"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 9.5,
+  "calls": [
+   [
+    "generate",
+    4.92
+   ],
+   [
+    "repair",
+    1.71
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-39",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:CARE-1114"
+  },
+  "client": {
+   "id": "C05",
+   "address": "赵女士",
+   "relationship": "常客",
+   "since": "2023-02",
+   "preferences": {
+    "uses": [
+     "工作会面"
+    ],
+    "style": "简洁",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "不要主动推送",
+    "no_marketing": true
+   },
+   "no_marketing": true,
+   "notes": "2026 年 8 月明确表示不想再收到新品和活动信息",
+   "purchases": [
+    {
+     "date": "2024-09-20",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "03-08"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C05"
+  },
+  "history": [
+   {
+    "time": "2026-08-02 19:40",
+    "role": "client",
+    "text": "以后新品和活动就别发给我了，有需要我会找你"
+   },
+   {
+    "time": "2026-08-02 19:45",
+    "role": "ca",
+    "text": "好的赵女士，明白了，有需要随时找我。"
+   }
+  ],
+  "products": []
+ },
+ "expect": "改为三条致歉",
+ "edge": "客户要求停止营销"
+}

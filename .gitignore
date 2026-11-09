@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+runs/adhoc/
+_old/
+.DS_Store
+Written_Challenge_Brief.pdf
+Work_Log.docx
+.workbuddy/
+.vercel
+.neon
+node_modules/
+node_modules/

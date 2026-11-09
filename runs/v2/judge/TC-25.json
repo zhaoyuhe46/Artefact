@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「很久没和您联系」直接点出久未联系，违反不提多久没来的要求；整条只有泛泛问候，没有接上肩包需求或活动，缺乏个性化，也没有明确目的。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "接上客户之前问的轻便肩包，「弧」小号和18,800元与资料一致，只有一个问题，符合预期行为；「对照……为您说明」略生硬，也没有说明为什么现在联系，但基本可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间地点与资料一致，但活动在上海静安店，客户所在城市未确认，且距发送日只有5天；内容是皮料养护，与客户的肩包需求关联弱；「帮您留意安排」含义模糊，需要改写。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "B 最贴合预期，接上肩包需求且事实准确；A 提了「很久没联系」，C 的城市和相关性有问题。三条的开头句式相近，差异主要在主题上，A 与 C 都比较泛。",
+ "case_id": "TC-25",
+ "scenario": "reactivation",
+ "status": "generated"
+}

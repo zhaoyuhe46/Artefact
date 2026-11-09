@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间、地点、活动内容和两款产品名称都与资料一致，语气克制，结尾只有一个提议。但个性化只停留在「您常短途出行」，没有提到十二月京都行程，与预期行为有差距。「想着可以请您过来看看」略显口语。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "自然关联了客户说过的十二月带家人去京都，并衔接活动，符合预期行为；活动时间、内容、产品与资料一致。「三点到五点」没写明下午，已写「下午」可接受；「正好用得上」略带推断，「来坐坐」稍随意，但整体得体可发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "对活动内容的描述准确、克制，可直接发送；但完全没有用到客户的京都行程或其他个人信息，几乎是通用邀约，个性化不足。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都事实准确，没有越权承诺或施压，也没有提生日。差异主要在个性化程度：B 结合京都行程，最贴合预期；A 和 C 结构相近，都是活动信息加一个提议，区分度一般。",
+ "case_id": "TC-35",
+ "scenario": "event",
+ "status": "generated"
+}

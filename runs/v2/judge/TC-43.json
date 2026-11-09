@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "重复报价24,800元，没有告知预算内暂无符合通勤用途的款式，「总价还是细节」的提问是在引导客户继续考虑超预算款，回应不了客户的预算限制。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 1,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户已明确预算两万以内，仍反复推荐24,800元的款式，「您可以对照这些再看」带有劝说意味，也没有说明预算内无匹配款，与预期行为相悖。事实本身无误，没有越权承诺，不构成一票否决。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "如实说明预算内暂无符合通勤用途的款式，没有推卡夹，并征得同意后才会留意，只有一个问题，符合预期。「按统一定价」的说法略生硬，且未提及13英寸电脑这个需求，个性化稍弱。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "只有C回应了预算限制，并按预期如实说明预算内暂无通勤款、没有推卡夹。A和B都在重复推24,800元的款，没有回应客户预算，三条的结构和报价都相近，差异度一般。整体处理符合预期，因为C可用。",
+ "case_id": "TC-43",
+ "scenario": "price_objection",
+ "status": "generated"
+}

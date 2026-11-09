@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格6,800元和不能折扣都与资料一致，只答所问，不邀约、不提生日，符合预期；「我确实不能让」略生硬，结尾「我可以说明」是被动的补充，不算推销。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实准确，但没有直接回应「能少一点吗」，且在客户家中变故期间多介绍产品用途并问「是否合用」，略有推销感，超出了只答所问的预期。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和无折扣表述准确，但主动询问预算并表示「再看看有没有合适的」，属于在丧亲期间推进推荐，违背「不推荐」的预期；客户只问价格与折扣，并未提预算限制。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "客户近期丧亲，只有A严格克制地回答了价格与政策。B多做产品介绍，C主动引导预算并推荐，均偏离「不推荐、不邀约」的预期。三条的价格和政策事实都正确，但C与工具自身提示「只答所问」不一致，且工具把「预算」策略用在了客户并未提预算的场景，整体处理不理想。",
+ "case_id": "TC-48",
+ "scenario": "price_objection",
+ "status": "generated"
+}

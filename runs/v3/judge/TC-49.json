@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「是我的问题」担责得体，并回应了报价迟迟未发，也如实说明评估结果。但「报价我还在核实」没有给出时间，客户已追问两次，答复偏弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "点明「今天」去跟进，比A更具体，符合建议今日内答复的提示。「随行」换拉链指向了具体产品。但「今天跟进核清」仍不是报价本身，「拖了这么久」略显口语。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉简短诚恳，但「尽快给您明确答复」没有时间点也没有具体进展，对已追问两次的客户显得空泛。「跟到底」略有承诺过度之嫌。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确识别投诉跟进，放弃购后关怀改为致歉，没有借生日切入，也没有提免费清洁和折扣。三条内容接近，都是致歉加跟进，差别主要在是否有时间点。B因为提到「今天」和产品，最贴合建议。",
+ "case_id": "TC-49",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

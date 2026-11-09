@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用上了成都三天和两天衣物的真实需求，产品事实与价格正确；但“对应的是”暗示这款包能装下两天衣物，而容量并无资料支持，等于变相承诺。另外没有回应客户已等了三天，结尾问句偏泛。",
+   "sendable_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "“手提或肩背都行”并非目录事实（目录只写可拆卸肩带），属于轻微推演；“装在一只包里更省事”也隐含容量判断。未提问也未给下一步，没有回应等了三天的情况。",
+   "sendable_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "没有编造容量，并承诺再补充肩带和内部情况，较稳妥；但“内部的具体情况”资料里并没有，承诺跟进需确认能核实。个性化较弱，没提成都出差，也没有为让客户久等致歉。",
+   "sendable_note": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都推荐了「远行」，价格和已知事实正确，没有编造容量。但三条都没对客户等了三天表示歉意，也都没有说明墨黑是否有货尚待核实。A、B 对容量有暗示，C 最稳妥。三条结构相近，差异度一般。",
+ "case_id": "TC-12",
+ "scenario": "recommendation",
+ "status": "generated"
+}

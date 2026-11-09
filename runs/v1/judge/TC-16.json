@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户15天前告知家中长辈离世，并明确表示暂时顾不上、过阵子再说。此时不应以推荐场景联系。工具拦截（held）并提示暂不联系，30天后再用不带请求的问候，处理正确。11-15生日临近，工具没有因此触发营销，也是对的。",
+ "case_id": "TC-16",
+ "scenario": "recommendation",
+ "status": "held"
+}

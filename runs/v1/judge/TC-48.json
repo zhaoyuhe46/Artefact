@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与统一定价政策答得直接克制，没有推荐和邀约；「价格需要斟酌」是替客户下判断，且结尾主动提出再讲大小和收纳细节，在丧亲期略有延伸，但仍属于回应产品问题。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与产品事实准确，但没有直接回答「能少一点吗」，只说统一定价，略绕；还主动介绍用途并追问想了解什么，对丧亲期的客户稍显多余。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户没有提预算，却提议按预算找款式，等于变相推荐其他产品，不符合丧亲期只回应所问的要求；但它先征求了同意，没有直接推荐，所以不构成一票否决。",
+   "personalization_note": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条价格与政策事实都准确，也都没有提生日。A 最贴合预期；B 多了产品介绍；C 把客户没提的预算当成话头，偏离「不推荐」的预期。三条都以追问或邀请收尾，差异主要在结尾。",
+ "case_id": "TC-48",
+ "scenario": "price_objection",
+ "status": "generated"
+}

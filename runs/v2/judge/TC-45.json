@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「统一定价，没有额外折扣」与政策一致，也没有评价免税渠道；用一个问题邀请对方核对渠道和型号，克制得体。但「会员价我核实后回复」和「没有额外折扣」之间略有张力，且没有价格数字，个性化也很弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和材质、用途都与资料一致，「工作会面与短途出行」也贴合客户偏好；但没有正面回应免税比价，也没有提问或下一步，收尾偏产品介绍。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户并未提出预算问题，却主动暗示「超出考虑范围」并要预算，有预设对方负担不起的冒犯感，也偏离了免税比价的场景；好在先征得同意并询问预算，符合资料规定。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先说明会员价要核实，价格事实正确，没有越权承诺，也没有夹带生日。A 最能回应比价，并用问题请客户提供具体信息；B 偏产品介绍；C 把话题转向预算，与客户当前需求不太匹配。三条的开头句式相近，差异度一般。",
+ "case_id": "TC-45",
+ "scenario": "price_objection",
+ "status": "generated"
+}

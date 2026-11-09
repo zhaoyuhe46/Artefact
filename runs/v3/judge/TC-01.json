@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制真挚，可直接发送；「忙碌里有条理」只是泛泛呼应她的工作，几乎没有用到她的真实细节，个性化偏弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「包里包外都清清爽爽，东西一伸手就找到」暗合她喜欢内部拉链袋和带电脑通勤的习惯，不推销，也没有编造事实；但祝福略偏口语和含蓄，客户可能读不出这层关联。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "礼貌得体，但「今天是您的生日，祝您生日快乐」略重复，且完全没有个性化内容，像通用模板。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是纯祝福，没有推销，符合预期的生日场景，也没有提消费或购买。差异主要在个性化程度：B 轻轻带到通勤和包内收纳，最贴合预期里的「通勤或工地细节」；A 和 C 的句式与意境较接近，差异度一般。",
+ "case_id": "TC-01",
+ "scenario": "birthday",
+ "status": "generated"
+}

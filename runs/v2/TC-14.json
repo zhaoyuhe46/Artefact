@@ -1,0 +1,356 @@
+{
+ "case_id": "TC-14",
+ "scenario": "recommendation",
+ "mode": "recommendation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "需求对应",
+   "text": "许女士，「序」中号托特目前统一售价24,800元，确实超出您的两万预算，我不好硬推。两万以内的通勤包我先核实型号和价格，确认后发您，可以吗？",
+   "rationale": "先正面回应预算问题，再用客户「通勤包+两万以内」的需求连接预算内可选款，未编造具体产品。",
+   "refs": [
+    "P:XY-B02",
+    "POL:PRICE-OPEN"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "70字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "使用场景",
+   "text": "许女士，「序」中号托特是24,800元，确实在您两万预算之外。它拉链闭合、能放13英寸电脑，本来挺贴合您通勤用的，可惜价格过不去。我按预算另找两款，您看方便吗？",
+   "rationale": "从客户通勤放电脑的场景切入说明产品事实，同时如实承认价格超出，不勉强。",
+   "refs": [
+    "P:XY-B02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "80字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "轻量下一步",
+   "text": "许女士，「序」中号托特统一售价24,800元，超出您两万以内的预算，这点我如实说明。如果愿意，我可以先把两万以内的通勤款整理好发您，不合适您也不必勉强。",
+   "rationale": "轻量可拒绝的下一步，只承诺核实整理，不预留、不催单。",
+   "refs": [
+    "P:XY-B02",
+    "POL:PRICE-OPEN"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "76字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.16"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.27"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.12"
+  }
+ ],
+ "ca_note": [
+  "资料里没有两万以内的具体型号和价格，A/B/C 都只能承诺核实后再发；发送前请补齐预算内可选款的价格事实，并确认客户是否接受岩灰以外的选择。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "P:XY-B02",
+    "text": "「序」中号托特（XY-B02，手袋）：统一售价24,800元；粒面牛皮，拉链闭合，可容纳13英寸笔记本电脑，内设拉链袋；主要用途：工作通勤"
+   }
+  ],
+  "rag_query": "产品推荐；「序」托特挺好看的，但是超预算了，我预算两万以内；工作通勤；简洁；想要通勤包，需要放13寸电脑；明确说预算两万以内",
+  "rag": [
+   {
+    "ref": "BB:6.2",
+    "score": 0.679,
+    "text": "产品推荐：场景「产品推荐」。沟通重点：用客户明确表达的需求连接具体产品。可以说：「您上次提到想找一只带拉链、能放13英寸电脑的通勤包。「序」中号托特符合这两点，售价24,800元。您想先看看内部布局吗？」。不该说：「这款特别符合您的身份，我已经替您留好了。」"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.5,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "BB:3",
+    "score": 0.429,
+    "text": "定价逻辑：价格均为人民币含税标价。\n\n\n价格结构：\n\n- **¥3,800–¥6,800**：小皮具，满足轻量购买和礼赠需求。\n- **¥18,800–¥28,800**：品牌核心手袋。\n- **¥38,800**：旅行皮具，满足更明确的出行用途。\n\n定价逻辑围绕设计、材料、制作与服务展开。客户经理解释价格时，必须对应具体产品事实，不能只说「品牌价值」或「身份象征」。\n\n库存、重量、产地、交期、限量数量等未列出的信息，必须另行提供并核实后才能使用。"
+   },
+   {
+    "ref": "POL:PRICE-OPEN",
+    "score": 0.424,
+    "text": "价格透明：政策「价格透明」：主动回答价格问题；客户提出预算限制时，可以征得同意后推荐预算内产品"
+   },
+   {
+    "ref": "BB:5.6",
+    "score": 0.423,
+    "text": "解释价格政策：沟通原则「解释价格政策」。应该这样说：「这款目前统一售价为24,800元。」；应避免：「您真心要的话，我帮您找店长。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "许女士",
+  "client_waiting": true,
+  "reply_to": "「序」托特挺好看的，但是超预算了，我预算两万以内",
+  "usable_hooks": [
+   "想要通勤包，需要放13寸电脑",
+   "预算两万以内",
+   "风格简洁、偏好岩灰色"
+  ],
+  "do_not_mention": [
+   "消费金额",
+   "会员等级",
+   "库存",
+   "折扣赠品",
+   "替客户预留"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.2,
+  "calls": [
+   [
+    "generate",
+    3.15
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-14",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "recommendation",
+  "scenario_context": {},
+  "client": {
+   "id": "C10",
+   "address": "许女士",
+   "relationship": "新客",
+   "since": "2026-11",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "简洁",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": 20000,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "想要通勤包，需要放13寸电脑；明确说预算两万以内",
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C10"
+  },
+  "history": [
+   {
+    "time": "2026-11-08 20:00",
+    "role": "client",
+    "text": "「序」托特挺好看的，但是超预算了，我预算两万以内"
+   }
+  ],
+  "products": []
+ },
+ "expect": "先回应超预算，不把卡夹当通勤包推荐，可提议先等等",
+ "edge": "预算内没有符合用途的款式"
+}

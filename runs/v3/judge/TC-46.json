@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与「统一定价、没有折扣」表述正确，但「理解这需要认真考虑」略显套话，结尾「总价还是细节」的二选一提问有些生硬，也偏长，未体现她要简短的偏好；个性化几乎没有。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格明确、无折扣，并自然呼应她问过的光面与粒面区别，「粒面牛皮」与资料一致，个性化真实；但客户问的是价格，转去问质感略偏离当下关注点，「你」与前文的「您」不统一。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "直接说明没有折扣，语气克制且无施压，也没有问题负担；但「到店看实物」未核实是否有现货，且它并没有真正提供预算推荐，与「预算或下一步」策略只部分吻合，「价格上确实没有余地」略显生硬。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价、不打折的底线，也没有编造优惠，符合预期行为。A 和 C 开头几乎一致，差异主要在结尾；B 的个性化最好。三条都偏长，而客户偏好简短消息，C 的策略与标签不完全吻合。",
+ "case_id": "TC-46",
+ "scenario": "price_objection",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制、无营销，也没有提拉链问题；但客户10-20刚表达不满，10-22仍是「行吧」，报价还悬而未决，纯祝福没有先致歉或承接，略显轻飘，需要修改。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「习惯把随身小物收得整齐」用了真实偏好，但客户的收纳包正因拉链故障送修，且对此不满，在这里提「顺手顺心」容易让人觉得讽刺或无视问题，也没有致歉。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「谢谢您一直以来的信任」「需要时我随时在」为拉链事宜留了余地，语气温和有分寸；但仍未明确致歉，「一直以来的信任」对刚不满的客户略显套话。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都没有按提示「先致歉」，只有C隐约承接了近期的不愉快；B还用收纳偏好，与拉链故障冲突。三条都是纯祝福，彼此差异有限。整体没有达到「祝福的同时体谅或跟进拉链评估」的预期，也没有违规推荐。",
+ "case_id": "TC-07",
+ "scenario": "birthday",
+ "status": "generated"
+}

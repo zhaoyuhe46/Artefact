@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「价格这边是统一售价，我确认后回复您」前半句已明确统一价，后半句又说要确认，口径前后矛盾，容易让客户以为还有议价空间；后半段重新推销产品，不符合先回应价格、不另外推荐的预期。资料引用准确，需改写后才能发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「没有优惠空间」回应直接、诚实，且与统一定价一致；但提示说降价口径需先与上级确认，这句话在确认前属于代客户下结论，略有越权风险。「东西能分开收」是对拉链袋的合理延伸，可小改后发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「价格问题我先核实再答复您」暗示价格可能有变，与统一定价不符，容易给客户留下希望；同时提供到店和整理资料两个选项，目的略散，也不符合先回应价格的预期。「整理资料」与提示中不承诺资料的要求有张力。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都把价格回应写得不够清楚：A、C 说要「确认」或「核实」，会暗示有降价可能，B 则在未确认前直接说没有优惠空间。三条都附带产品介绍，与预期的先回应价格不另外推荐不完全吻合。三条的差异主要在价格表述与结尾动作上，整体差异度中等。最稳妥的写法是明确说明统一售价、无法调整，再简短回应客户的价格顾虑。",
+ "case_id": "TC-50",
+ "scenario": "recommendation",
+ "status": "generated"
+}

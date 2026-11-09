@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先明确「统一售价，没有折扣」符合品牌政策，也回应了议价。但随后又说「具体我再帮您核实后回复」，前后矛盾，让客户误以为折扣还有商量余地；结尾又重新推荐同一款包，略显推销。需要修改后才能发。",
+   "extra": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "只说「价格我先帮您核实」，没有直接回应能否便宜，容易让客户以为有折扣空间。后半段大篇幅复述产品卖点，偏向推销，与「先回应价格问题」的预期不符。",
+   "extra": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气克制，「不合适也不勉强」得体，只有一个提议。但「价格我先帮您核实」仍暗示有折扣空间，没有说明统一定价；同时提议发送尺寸和布局，实际上是在推进产品，偏离了先回应价格的预期，且尺寸和布局资料并不在给定事实中。",
+   "extra": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都没有直接说明统一定价、无法优惠。A 说了统一售价，但紧接着又说去核实，自相矛盾；B 和 C 只说核实，容易让客户误以为能便宜。三条都带有继续推荐或推进产品的内容，与预期不符。三条的差异主要体现在后半段的推进方式上，开头的价格处理基本一致，都需要 CA 修改后才能发送。",
+ "case_id": "TC-50",
+ "scenario": "recommendation",
+ "status": "generated"
+}

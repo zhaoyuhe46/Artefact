@@ -1,0 +1,359 @@
+{
+ "case_id": "TC-33",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "missing_event_fields": []
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "郑女士，上次说的光面易留痕您了解就好，日常用干软布轻拭即可。11月14日周六14:00-16:00，序隅上海静安店有一场皮料与养护分享，现场对比粒面和光面的触感。您有兴趣的话回我一声。",
+   "rationale": "先回应上次的话题，再把活动内容、时间、地点一次说清，末尾一个问句留给客户决定。",
+   "refs": [
+    "H:3",
+    "CARE:SMOOTH-01",
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "92字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "郑女士，上次您问光面和粒面的区别，正好11月14日周六14:00-16:00静安店有一场皮料与养护分享，现场能对比两种皮面的触感。您做设计，可能会感兴趣，方便的话我把时段再发您。",
+   "rationale": "从她问过的皮面区别和设计师身份切入，说明为什么想到她，再接活动信息。",
+   "refs": [
+    "H:1",
+    "C:C08",
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "89字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "郑女士，光面易留痕这点您放心，干软布轻拭就行。11月14日周六下午14:00-16:00，静安店有皮料与养护分享，现场可以上手对比粒面与光面牛皮，也能了解各自的日常打理方式，您看要不要留个时段。",
+   "rationale": "先接住上次的疑问，再描述现场能看到、摸到什么，让客户自己判断是否感兴趣。",
+   "refs": [
+    "H:3",
+    "CARE:SMOOTH-01",
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "97字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.35"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.31"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.23"
+  }
+ ],
+ "ca_note": [
+  "活动在11月14日，距今天五天，建议今明两天内发出；客户偏好简短消息，三条都在百字内，若她回复有兴趣再补预约细节。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "EVT:CARE-1114",
+    "text": "活动：皮料与养护分享；时间：2026-11-14（周六） 14:00-16:00；地点：序隅上海静安店；内容：现场对比粒面与光面牛皮的触感，了解不同皮面的日常打理"
+   }
+  ],
+  "rag_query": "活动邀约；好的，懂了；工作会面、晚间场合；有结构感；室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.661,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.415,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "CARE:SMOOTH-01",
+    "score": 0.38,
+    "text": "光面牛皮·日常清洁：光面牛皮的日常清洁：光面较容易留下指纹和细小痕迹，用后用干软布轻拭即可"
+   },
+   {
+    "ref": "BB:5",
+    "score": 0.368,
+    "text": "客户经理角色与语气：角色定位：**熟悉客户偏好、能把产品说清楚、尊重客户决定的专业顾问。**\n\n微信语气要自然、温和、有分寸。使用客户认可的称呼；关系尚不熟悉时默认使用「您」。\n\n每条消息一个主要目的、最多一个问题，尽量让客户容易理解和回复。节日祝福可以没有问题，也不必邀请到店。（字数规则见文末修订。）"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "郑女士",
+  "client_waiting": true,
+  "reply_to": "好的，懂了",
+  "usable_hooks": [
+   "问过光面和粒面有什么区别 [C:C08]",
+   "对皮面质感很感兴趣 [C:C08]",
+   "室内设计师 [C:C08]"
+  ],
+  "do_not_mention": [
+   "消费金额",
+   "会员等级",
+   "墨黑偏好推测"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 16.3,
+  "calls": [
+   [
+    "generate",
+    13.9
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-33",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:CARE-1114"
+  },
+  "client": {
+   "id": "C08",
+   "address": "郑女士",
+   "relationship": "常客",
+   "since": "2025-04",
+   "preferences": {
+    "uses": [
+     "工作会面",
+     "晚间场合"
+    ],
+    "style": "有结构感",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "消息简短就好",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+   "purchases": [
+    {
+     "date": "2026-09-01",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C08"
+  },
+  "history": [
+   {
+    "time": "2026-09-20 11:00",
+    "role": "client",
+    "text": "光面的会不会很容易刮花？"
+   },
+   {
+    "time": "2026-09-20 11:10",
+    "role": "ca",
+    "text": "郑女士，光面确实更容易留下细小痕迹，平时避免和钥匙放同一隔层就好。"
+   },
+   {
+    "time": "2026-09-20 11:12",
+    "role": "client",
+    "text": "好的，懂了"
+   }
+  ],
+  "products": []
+ },
+ "expect": "接上她问过光面和粒面的区别，邀约皮料分享，时间地点准确",
+ "edge": null
+}

@@ -1,0 +1,6 @@
+psycopg[binary]==3.3.8
+pgvector==0.5.1
+numpy==2.5.4
+pyyaml==6.0.3
+requests==2.34.2
+pydantic==2.14.3

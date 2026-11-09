@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，只有一个目的，不施压，也没有提问；「您上次说想找轻一点的肩包」引用了真实历史，但「正好可以顺便看看实物」略带顺势引导，与养护分享的主题关联较弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 5,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "开头准确回扣客户去年的需求，个性化最强；但「我帮您留个位」是资料中没有的服务，属于编造，且对已沉睡 576 天的客户主动留位有压迫感，需要改写。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动描述具体，贴合资料，用客户2023年购买的「折页」卡夹（粒面牛皮）作关联，真实且自然；但没有回应客户想要轻便肩包的需求，「您平时用」是推测，客户当时说明是自用，用得多不多并无依据，措辞需微调。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都用了真实的活动时间、地点和内容，无折扣、赠品或施压，也没有提沉睡时长。A 最稳妥；B 个性化最强，但「留个位」是编造的服务，需删改；C 借已购产品切入，贴合养护主题。三条的结构相近，都是先讲活动再轻轻关联客户，差异主要在个性化切入点，差异度中等。",
+ "case_id": "TC-36",
+ "scenario": "event",
+ "status": "generated"
+}

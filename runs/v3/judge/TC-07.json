@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「生日快乐」加「平常的日子里也有让您舒服的秩序」，克制自然，无推销、无问句，安全可发。但完全没有致歉，也没有体谅拉链评估久等，与预期的「体谅或跟进」不符，也未做到提示中的先致歉。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「也祝您栗棕这一路用着顺」说法生硬，「栗棕这一路」语义不通。「喜欢实在好用的东西」基于真实偏好，但「身边顺手的物件都称心」在拉链坏了、客户刚不满时有些不合时宜，隐隐指向产品。违背「不提产品」的提示，也没有致歉。需要改写。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「谢谢您一直以来的信任」得体克制，但客户刚因等待不满，直接说感谢略显套话，也没有致歉或体谅。无个性化，稍显模板。「今天是您的生日」的开头略重复。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "三条都是祝福，彼此差异不大，且都没有按提示先致歉或体谅评估等待，未达到预期的「祝福同时体谅或跟进」。B 还有语病并隐约触及产品。建议在生日祝福中加一句简短体谅，如对拉链评估久等的歉意，报价另起一条发送。",
+ "case_id": "TC-07",
+ "scenario": "birthday",
+ "status": "generated"
+}

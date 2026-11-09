@@ -1,0 +1,419 @@
+{
+ "case_id": "TC-18",
+ "scenario": "post_purchase",
+ "mode": "post_purchase",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "问使用感受",
+   "text": "郑女士，九月买的「隅」翻盖手袋用到现在，手感还顺吗？工作上带着它用着有什么不方便的地方，可以随时告诉我。",
+   "rationale": "轻问一句使用感受，点明所购产品，不推荐其他产品，留一个开放问题。",
+   "refs": [
+    "P:XY-B03",
+    "C:C08"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "52字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "养护建议",
+   "text": "郑女士，光面牛皮平时用后拿干软布轻拭一下就好。您的「隅」翻盖手袋收起来时，内部放点填充物、翻盖自然合上再装防尘袋。",
+   "rationale": "给两条材质相关养护做法，取自光面牛皮养护记录，不作夸大承诺。",
+   "refs": [
+    "CARE:SMOOTH-01",
+    "CARE:SMOOTH-04",
+    "P:XY-B03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "57字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "服务提醒",
+   "text": "郑女士，「隅」翻盖手袋在购买后12个月内可以预约一次免费基础清洁，需要的时候跟我说，我帮您安排时间。",
+   "rationale": "提醒资料中与所购产品直接对应的售后权益及条件，不承诺额外修复。",
+   "refs": [
+    "SVC:CLEAN-12M",
+    "DER:CLEAN-XY-B03",
+    "P:XY-B03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "50字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.06"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.07"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.05"
+  }
+ ],
+ "ca_note": [
+  "客户最后一条消息已过去50天，不再提及那次刮花询问；三条均只一个目的。B 条涉及两条养护记录，如想更短可只保留日常清洁一条。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B03",
+  "facts": [
+   {
+    "ref": "P:XY-B03",
+    "text": "「隅」翻盖手袋（XY-B03，手袋）：统一售价28,800元；光面牛皮，翻盖锁扣，可手提及肩背；主要用途：工作会面、日常与晚间场合；客户于2026-09-01购买，颜色墨黑"
+   },
+   {
+    "ref": "CARE:SMOOTH-01",
+    "text": "光面牛皮·日常清洁：光面较容易留下指纹和细小痕迹，用后用干软布轻拭即可"
+   },
+   {
+    "ref": "CARE:SMOOTH-02",
+    "text": "光面牛皮·划痕：尽量避免与钥匙等尖锐硬物放在同一隔层"
+   },
+   {
+    "ref": "CARE:SMOOTH-03",
+    "text": "光面牛皮·水渍：遇水后尽快用干软布轻按吸干，自然阴干，不要用力擦拭"
+   },
+   {
+    "ref": "CARE:SMOOTH-04",
+    "text": "光面牛皮·存放：存放时内部放填充物，翻盖自然合上，装进防尘袋"
+   },
+   {
+    "ref": "CARE:GEN-01",
+    "text": "通用·五金：五金尽量避免接触香水、护手霜，用后可用干布擦拭"
+   },
+   {
+    "ref": "CARE:GEN-02",
+    "text": "通用·污渍：遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "text": "通用·拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "DER:CLEAN-XY-B03",
+    "text": "客户于2026-09-01购买「隅」翻盖手袋，目前仍在购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:CLEAN-12M",
+    "text": "免费基础清洁：购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   }
+  ],
+  "rag_query": "购后关怀；好的，懂了；工作会面、晚间场合；有结构感；室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+  "rag": [
+   {
+    "ref": "BB:6.3",
+    "score": 0.529,
+    "text": "购后关怀：场景「购后关怀」。沟通重点：确认体验，提供与所购物品有关的帮助。可以说：「林女士，想问问这几天「序」托特用得是否顺手？如果收纳或日常养护上有疑问，随时发我。」。不该说：「包应该收到了吧？顺便再给您推荐个卡夹。」"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.463,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.414,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "CARE:SMOOTH-04",
+    "score": 0.409,
+    "text": "光面牛皮·存放：光面牛皮的存放：存放时内部放填充物，翻盖自然合上，装进防尘袋"
+   },
+   {
+    "ref": "CARE:SMOOTH-01",
+    "score": 0.397,
+    "text": "光面牛皮·日常清洁：光面牛皮的日常清洁：光面较容易留下指纹和细小痕迹，用后用干软布轻拭即可"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "郑女士",
+  "client_waiting": false,
+  "usable_hooks": [
+   "2026-09-01 购买「隅」翻盖手袋，墨黑（C:C08）",
+   "关注光面皮是否易刮花，9月20日已答复避免与钥匙同隔层（H:1-H:3）",
+   "室内设计师，对皮面质感、光面与粒面区别感兴趣（C:C08 notes）"
+  ],
+  "do_not_mention": [
+   "50天前的询问",
+   "会员等级",
+   "消费金额",
+   "新品推荐"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 9.4,
+  "calls": [
+   [
+    "generate",
+    6.52
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-18",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "post_purchase",
+  "scenario_context": {},
+  "client": {
+   "id": "C08",
+   "address": "郑女士",
+   "relationship": "常客",
+   "since": "2025-04",
+   "preferences": {
+    "uses": [
+     "工作会面",
+     "晚间场合"
+    ],
+    "style": "有结构感",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "消息简短就好",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+   "purchases": [
+    {
+     "date": "2026-09-01",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C08"
+  },
+  "history": [
+   {
+    "time": "2026-09-20 11:00",
+    "role": "client",
+    "text": "光面的会不会很容易刮花？"
+   },
+   {
+    "time": "2026-09-20 11:10",
+    "role": "ca",
+    "text": "郑女士，光面确实更容易留下细小痕迹，平时避免和钥匙放同一隔层就好。"
+   },
+   {
+    "time": "2026-09-20 11:12",
+    "role": "client",
+    "text": "好的，懂了"
+   }
+  ],
+  "products": []
+ },
+ "expect": "光面牛皮养护（避免和钥匙同一隔层），消息简短",
+ "edge": null
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「是我跟进得不够，抱歉」致歉直接，也如实说明评估结果已出、报价在核实，与资料一致；但「确认后立刻发您」没有给出今天内的明确时间，客户已两次等待，答复力度略弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「今天去把拉链更换的报价核清楚」给出了今天内的明确动作，符合工具提示；「负责到底」略有套话感，「核好第一时间发您」也没有具体时间，但整体最贴合客户当前需要。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「尽快给您答复」仍然含糊，客户已经等了两次，这样的回复显得空泛；没有提到拉链更换或评估结果，针对性不足，「负责到底」也偏套话。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确改写为致歉与跟进，没有做购后关怀，也没有承诺免费或具体日期，并回应了报价问题。三条结构相近，差别主要在是否给出今天内的明确动作和是否提到拉链更换。ca_note 是否提示了投诉意图，材料里无法确认，需另行核对。",
+ "case_id": "TC-49",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短温和，回应了她“等有空再说”的原话，没有推销也没有提多久没来；“去年四月”是对的，但略微点出了时间间隔，“一直记着”稍显用力，整体仍可直接发送。",
+   "brand_voice_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用她原话里“放手机钥匙、轻一点”的真实偏好收尾，自然不推销；祝福“轻装出门”贴切，仅“我一直记着”略显刻意。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "“值此新春，向您问候”偏公文腔，不像一对一顾问；“您何时方便都可以再说”带有轻微跟进意味，“与家人”属泛化祝福，需要改写后再发。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都避开了产品推荐、到店邀约和“多久没来”，符合沉睡客户的春节祝福预期。但结构相近，都围绕“记着肩包需求”；B 最自然，C 最偏模板。另外，场景标记为 birthday，而内容实为春节祝福，需注意。",
+ "case_id": "TC-05",
+ "scenario": "birthday",
+ "status": "generated"
+}

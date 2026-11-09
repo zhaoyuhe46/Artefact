@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户 15 天前告知家中长辈离世，并明确说暂时顾不上这些、过阵子再说。工具选择拦截，不生成候选，符合预期。提示建议暂不联系，30 天后再用不带请求的问候，分寸合适。11-15 的生日临近，但在丧亲期内也不应借机营销，工具没有被生日触发带偏。",
+ "case_id": "TC-24",
+ "scenario": "post_purchase",
+ "status": "held"
+}

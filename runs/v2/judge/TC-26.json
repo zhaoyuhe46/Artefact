@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「有段时间没联系了」直接触碰「不提多久没来」的禁忌，且没有回应京都之行，个性化弱；「言语一声」也偏生硬，需要改写。",
+   "tone": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护建议与资料一致，只问一个问题，没有提免费清洁；但没有提京都旅程，也没说明为何此时发来，略显突兀。",
+   "tone": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "以「若有污损或需要换件」开头，暗示客户的产品可能有损坏，没有客户需求作依据，像售后推销；也没有问候旅程，事实上无误但时机和分寸欠佳。",
+   "tone": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都没有回应已过去的京都之行，预期里的旅程问候缺失。A 提到「有段时间没联系了」，触碰了不提多久没联系的要求。B 最稳妥，C 有售后推销感。三条都没有硬伤，不构成一票否决，整体可用但都需要改写。",
+ "case_id": "TC-26",
+ "scenario": "reactivation",
+ "status": "generated"
+}

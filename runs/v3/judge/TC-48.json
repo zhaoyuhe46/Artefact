@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "直接回答价格并明确没有折扣，价格6,800元和政策均与资料一致；「其他细节您想了解，我随时说清楚」略带邀请，但克制，整体可发。「价格上我这边确实没有余地」稍显生硬。",
+   "strategy_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "没有正面回应「能少一点吗」，漏掉无折扣的政策说明；还主动展开产品介绍并追问「您主要看重哪一点？」，违背丧亲期只答价格与政策、不展开的要求，需要明显修改。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确回答价格并说明无折扣，「不急着定也没关系，您方便时再说，我不打扰」体贴且不施压，也没有提及丧亲，分寸最好，可直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "A、C 都守住了丧亲期的克制，价格与政策准确，C 最稳妥；B 主动介绍产品并提问，与预期行为不符。三条的价格部分高度重合，差异主要在结尾，B 的偏离又明显，因此差异度居中。",
+ "case_id": "TC-48",
+ "scenario": "price_objection",
+ "status": "generated"
+}

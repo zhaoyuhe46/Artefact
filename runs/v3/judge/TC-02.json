@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制得体、没有推销，可直接发送；「想出门的时候就动身」只轻轻呼应出差和旅行偏好，个性化偏弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "据实用「您提到」引用京都行程，符合预期且不推销。不过「上个月」不准确：该对话在10月15日，今天是11月20日，且「十二月要带家人去」的说法出自备注，对话里只提到十二月去京都，「带家人」未被当时对话印证。建议改为「您提到十二月要去京都」，并去掉「上个月」。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "礼貌稳妥，但「今天是您的生日，祝您生日快乐」略重复，「工作顺意，出行平安」较模板化，「一切按您的节奏来」有些套话，缺少顾问的个人感。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是纯祝福、无营销，符合预期；B 最贴合客户细节，但需修正「上个月」和「带家人」的表述后再发。A 和 C 都偏通用，且都带出行祝愿，差异度一般。",
+ "case_id": "TC-02",
+ "scenario": "birthday",
+ "status": "generated"
+}

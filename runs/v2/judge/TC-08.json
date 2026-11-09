@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户 21 天前告知家中长辈离世，并表示「过阵子再说」。今天虽是客户生日，工具仍判定 held，不生成生日营销话术，符合丧亲不营销的要求。工具建议暂不联系，30 天后再发一次不带请求的问候，与预期行为一致。",
+ "case_id": "TC-08",
+ "scenario": "birthday",
+ "status": "held"
+}

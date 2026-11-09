@@ -1,0 +1,26 @@
+# 活动（虚构）。status=confirmed 的才可以写进邀约；缺失字段用 null，话术中写 TBD
+events:
+  - id: EVT:CARE-1114
+    name: 皮料与养护分享
+    date: "2026-11-14"
+    weekday: 周六
+    time: "14:00-16:00"
+    location: 序隅上海静安店
+    content: 现场对比粒面与光面牛皮的触感，了解不同皮面的日常打理
+    status: confirmed
+  - id: EVT:TRAVEL-1121
+    name: 出行收纳小聚
+    date: "2026-11-21"
+    weekday: 周六
+    time: "15:00-17:00"
+    location: 序隅北京三里屯店
+    content: 分享短途出行时的收纳与整理方法，现场可以看「远行」旅行袋与「随行」收纳包的实物
+    status: confirmed
+  - id: EVT:YEAREND-TBD
+    name: 年末客户茶叙
+    date: null
+    weekday: null
+    time: null
+    location: null
+    content: 年末的小型客户茶叙，具体安排待定
+    status: tentative

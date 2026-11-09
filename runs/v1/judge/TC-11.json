@@ -1,0 +1,48 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "对应需求、事实准确、语气克制，结尾「先记着」自然不施压；但只复述了需求，没有明确先接住客户那句「等有空再说」，且直接报价略显突兀。",
+   "_note": "粒面牛皮、磁扣、肩带可调、18,800元均与资料一致；「出门只放手机钥匙」是对客户原话的轻微收窄，可接受。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「单手拿取方便」「栗棕也在常用色里」资料中没有依据，属于编造产品信息，需改写后才能发；「一直没打扰您」也隐含了很久没联系的意味。",
+   "_note": "资料未提供「弧」的颜色，把栗棕与「弧」挂钩有误导风险；虽然这是用客户的色彩偏好，但没有产品事实支撑。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先接住「等有空再说」，只给一个低压力的下一步，最贴合客户当下状态；需确认确有尺寸和肩带调节的资料可发，且「或者…到店」略带第二个选项。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都延续了「弧」和轻便需求，没有提多久没来，也没有施压。C 最符合提示「先接住」的要求；A 稳妥但接话较弱；B 含未经资料支持的产品和颜色说法，是主要风险。三条角度有差异，但 A 与 B 的信息结构较接近。",
+ "case_id": "TC-11",
+ "scenario": "recommendation",
+ "status": "generated"
+}

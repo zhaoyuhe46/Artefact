@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "只回应价格，明确无折扣，没有任何推荐，符合预期；结尾“把使用细节讲清楚”略显多余，但不构成营销。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格正确，但没有回应“能便宜吗”这个问题，也没有说明无折扣；大段产品卖点属于变相推销，与“只回应价格”不符；“适合您平时工作会面用”是把偏好套到产品上，资料中并无该用途。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与无折扣表述准确，但客户没提预算，主动邀请预算并承诺找款式，等于主动推荐其他产品，偏离“照常回复价格、不附带推荐”的预期；不过是征询而非直接推荐，所以不构成一票否决。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都报了正确价格，也没有越权承诺。A 最贴合预期；B 堆产品卖点且没回答能否优惠；C 主动引导预算并推荐款式，对已要求停止营销的客户略越界。三条结构较接近，差异度一般。",
+ "case_id": "TC-47",
+ "scenario": "price_objection",
+ "status": "generated"
+}

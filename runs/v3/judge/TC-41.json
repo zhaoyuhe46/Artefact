@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「统一售价24,800元，没有额外折扣」如实表述政策，没有越权。但「把使用细节说清楚」比较空泛，也没有用到客户找通勤包的需求，个性化偏弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "把「拉链闭合和13英寸电脑收纳」与客户在找的通勤包对应起来，事实准确。「统一定价」说得较轻，没有明确回答「能否便宜」，且「掂量」略口语。结尾只有一个问题，较为自然。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「超了些」带有替客户下判断的意味，「再决定也不迟」略有引导。客户在线上咨询，邀请到店有些突兀。声明的策略是「预算或下一步」，却没有征得同意去了解预算或推荐预算内产品，只给了到店建议，与策略不符。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价、没有折扣的底线，也没有虚构信息。B 最贴合客户的通勤需求；A 偏保守、信息量少；C 没有按声明的策略询问预算，而是改成邀请到店。三条前半句都是「理解，……」，差异主要在后半句，整体差异度一般。",
+ "case_id": "TC-41",
+ "scenario": "price_objection",
+ "status": "generated"
+}

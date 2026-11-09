@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制、不编造，适合信息极少的新客；个性化弱但符合预期，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用「到店看过小皮具」有资料依据（8月，写「上月」略有时间偏差，因今日为9月，实际是上月，正确）；稍显刻意，但自然、不施压，小瑕疵是「安稳顺意」略显书面。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 1,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「谨祝」「阖家安顺」偏套话，「往来诸事皆有自己的节奏」含糊拗口；「阖家」对未知家庭情况的新客略显预设，需稍作修改。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具对信息极少的新客处理得当，三条均无编造，A最稳妥，B有真实细节且分寸尚可，C偏套话。三条结构相近（均为问候+祝福），差异度一般。",
+ "case_id": "TC-06",
+ "scenario": "birthday",
+ "status": "generated"
+}

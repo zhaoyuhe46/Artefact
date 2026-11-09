@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「愿这一年出行顺利，也有安稳在家的时间」简短克制，只轻轻呼应经常出差，没有营销，可直接发送；个性化偏弱但符合「简短真挚」的定位。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "提京都符合预期，但「您十月说旅行袋用了一年还挺能装」违背工具提示（三条都不提购买、10-15对话已隔36天不作开场引用），生日祝福里复述产品评价像回顾购买记录，有营销感，需要删掉旅行袋部分才能发；「愿它继续陪您走得顺」把祝福落在产品上，略显生硬。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「愿新的一年工作顺遂，也留出时间给自己和家人」得体稳妥，可直接发送，但没有用到任何客户专属细节，偏通用；「今天是您的生日，祝您生日快乐」略重复。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "A、C 都安全可发，但 A 与 C 结构和内容较接近（都是祝福加一句愿望）；B 试图个性化却违反了提示中「不提购买」的要求，且没有单独把京都作为祝福背景，整体处理基本符合预期，B 需要修改。",
+ "case_id": "TC-02",
+ "scenario": "birthday",
+ "status": "generated"
+}

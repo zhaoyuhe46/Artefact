@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「22号说稍后发您报价，到今天才联系」承认了拖延，并复述了评估结论，致歉与进展清楚。但「我这边在整理具体费用」暗示报价已在准备，而资料里并没有这个事实。工具提示发送前要先确认报价是否已有结果，这句话有越界风险。「到今天才联系」也略显生硬。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「报价拖了这些天，实在抱歉」直接回应了客户的不满。「我今天去跟进……确认后第一时间发您」没有虚构报价结果，与工具提示的「报价未出则 B 更稳妥」一致。「方案和是否处理都由您决定」让客户保有决定权，没有施压。没有提生日和活动。「实在」略重，其余几乎可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「是我跟进得不够，抱歉」态度诚恳，也没有编造信息。但全文没有给出下一步，也没有说明报价进度，客户看完仍不知道什么时候有结果。「跟进到底」是空泛的承诺，信息量最少。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具没有发出活动邀约，也没有提生日，改写为致歉与跟进，符合预期。三条的差异主要在是否提供进展和下一步，整体偏相近。B 最稳妥；A 的「在整理费用」需要 CA 发送前确认属实；C 缺少下一步。预期里的 ca_note 说明在候选中没有体现。",
+ "case_id": "TC-40",
+ "scenario": "event",
+ "status": "generated"
+}

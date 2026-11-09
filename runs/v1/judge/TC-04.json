@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "只有祝福，没有推荐、活动或追问，克制得体，可直接发送；个性化偏弱，但在停止营销场景下是合理的。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用了客户「有需要会找我」的话，但在生日祝福里重提这件事，容易让人觉得是在提醒她之前的拒绝，「今天不打扰您」也略显刻意；没有营销内容，不构成否决，但需要改写。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "祝福纯粹、没有营销，语气得体；「谨向您致以诚挚祝福」偏书面、略正式，不太像微信一对一说话，其余可直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确识别了停止营销，三条都只发祝福，没有产品、活动或追问，符合预期。三条的差异主要在语气和措辞上：A 简短，B 引用客户之前的话，C 更正式。B 在祝福里提起客户的拒绝，略显刻意，A 最稳妥。",
+ "case_id": "TC-04",
+ "scenario": "birthday",
+ "status": "generated"
+}

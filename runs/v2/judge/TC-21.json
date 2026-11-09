@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "问法温和、只有一个问题，也没有提免费清洁，卡位和夹层与资料一致。但「2023年买的」暗示了购买时间，隐约点出时长，对沉睡客户略显突兀；也没有接上客户之前想要轻便肩包的需求。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与「CARE:GRAIN-01」「CARE:GRAIN-02」完全一致，没有提免费清洁，也没有问题或压力。但话术偏说明书，缺少开头问候，也不像一对一的关怀，个性化只停留在颜色和材质。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「评估报价后再决定」与「SVC:REPAIR-EVAL」一致，没有承诺免费，也没有施压。但客户没提过任何破损，主动说「污损或换件」像预设产品有问题，有些突兀。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都没有提免费清洁，也没有越权承诺，符合预期行为：B 是养护建议，C 是维修评估。三条的角度各不相同，差异度较好。共同不足是都没有顾及客户2025年想要轻便肩包的需求，也没有结合周末发送的偏好。整体可用，建议 B 微调后发送。",
+ "case_id": "TC-21",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

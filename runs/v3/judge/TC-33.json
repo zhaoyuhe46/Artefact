@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "日期、时间、地点和内容都与活动资料一致，一个目的、一个邀约，语气克制。但没有接上她问过光面和粒面区别这一点，个性化偏弱，没达到预期行为；「我把具体安排发您」略显含糊，也可能引出资料里没有的细节。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「您之前问过光面和粒面的区别」准确接上了真实历史，时间地点内容也准确，最贴合预期。问题在「我帮您留个位置」：资料没有说明名额或报名机制，等于暗示可预留，有越权和编造的风险，发送前需要核实或改掉。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "对触感对比的描写具体，贴合活动内容，也没有编造。但没有提到她之前的提问，个性化不足；「再发您一遍」暗示之前发过地址和时段，并不符合事实；「会摆出」「可以上手摸」是对资料的轻微延伸。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条的活动事实都准确，也都没有违规；差异主要在个性化和收尾动作上。B 最贴合预期，但「留位置」需要核实，否则有越权风险；A 和 C 安全，但没有接上她问过的光面与粒面区别。三条结构接近，都是日期加内容再加一个小邀约，差异度一般。",
+ "case_id": "TC-33",
+ "scenario": "event",
+ "status": "generated"
+}

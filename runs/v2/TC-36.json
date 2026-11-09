@@ -1,0 +1,377 @@
+{
+ "case_id": "TC-36",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false,
+  "missing_event_fields": []
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "陈女士，11月14日（周六）14:00-16:00，序隅上海静安店有一场皮料与养护分享，现场会对比粒面与光面牛皮的触感，也讲不同皮面的日常打理。您周末有空的话，我可以帮您留个位。",
+   "rationale": "内容、时间、地点齐全，句末一个问句给选择空间，不提身份与稀缺。",
+   "refs": [
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "89字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "陈女士，您之前问过轻一点的肩包，出门放手机钥匙那种，后来一直没打扰您。11月14日周六下午静安店有场皮料与养护分享，14:00到16:00，讲不同皮面的日常打理。您有兴趣的话我帮您留位。",
+   "rationale": "从客户真实提过的需求接上活动，不假装刚收到消息，也不施压。",
+   "refs": [
+    "H:1",
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "93字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "陈女士，静安店11月14日周六下午两点的分享，现场能摸到粒面和光面牛皮的差别，也讲这两种皮面平时怎么打理。您要是感兴趣，我把场次发您。",
+   "rationale": "改从现场可触摸对比的角度切入，句式与信息条不同，落脚在一个是否预约的轻问句。",
+   "refs": [
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "67字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "陈女士，11月14日周六14:00-16:00，静安店有一场皮料与养护分享。现场可以上手对比粒面与光面牛皮的触感，也能问到自己包袋的日常打理。您想来的话，我帮您留位。",
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.31"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.20"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.15"
+  }
+ ],
+ "ca_note": [
+  "活动在 11 月 14 日，距今天 5 天，建议今天或明天发出；B 条提到 2025 年的咨询，若担心勾起旧话题可只发 C 条。活动为开放到店形式，若实际需预约名额，请先核实再改末句措辞。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B01",
+  "facts": [
+   {
+    "ref": "EVT:CARE-1114",
+    "text": "活动：皮料与养护分享；时间：2026-11-14（周六） 14:00-16:00；地点：序隅上海静安店；内容：现场对比粒面与光面牛皮的触感，了解不同皮面的日常打理"
+   },
+   {
+    "ref": "P:XY-S01",
+    "text": "「折页」卡夹（XY-S01，小皮具）：统一售价3,800元；粒面牛皮，6个卡位，中央票据夹层；主要用途：日常随身、小件礼赠；客户于2023-06-18购买，颜色栗棕"
+   }
+  ],
+  "rag_query": "活动邀约；好的，最近忙，等有空再说；轻装出门；轻便；2025 年咨询过肩包，说想要轻一点、能放手机钥匙的款式，之后没有再联系",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.544,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "BB:R1",
+    "score": 0.377,
+    "text": "修订：**字数**：所有场景硬约束 10–80 字；活动邀约放宽到 10–100 字。不堆叠不必要的辞藻。（取代第五节原先建议的 40–100 字。）"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.376,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:R3",
+    "score": 0.368,
+    "text": "修订：**停止营销**：客户明确要求停止营销联系时，产品推荐、活动邀约、沉睡客户唤醒三个场景不按原场景生成，改为三条发给客户的简短致歉，尊重客户边界，不含任何营销内容。生日与节日祝福、购后关怀、价格异议照常生成。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "陈女士",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "2025-04-12 客户问过轻一点的肩包，出门放手机钥匙（H:1）",
+   "2023-06 购买过「折页」卡夹，栗棕（P:XY-S01）",
+   "偏好轻便、轻装出门（C:C03 preferences）"
+  ],
+  "do_not_mention": [
+   "沉睡唤醒",
+   "肩包未到货",
+   "价格优惠",
+   "会员等级"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 10.0,
+  "calls": [
+   [
+    "generate",
+    5.84
+   ],
+   [
+    "repair",
+    2.08
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-36",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:CARE-1114"
+  },
+  "client": {
+   "id": "C03",
+   "address": "陈女士",
+   "relationship": "沉睡",
+   "since": "2023-06",
+   "preferences": {
+    "uses": [
+     "轻装出门"
+    ],
+    "style": "轻便",
+    "colors": [
+     "栗棕"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "周末",
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "2025 年咨询过肩包，说想要轻一点、能放手机钥匙的款式，之后没有再联系",
+   "purchases": [
+    {
+     "date": "2023-06-18",
+     "sku": "XY-S01",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C03"
+  },
+  "history": [
+   {
+    "time": "2025-04-12 15:10",
+    "role": "client",
+    "text": "你们有没有轻一点的肩包，出门就放手机钥匙那种"
+   },
+   {
+    "time": "2025-04-12 15:18",
+    "role": "ca",
+    "text": "陈女士，「弧」小号肩包比较轻便，肩带可以调节，您有空可以来看看。"
+   },
+   {
+    "time": "2025-04-12 15:30",
+    "role": "client",
+    "text": "好的，最近忙，等有空再说"
+   }
+  ],
+  "products": []
+ },
+ "expect": "周末偏好可以利用，沉睡客户不施压",
+ "edge": null
+}

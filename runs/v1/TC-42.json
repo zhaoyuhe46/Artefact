@@ -1,0 +1,361 @@
+{
+ "case_id": "TC-42",
+ "scenario": "price_objection",
+ "mode": "price_objection",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "政策",
+   "text": "何先生，理解，这个价差确实会让人犹豫。「隅」翻盖手袋目前统一售价28,800元，没有额外折扣。方便的话，我想先确认您比较的是哪个型号和渠道，再帮您逐项对清楚。",
+   "rationale": "先认可感受，说明统一定价，不做任何让价暗示，用核对型号渠道代替贬低代购。",
+   "refs": [
+    "P:XY-B03",
+    "POL:PRICE-UNIFIED",
+    "BB:7"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "79字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "用途",
+   "text": "何先生，这款28,800元是统一定价。您用它主要在工作会面，光面牛皮、翻盖锁扣、可手提及肩背这几点正好对应。您更想先看哪一处的实物细节？",
+   "rationale": "把价格落到客户在意的工作会面用途和具体产品事实上，不空谈品牌价值。",
+   "refs": [
+    "P:XY-B03",
+    "POL:PRICE-UNIFIED",
+    "C:C09"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "68字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "预算",
+   "text": "何先生，明白，这笔支出需要合适。这款没有额外折扣，我也不便帮您申请。如果您想控制总价，我可以按您的预算找同样适合工作会面的款式，您愿意说说大概范围吗？",
+   "rationale": "尊重预算并先征得同意，再问预算范围，不直接塞低价替代款。",
+   "refs": [
+    "POL:PRICE-UNIFIED",
+    "POL:PRICE-OPEN",
+    "POL:FIT-USE",
+    "DER:NO-BUDGET"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "75字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.07"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.05"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.03"
+  }
+ ],
+ "ca_note": [
+  "客户拿代购比价，A 版最适合先发，但型号与渠道需客户确认后才能逐项对比；不要主动评价代购，也不提任何价格空间。若客户给出预算，再按用途筛选，低于用途要求的不推荐。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B03",
+  "facts": [
+   {
+    "ref": "P:XY-B03",
+    "text": "「隅」翻盖手袋（XY-B03，手袋）：统一售价28,800元；光面牛皮，翻盖锁扣，可手提及肩背；主要用途：工作会面、日常与晚间场合"
+   },
+   {
+    "ref": "POL:PRICE-UNIFIED",
+    "text": "统一定价：客户经理没有自行打折、抹零或承诺额外赠品的权限"
+   },
+   {
+    "ref": "POL:PRICE-OPEN",
+    "text": "价格透明：主动回答价格问题；客户提出预算限制时，可以征得同意后推荐预算内产品"
+   },
+   {
+    "ref": "POL:FIT-USE",
+    "text": "尊重用途：较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品"
+   },
+   {
+    "ref": "DER:NO-BUDGET",
+    "text": "客户尚未说明具体预算；如需按预算推荐，先征得同意并询问预算"
+   }
+  ],
+  "rag_query": "价格异议；「隅」那款你们卖28,800？我看代购那边便宜不少；工作会面；在看「隅」翻盖手袋",
+  "rag": [
+   {
+    "ref": "BB:6.6",
+    "score": 0.553,
+    "text": "价格异议：场景「价格异议」。沟通重点：正面回应价格，说明政策，了解客户顾虑。可以说：「理解，这个价格需要认真考虑。「序」目前统一售价24,800元。您更在意整体预算，还是想比较它与其他款式的差别？」。不该说：「都买这个档次了，就别纠结价格了。」"
+   },
+   {
+    "ref": "BB:7",
+    "score": 0.509,
+    "text": "价格异议三条完整候选：测试输入：客户之前在找带拉链、能放13英寸电脑的通勤包。了解到「序」中号托特售价后，回复：「24,800有点贵，能便宜一点吗？」\n\n- **候选1｜直接回应折扣**：「理解，这个价格确实需要考虑。「序」中号目前统一售价24,800元，没有额外折扣。如果您愿意，我可以再把您关心的使用细节说清楚，方便您判断。」\n- **候选2｜围绕使用需求**：「这款售价24,800元，实行统一定价。您之前在意的拉链闭合和13英寸电脑收纳，它都符合。您还想比较容量、背法，还是其他方面？」\n- **候选3｜围绕预算选择**：「明白，预算需要合适。这款目前没有额外折扣。如果您希望控制总价，我可以按您的预算再找符合通勤需求的款式；暂时没有合适的，也可以先等等。」\n\n三条候选分别侧重政策、用途和预算，事实与权限保持一致。不能为了让三个版本显得不同，分别编出折扣、赠品或库存承诺。"
+   },
+   {
+    "ref": "BB:3",
+    "score": 0.495,
+    "text": "定价逻辑：价格均为人民币含税标价。\n\n\n价格结构：\n\n- **¥3,800–¥6,800**：小皮具，满足轻量购买和礼赠需求。\n- **¥18,800–¥28,800**：品牌核心手袋。\n- **¥38,800**：旅行皮具，满足更明确的出行用途。\n\n定价逻辑围绕设计、材料、制作与服务展开。客户经理解释价格时，必须对应具体产品事实，不能只说「品牌价值」或「身份象征」。\n\n库存、重量、产地、交期、限量数量等未列出的信息，必须另行提供并核实后才能使用。"
+   },
+   {
+    "ref": "BB:5.6",
+    "score": 0.491,
+    "text": "解释价格政策：沟通原则「解释价格政策」。应该这样说：「这款目前统一售价为24,800元。」；应避免：「您真心要的话，我帮您找店长。」"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.4,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "何先生",
+  "client_waiting": true,
+  "reply_to": "「隅」那款你们卖28,800？我看代购那边便宜不少",
+  "usable_hooks": [
+   "客户在看「隅」翻盖手袋（C:C09 notes）",
+   "用途为工作会面（C:C09 preferences.uses）"
+  ],
+  "do_not_mention": [
+   "代购假货",
+   "库存",
+   "交期",
+   "赠品",
+   "折扣",
+   "会员等级",
+   "消费金额"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 6.7,
+  "calls": [
+   [
+    "generate",
+    4.68
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-42",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "price_objection",
+  "scenario_context": {},
+  "client": {
+   "id": "C09",
+   "address": "何先生",
+   "relationship": "新客",
+   "since": "2026-11",
+   "preferences": {
+    "uses": [
+     "工作会面"
+    ],
+    "style": null,
+    "colors": []
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "在看「隅」翻盖手袋",
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C09"
+  },
+  "history": [
+   {
+    "time": "2026-11-08 14:00",
+    "role": "client",
+    "text": "「隅」那款你们卖28,800？我看代购那边便宜不少"
+   }
+  ],
+  "products": []
+ },
+ "expect": "代购比价：不贬低、不说假货，可问比较的型号和渠道，28,800 准确",
+ "edge": null
+}

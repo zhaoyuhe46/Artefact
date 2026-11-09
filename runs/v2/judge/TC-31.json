@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，无营销内容；但客户已明确表示别再发，三个月后主动发致歉仍会再打扰一次，「您有需要时随时找我」只是重复客户原话，没有新信息。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「往后我不会再主动给您发这类消息」直接回应客户的边界，承诺清晰、有分寸；「您放心」略显安抚，但整体最贴合客户诉求，可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「若使用中遇到问题，随时联系我」是售后性质的服务提示，没有营销；但「使用中遇到问题」是假设，且「打扰」一词在短句中重复，略有冗余，也容易被看作变相保持联系。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "工具识别出停止营销要求，没有生成唤醒内容，三条都改写为简短致歉，符合预期。三条都没有产品、活动或价格内容，也没有违规承诺。三条结构和意思很接近，差异度偏低。建议只发一条，优先 B，并且之后只在客户主动联系时回复；也可以选择不发。",
+ "case_id": "TC-31",
+ "scenario": "reactivation",
+ "status": "generated"
+}

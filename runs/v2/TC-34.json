@@ -1,0 +1,381 @@
+{
+ "case_id": "TC-34",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false,
+  "missing_event_fields": []
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "林女士，11月14日周六14:00-16:00，序隅上海静安店有一场皮料与养护分享。想到您平时包用得勤，现场会对比不同皮面的打理方式，您有兴趣的话我提前留个位置。",
+   "rationale": "内容、时间、地点齐全，用通勤用包的实际需求说明为何想到她，只留一个问句式的邀请，不施压。",
+   "refs": [
+    "EVT:CARE-1114",
+    "C:C01",
+    "P:XY-B02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "81字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "林女士，您上次说通勤要能放13寸电脑、带拉链，「序」中号托特用下来应该也顺手。11月14日周六14:00-16:00静安店有皮料与养护分享，可以看看粒面与光面牛皮的区别，您看是否方便来。",
+   "rationale": "从对话历史里真实的通勤需求与已购包切入，再接活动信息，关联自然。",
+   "refs": [
+    "H:1",
+    "P:XY-B02",
+    "EVT:CARE-1114"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "93字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "林女士，11月14日周六下午14:00-16:00在静安店有一场皮料与养护分享。现场能上手对比粒面与光面牛皮的触感，也会讲到不同皮面日常怎么打理，和您平时带包跑工地可能有用的。",
+   "rationale": "以现场能看到、能了解的具体内容为主，让客户自己判断兴趣，贴合她建筑师的工作场景。",
+   "refs": [
+    "EVT:CARE-1114",
+    "C:C01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "88字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.18"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.30"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.23"
+  }
+ ],
+ "ca_note": [
+  "活动在11月14日，距今5天，建议本周内发出；三条均为询问是否参加，客户回复后再发具体时段。林女士偏好工作日晚上联系，可考虑晚间发送。生日11-12临近，本条不要提及。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "EVT:CARE-1114",
+    "text": "活动：皮料与养护分享；时间：2026-11-14（周六） 14:00-16:00；地点：序隅上海静安店；内容：现场对比粒面与光面牛皮的触感，了解不同皮面的日常打理"
+   },
+   {
+    "ref": "P:XY-B02",
+    "text": "「序」中号托特（XY-B02，手袋）：统一售价24,800元；粒面牛皮，拉链闭合，可容纳13英寸笔记本电脑，内设拉链袋；主要用途：工作通勤；客户于2026-10-30购买，颜色岩灰"
+   }
+  ],
+  "rag_query": "活动邀约；今天拿到了，岩灰色很好看，谢谢安然；工作通勤；低调、容易搭配；设计院建筑师，常带电脑去工地和甲方会议；上次提到喜欢「序」托特的内部拉链袋",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.549,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.413,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.401,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.389,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "林女士",
+  "client_waiting": false,
+  "usable_hooks": [
+   "10月30日已购买「序」中号托特岩灰色，用于通勤（H:3、P:XY-B02）",
+   "工作通勤需放13寸电脑，看重拉链闭合（H:1）",
+   "建筑师，常带电脑去工地和甲方会议（C:C01 notes）"
+  ],
+  "do_not_mention": [
+   "生日",
+   "VIP",
+   "消费金额",
+   "内部拉链袋偏好"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 10.9,
+  "calls": [
+   [
+    "generate",
+    8.99
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-34",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:CARE-1114"
+  },
+  "client": {
+   "id": "C01",
+   "address": "林女士",
+   "relationship": "常客",
+   "since": "2024-03",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "低调、容易搭配",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "工作日晚上",
+    "frequency": "有事再联系即可",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "设计院建筑师，常带电脑去工地和甲方会议；上次提到喜欢「序」托特的内部拉链袋",
+   "purchases": [
+    {
+     "date": "2026-10-30",
+     "sku": "XY-B02",
+     "color": "岩灰",
+     "note": "通勤用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-12"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C01"
+  },
+  "history": [
+   {
+    "time": "2026-10-28 20:15",
+    "role": "client",
+    "text": "我在找一只能放13寸电脑的通勤包，最好带拉链"
+   },
+   {
+    "time": "2026-10-28 20:20",
+    "role": "ca",
+    "text": "林女士，「序」中号托特可以放13英寸电脑，也是拉链闭合，您方便时可以来店里看看实物。"
+   },
+   {
+    "time": "2026-10-30 18:40",
+    "role": "client",
+    "text": "今天拿到了，岩灰色很好看，谢谢安然"
+   }
+  ],
+  "products": []
+ },
+ "expect": "时间地点准确，不抬高身份",
+ "edge": null
+}

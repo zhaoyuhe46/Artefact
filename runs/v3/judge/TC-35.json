@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "信息清晰，时间地点与活动资料一致，只有一个轻量邀约；「常短途出差」来自客户资料，属合理推断。但没有提到十二月京都行程，与预期行为不完全吻合，不过工具提示也说明该行程属内部记录，不宜直接写出。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用客户10月15日的原话「用了快一年还挺能装」，真实且不生硬，是三条中个性化最自然的一条；活动信息正确，「实物」也有据。结尾「您方便的话可以来看看」略平，且说「上次说」而实际是近一个月前，略有偏差，但无大碍。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "点出「远行」「随行」两款实物，与活动资料完全一致，没有价格或库存的越权表述，可直接发送；但几乎没有使用客户个人信息，个性化偏弱，也未涉及客户已持有这两款产品这一点。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都避免了把京都行程写成客户原话，也没有越权承诺，时间合适（活动前12天），符合工具提示。差异主要在是否带客户上下文和是否点名产品，句式结构较接近，都是「时间地点＋内容＋轻邀约」。三条都没有直接承接十二月出行，相对预期行为略保守，但符合内部记录不外露的要求。",
+ "case_id": "TC-35",
+ "scenario": "event",
+ "status": "generated"
+}

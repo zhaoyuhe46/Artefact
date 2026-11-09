@@ -1,0 +1,12 @@
+# 售后服务（来源：Brand_Book.md 第一、四节）
+services:
+  - id: SVC:CARE-ADVICE
+    name: 养护建议
+    detail: 客户可随时向客户经理咨询所购产品的日常养护方法
+  - id: SVC:CLEAN-12M
+    name: 免费基础清洁
+    detail: 购买后12个月内，可预约一次免费基础清洁
+    condition_months: 12
+  - id: SVC:REPAIR-EVAL
+    name: 维修评估
+    detail: 污损修复和换件需先评估、报价，评估后再确定方案

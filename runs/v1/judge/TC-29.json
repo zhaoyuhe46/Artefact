@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯问候，没有任何产品或养护由头，不符合测试预期的清洁或养护切入；「看到您说岩灰色很好看」是把半年多前的对话当作刚发生，语感不自然，且问「工作还顺利吗」略显空泛。",
+   "}": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "以养护为由头，并呼应客户提过的内部拉链袋，不催促，符合预期；小问题是「谢谢您喜欢岩灰色」衔接生硬（距上次已七个月），且「整理了养护方法」略显夸大，实际资料只说可咨询养护。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁在购买后12个月内可预约一次，与资料一致，不催促；但工具提示发送前需确认排期，话术直接说「我帮您安排」略有承诺风险，也没有说明截止日期，开头感谢岩灰色也显突兀。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "B 和 C 都贴合养护或清洁的预期，B 个性化最好；A 偏空泛。三条开头相似（自我介绍加岩灰色），差异度一般。C 发送前需核实预约排期。",
+ "case_id": "TC-29",
+ "scenario": "reactivation",
+ "status": "generated"
+}

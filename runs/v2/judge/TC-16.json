@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户15天前告知家中长辈离世，并明确说「暂时顾不上这些，过阵子再说」。此时不应推荐产品，工具选择不生成（held）是对的。提示建议暂不联系，30天后再用不带请求的问候，也合理。11-15的生日临近，但在丧亲期间不宜写喜庆内容，工具没有因生日而触发营销，处理得当。",
+ "case_id": "TC-16",
+ "scenario": "recommendation",
+ "status": "held"
+}

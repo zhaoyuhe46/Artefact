@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和统一定价说明准确，没有越权承诺。但只是重复了客户已知的超预算，没有说明预算内暂无符合通勤的款式，结尾提议再讲配置对解决预算问题没有帮助。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实正确，但绕开了客户明确的预算问题，再次介绍这款超预算的包，没有告知预算内暂无合适款式；结尾的问题把客户往容量比较上引，偏离了客户的需求。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "如实说明两万以内暂无符合通勤用途的款式，没有用卡夹替代，也没有承诺折扣；以征得同意的方式提出留意合适款式，只有一个问题，基本可直接发送。工具提示未通过的检查需要CA确认，「留意」的措辞略为模糊。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都没有越权承诺。只有C直接回应了预算内暂无合适款式这一预期行为，A只是重述超预算，B回避了预算问题。工具提示称「三条均未承诺替代方案」，处理基本合理，C最值得发送。",
+ "case_id": "TC-43",
+ "scenario": "price_objection",
+ "status": "generated"
+}

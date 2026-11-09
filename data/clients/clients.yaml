@@ -1,0 +1,155 @@
+# 虚构客户（全部虚构，不对应任何真实个人）。today 以 2026-11-09 为基准设计
+clients:
+  - id: C01
+    address: 林女士
+    relationship: 常客
+    since: "2024-03"
+    preferences: {colors: [岩灰], style: 低调、容易搭配, uses: [工作通勤]}
+    budget: null
+    contact_prefs: {frequency: 有事再联系即可, time: 工作日晚上, no_marketing: false}
+    key_dates: [{type: 生日, date: "11-12"}]
+    sensitivities: []
+    notes: 设计院建筑师，常带电脑去工地和甲方会议；上次提到喜欢「序」托特的内部拉链袋
+    purchases:
+      - {date: "2026-10-30", sku: XY-B02, color: 岩灰, note: 通勤用}
+    history:
+      - {time: "2026-10-28 20:15", role: client, text: "我在找一只能放13寸电脑的通勤包，最好带拉链"}
+      - {time: "2026-10-28 20:20", role: ca, text: "林女士，「序」中号托特可以放13英寸电脑，也是拉链闭合，您方便时可以来店里看看实物。"}
+      - {time: "2026-10-30 18:40", role: client, text: "今天拿到了，岩灰色很好看，谢谢安然"}
+  - id: C02
+    address: 周先生
+    relationship: 新客
+    since: "2026-10"
+    preferences: {colors: [墨黑], style: 简洁, uses: [工作通勤]}
+    budget: null
+    contact_prefs: {frequency: null, time: null, no_marketing: false}
+    key_dates: []
+    sensitivities: []
+    notes: 在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包
+    purchases: []
+    history:
+      - {time: "2026-11-07 21:02", role: client, text: "你们那个能放电脑的托特多少钱？"}
+      - {time: "2026-11-07 21:05", role: ca, text: "周先生您好，「序」中号托特目前统一售价24,800元，可容纳13英寸笔记本电脑，拉链闭合。"}
+      - {time: "2026-11-07 21:30", role: client, text: "24,800有点贵，能便宜一点吗？"}
+  - id: C03
+    address: 陈女士
+    relationship: 沉睡
+    since: "2023-06"
+    preferences: {colors: [栗棕], style: 轻便, uses: [轻装出门]}
+    budget: null
+    contact_prefs: {frequency: null, time: 周末, no_marketing: false}
+    key_dates: []
+    sensitivities: []
+    notes: 2025 年咨询过肩包，说想要轻一点、能放手机钥匙的款式，之后没有再联系
+    purchases:
+      - {date: "2023-06-18", sku: XY-S01, color: 栗棕, note: 自用}
+    history:
+      - {time: "2025-04-12 15:10", role: client, text: "你们有没有轻一点的肩包，出门就放手机钥匙那种"}
+      - {time: "2025-04-12 15:18", role: ca, text: "陈女士，「弧」小号肩包比较轻便，肩带可以调节，您有空可以来看看。"}
+      - {time: "2025-04-12 15:30", role: client, text: "好的，最近忙，等有空再说"}
+  - id: C04
+    address: 王先生
+    relationship: 重要客户
+    since: "2022-11"
+    preferences: {colors: [墨黑], style: 实用, uses: [短途旅行, 工作会面]}
+    budget: null
+    contact_prefs: {frequency: 可以定期联系, time: 不限, no_marketing: false}
+    key_dates: [{type: 生日, date: "11-20"}]
+    sensitivities: []
+    notes: 经常出差；上次说十二月要带家人去京都过几天
+    purchases:
+      - {date: "2025-05-03", sku: XY-S02, color: 墨黑, note: 出差收纳}
+      - {date: "2025-12-10", sku: XY-T01, color: 墨黑, note: 短途出行}
+    history:
+      - {time: "2026-10-15 09:12", role: client, text: "旅行袋用了快一年了，还挺能装的"}
+      - {time: "2026-10-15 09:20", role: ca, text: "王先生，用得顺手就好。十二月去京都的话，有需要整理收纳的地方随时问我。"}
+      - {time: "2026-10-15 09:25", role: client, text: "好，到时候再说"}
+  - id: C05
+    address: 赵女士
+    relationship: 常客
+    since: "2023-02"
+    preferences: {colors: [墨黑], style: 简洁, uses: [工作会面]}
+    budget: null
+    contact_prefs: {frequency: 不要主动推送, time: null, no_marketing: true}
+    key_dates: [{type: 生日, date: "03-08"}]
+    sensitivities: []
+    notes: 2026 年 8 月明确表示不想再收到新品和活动信息
+    purchases:
+      - {date: "2024-09-20", sku: XY-B03, color: 墨黑, note: 自用}
+    history:
+      - {time: "2026-08-02 19:40", role: client, text: "以后新品和活动就别发给我了，有需要我会找你"}
+      - {time: "2026-08-02 19:45", role: ca, text: "好的赵女士，明白了，有需要随时找我。"}
+  - id: C06
+    address: 孙女士
+    relationship: 常客
+    since: "2023-09"
+    preferences: {colors: [岩灰], style: 低调, uses: [日常搭配]}
+    budget: null
+    contact_prefs: {frequency: null, time: null, no_marketing: false}
+    key_dates: [{type: 生日, date: "11-15"}]
+    sensitivities: [{type: bereavement, date: "2026-10-25", note: 客户告知家中长辈离世}]
+    notes: 购买过「弧」小号肩包
+    purchases:
+      - {date: "2025-11-02", sku: XY-B01, color: 岩灰, note: 自用}
+    history:
+      - {time: "2026-10-25 22:10", role: client, text: "最近家里老人走了，暂时顾不上这些，过阵子再说吧"}
+      - {time: "2026-10-25 22:30", role: ca, text: "孙女士，节哀，您先照顾好自己和家人。"}
+  - id: C07
+    address: 吴先生
+    relationship: 常客
+    since: "2024-01"
+    preferences: {colors: [栗棕], style: 实用, uses: [收纳随身小物]}
+    budget: null
+    contact_prefs: {frequency: null, time: null, no_marketing: false}
+    key_dates: [{type: 生日, date: "11-11"}]
+    sensitivities: [{type: recent_complaint, date: "2026-10-20", note: 收纳包拉链评估等待时间较长，客户表达不满}]
+    notes: 收纳包拉链开合不顺，已送店评估
+    purchases:
+      - {date: "2025-08-15", sku: XY-S02, color: 栗棕, note: 自用}
+    history:
+      - {time: "2026-10-20 12:05", role: client, text: "送去评估都一周了还没消息，有点失望"}
+      - {time: "2026-10-20 12:20", role: ca, text: "吴先生，抱歉让您久等，我今天去跟进，有结果第一时间告诉您。"}
+      - {time: "2026-10-22 17:00", role: ca, text: "吴先生，评估结果出来了，拉链需要更换，具体报价我稍后发您确认。"}
+      - {time: "2026-10-22 17:30", role: client, text: "行吧"}
+  - id: C08
+    address: 郑女士
+    relationship: 常客
+    since: "2025-04"
+    preferences: {colors: [墨黑], style: 有结构感, uses: [工作会面, 晚间场合]}
+    budget: null
+    contact_prefs: {frequency: 消息简短就好, time: null, no_marketing: false}
+    key_dates: []
+    sensitivities: []
+    notes: 室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别
+    purchases:
+      - {date: "2026-09-01", sku: XY-B03, color: 墨黑, note: 自用}
+    history:
+      - {time: "2026-09-20 11:00", role: client, text: "光面的会不会很容易刮花？"}
+      - {time: "2026-09-20 11:10", role: ca, text: "郑女士，光面确实更容易留下细小痕迹，平时避免和钥匙放同一隔层就好。"}
+      - {time: "2026-09-20 11:12", role: client, text: "好的，懂了"}
+  - id: C09
+    address: 何先生
+    relationship: 新客
+    since: "2026-11"
+    preferences: {colors: [], style: null, uses: [工作会面]}
+    budget: null
+    contact_prefs: {frequency: null, time: null, no_marketing: false}
+    key_dates: []
+    sensitivities: []
+    notes: 在看「隅」翻盖手袋
+    purchases: []
+    history:
+      - {time: "2026-11-08 14:00", role: client, text: "「隅」那款你们卖28,800？我看代购那边便宜不少"}
+  - id: C10
+    address: 许女士
+    relationship: 新客
+    since: "2026-11"
+    preferences: {colors: [岩灰], style: 简洁, uses: [工作通勤]}
+    budget: 20000
+    contact_prefs: {frequency: null, time: null, no_marketing: false}
+    key_dates: []
+    sensitivities: []
+    notes: 想要通勤包，需要放13寸电脑；明确说预算两万以内
+    purchases: []
+    history:
+      - {time: "2026-11-08 20:00", role: client, text: "「序」托特挺好看的，但是超预算了，我预算两万以内"}

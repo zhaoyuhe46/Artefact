@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，并结合了「平时通勤要带电脑」的真实背景；信息清晰，一个目的、无问题。但「想到您平时通勤要带电脑」略显套话，且没有提到她已买了托特，对已购客户来说针对性稍弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用客户上次提到的「内部拉链袋」，个性化最强且是真实记录；但「我把详细安排发您」暗示还有未核实的安排，可能让人以为有报名流程，需 CA 确认。另外「上次说」的出处在对话历史中查不到，只见于备注，建议 CA 核实。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气温和不施压，事实准确；「如果您想看看通勤包内部怎么分区」把话题自然引到活动上，但几乎没用到客户个人信息，个性化偏弱，也没有体现她已入手托特的背景。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都用了 CA 填写的活动信息，没有越权承诺、没有带出生日，也没有强推。但结构几乎相同，都是「称呼+活动时间地点+看托特内部布局」，差异主要在开头一句，与工具提示的「差异度 B-C」未通过一致。B 的「详细安排」和备注出处需 CA 人工核实。",
+ "case_id": "TC-37",
+ "scenario": "event",
+ "status": "generated"
+}

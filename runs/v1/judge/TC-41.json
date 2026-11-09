@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应价格顾虑，再明确统一定价、无折扣，价格和政策准确；但没有用到客户通勤和拉链的需求，个性化偏弱，结尾的邀约也比较泛。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 5,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确引用了客户之前提到的带拉链、13英寸电脑的需求，事实无误；但没有回应「贵」的顾虑，开头直接重复价格显得生硬，也没有说明不能优惠，结尾的问题把客户引向比较容量和背法，与价格异议不对应，且问了一个二选一的问题。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "符合政策，先询问预算并强调通勤用途，没有用低价小皮具替代；但没有明确说明统一定价，「预算要合适」的说法略显生硬，「也可以先等等」带有放弃的意味，且没有先征得同意就询问预算的措辞不够柔和。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都没有越权承诺，也没有编造事实，整体处理符合预期。A 最稳妥，B 个性化最好但没有回应价格顾虑，C 的预算路径可行但措辞需要打磨。三条的差异主要体现在结尾的引导方式上，开头都是重复价格或政策，差异度中等。",
+ "case_id": "TC-41",
+ "scenario": "price_objection",
+ "status": "generated"
+}

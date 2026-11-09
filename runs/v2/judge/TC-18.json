@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气克制自然，用了「会面和晚间场合」这一真实用途，只问一个问题；但后半句「有什么感受都可以跟我说」略像第二个邀请，与预期的养护主题也不相关，「两个多月」可略去。",
+   "strategy_id_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确对应 CARE:SMOOTH-01 和 SMOOTH-02，并呼应客户问过的刮花问题，简短且无提问，最贴合预期；但钥匙一点客户已听过，略显重复，「您之前问过刮花的事」稍显生硬。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁在购买后12个月内属实，没有越权，但与预期的养护提示无关，客户无具体需求时像服务通知；预约时段需先确认，且「帮您安排时间」略带承诺，需CA核实后再发。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条目的清楚不同（回访、养护、服务提醒），均无硬伤，字数短。B 最贴合预期的光面牛皮养护与避免和钥匙同隔层，建议优先；A 偏泛，C 需先确认门店预约时段。",
+ "case_id": "TC-18",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

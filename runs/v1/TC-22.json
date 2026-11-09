@@ -1,0 +1,423 @@
+{
+ "case_id": "TC-22",
+ "scenario": "post_purchase",
+ "mode": "post_purchase",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "recent_complaint": true
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "问使用感受",
+   "text": "吴先生，收到。报价我这边核对完就发您确认，不用您先做决定。也顺便问下，评估这几天「随行」收纳包您还在用吗，日常收小物有没有别的不顺手的地方？",
+   "rationale": "先接住「行吧」，说明报价待核对；再用一个轻问题确认使用体验，不推荐产品。",
+   "refs": [
+    "P:XY-S02",
+    "SVC:REPAIR-EVAL",
+    "H:3",
+    "H:4"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "70字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "养护建议",
+   "text": "吴先生，收到，报价我核对完发您确认。等拉链处理好之前，如果包面有灰，用干燥的软布轻拭就行；拉链不顺先别用力拉。",
+   "rationale": "先回应再给两条来自养护资料的通用做法，贴合拉链问题，不给承诺。",
+   "refs": [
+    "CARE:GRAIN-01",
+    "CARE:GEN-03",
+    "SVC:REPAIR-EVAL"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "55字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "服务提醒",
+   "text": "吴先生，收到。报价我再核实一下，随后发您确认。另外提醒一句，「随行」收纳包购买后12个月内可预约一次免费基础清洁，具体安排可等拉链方案定了再说。",
+   "rationale": "以售后服务提醒为主，条件与资料一致，并把节奏交回客户。",
+   "refs": [
+    "SVC:CLEAN-12M",
+    "P:XY-S02",
+    "H:3"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "72字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.11"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.10"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.10"
+  }
+ ],
+ "ca_note": [
+  "客户近期有不满记录，三条都不含推荐。",
+  "三条均已回应「行吧」，但报价尚未发出：发送前请先确认报价是否已到手，若未核实请只发「核实后回复」的版本；客户近期有不满，避免任何推荐或邀约。生日为11-11，本次不要提及。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-S02",
+  "facts": [
+   {
+    "ref": "P:XY-S02",
+    "text": "「随行」拉链收纳包（XY-S02，小皮具）：统一售价6,800元；粒面牛皮，拉链闭合，内设小口袋；主要用途：收纳随身小物、旅行整理；客户于2025-08-15购买，颜色栗棕"
+   },
+   {
+    "ref": "CARE:GRAIN-01",
+    "text": "粒面牛皮·日常清洁：日常用干燥的软布轻拭表面灰尘即可"
+   },
+   {
+    "ref": "CARE:GRAIN-02",
+    "text": "粒面牛皮·水渍：沾到水时先用干软布轻按吸干，放在阴凉通风处自然晾干，避免吹风机或暴晒"
+   },
+   {
+    "ref": "CARE:GRAIN-03",
+    "text": "粒面牛皮·存放：不用时在包内放些填充物保持包型，装进防尘袋，放在通风干燥处"
+   },
+   {
+    "ref": "CARE:GRAIN-04",
+    "text": "粒面牛皮·染色：尽量避免长时间与深色牛仔等易掉色衣物摩擦"
+   },
+   {
+    "ref": "CARE:GEN-01",
+    "text": "通用·五金：五金尽量避免接触香水、护手霜，用后可用干布擦拭"
+   },
+   {
+    "ref": "CARE:GEN-02",
+    "text": "通用·污渍：遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "text": "通用·拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:CLEAN-12M",
+    "text": "免费基础清洁：购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   }
+  ],
+  "rag_query": "购后关怀；行吧；收纳随身小物；实用；收纳包拉链开合不顺，已送店评估",
+  "rag": [
+   {
+    "ref": "BB:6.3",
+    "score": 0.665,
+    "text": "购后关怀：场景「购后关怀」。沟通重点：确认体验，提供与所购物品有关的帮助。可以说：「林女士，想问问这几天「序」托特用得是否顺手？如果收纳或日常养护上有疑问，随时发我。」。不该说：「包应该收到了吧？顺便再给您推荐个卡夹。」"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "score": 0.536,
+    "text": "通用·拉链：通用的拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.419,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "score": 0.411,
+    "text": "维修评估：售后服务「维修评估」：污损修复和换件需先评估、报价，评估后再确定方案"
+   },
+   {
+    "ref": "CARE:SMOOTH-04",
+    "score": 0.392,
+    "text": "光面牛皮·存放：光面牛皮的存放：存放时内部放填充物，翻盖自然合上，装进防尘袋"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "吴先生",
+  "client_waiting": true,
+  "reply_to": "行吧",
+  "usable_hooks": [
+   "「随行」拉链收纳包栗棕（[P:XY-S02]）",
+   "拉链开合不顺已送店评估，需换拉链、报价待确认（[H:3][H:4]）",
+   "常客，2025-08-15购买（[P:XY-S02]）"
+  ],
+  "do_not_mention": [
+   "生日",
+   "生日日期",
+   "推荐新品",
+   "折扣",
+   "赠品",
+   "免费修复",
+   "会员等级"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 6.6,
+  "calls": [
+   [
+    "generate",
+    4.09
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-22",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "post_purchase",
+  "scenario_context": {},
+  "client": {
+   "id": "C07",
+   "address": "吴先生",
+   "relationship": "常客",
+   "since": "2024-01",
+   "preferences": {
+    "uses": [
+     "收纳随身小物"
+    ],
+    "style": "实用",
+    "colors": [
+     "栗棕"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "收纳包拉链开合不顺，已送店评估",
+   "purchases": [
+    {
+     "date": "2025-08-15",
+     "sku": "XY-S02",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-11"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "recent_complaint",
+     "date": "2026-10-20",
+     "note": "收纳包拉链评估等待时间较长，客户表达不满"
+    }
+   ],
+   "ref": "C:C07"
+  },
+  "history": [
+   {
+    "time": "2026-10-20 12:05",
+    "role": "client",
+    "text": "送去评估都一周了还没消息，有点失望"
+   },
+   {
+    "time": "2026-10-20 12:20",
+    "role": "ca",
+    "text": "吴先生，抱歉让您久等，我今天去跟进，有结果第一时间告诉您。"
+   },
+   {
+    "time": "2026-10-22 17:00",
+    "role": "ca",
+    "text": "吴先生，评估结果出来了，拉链需要更换，具体报价我稍后发您确认。"
+   },
+   {
+    "time": "2026-10-22 17:30",
+    "role": "client",
+    "text": "行吧"
+   }
+  ],
+  "products": []
+ },
+ "expect": "先就拉链报价迟迟未发致歉并给出跟进，不推荐，不承诺免费",
+ "edge": "售后投诉未结"
+}

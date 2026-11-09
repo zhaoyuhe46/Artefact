@@ -1,0 +1,92 @@
+{
+ "case_id": "TC-08",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "held",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false,
+  "bereavement_days": 21
+ },
+ "candidates": [],
+ "set_checks": [],
+ "ca_note": [
+  "客户告知家中有人离世（21 天前）。建议暂不联系，给客户留出空间；30 天后可以用「沉睡客户唤醒」场景发一次不带请求的问候。"
+ ],
+ "retrieval": {},
+ "analysis": null,
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 0.4,
+  "calls": []
+ },
+ "input": {
+  "case_id": "TC-08",
+  "today": "2026-11-15",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {},
+  "client": {
+   "id": "C06",
+   "address": "孙女士",
+   "relationship": "常客",
+   "since": "2023-09",
+   "preferences": {
+    "uses": [
+     "日常搭配"
+    ],
+    "style": "低调",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "购买过「弧」小号肩包",
+   "purchases": [
+    {
+     "date": "2025-11-02",
+     "sku": "XY-B01",
+     "color": "岩灰",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-15"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "bereavement",
+     "date": "2026-10-25",
+     "note": "客户告知家中长辈离世"
+    }
+   ],
+   "ref": "C:C06"
+  },
+  "history": [
+   {
+    "time": "2026-10-25 22:10",
+    "role": "client",
+    "text": "最近家里老人走了，暂时顾不上这些，过阵子再说吧"
+   },
+   {
+    "time": "2026-10-25 22:30",
+    "role": "ca",
+    "text": "孙女士，节哀，您先照顾好自己和家人。"
+   }
+  ],
+  "products": []
+ },
+ "expect": "held，不生成，建议 30 天后再问候",
+ "edge": "家中长辈离世 21 天"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「许久没联系」点出了间隔时间，违反不提多久没来的规则；全文没有用到任何客户信息，也没有具体由头，不符合以皮面养护或活动为由的预期。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "接上了客户问过光面和粒面区别的真实兴趣，自然且简短，只有一个主要目的。「隅」是光面牛皮，与资料一致。但那份说明需要 CA 先整理好才能发，不是现成材料，发出前还要核对内容；并且把「隅」点出来略显推销感，所以只给 3 分的可发送度。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁在购买后12个月内可预约，与资料一致，信息明确、篇幅短、行动简单。「2026年9月购入」指向具体购买记录，略显数据化，但不涉及金额。未说明截止日期，实用性稍弱，不过没有施压，稍作润色即可发送。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条分别是纯问候、相关资料和服务提醒，差异清楚。B 最贴合客户的真实兴趣，但需要 CA 先准备资料。C 最直接可用。A 因提到「许久没联系」且缺少具体由头，是三条中最弱的。",
+ "case_id": "TC-28",
+ "scenario": "reactivation",
+ "status": "generated"
+}

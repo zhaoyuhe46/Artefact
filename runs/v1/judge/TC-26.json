@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气克制，但「我就不催了」反而显得在提醒、略带压力；京都已过去（2027-04），却仍停留在「到时候再说」，没有问候旅程，与预期不符；「出差安排还顺吗」较泛。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "误把「挺能装」说成针对旅行袋「远行」，客户其实在2026-10说的是旅行袋用了快一年（时间也对不上，旅行袋2025-12才买，此处属客户模糊说法）；「整理了搭配用法」属虚构已做的工作；没有回应京都，也没有提旅程已过去，且与「到时候再说」脱节。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 1,
+   "factuality": 1,
+   "sendable": 1,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「远行」购于2025-12-10，12个月免费基础清洁已于2026-12过期，今天2027-04-10，称「还在期内」是事实错误，属虚构服务承诺；同时仍停在京都「到时候再说」，没有顺势问候已结束的旅程。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "三条都没有顺势问候已过去的京都行程，A、C 还停在「到时候再说」；C 事实错误且工具已提示该风险仍照发，B 有虚构与错配；整体差异度和可用性不足，只有 A 稍作修改后可用。",
+ "case_id": "TC-26",
+ "scenario": "reactivation",
+ "status": "generated"
+}

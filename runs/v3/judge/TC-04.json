@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯祝福、无任何推荐或活动，克制得体，可直接发送；个性化较少，但在停止营销的前提下是恰当的。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「忙碌的会面之余」轻轻呼应客户工作会面的用途，没有提及产品或购买记录，不带营销，个性化与分寸平衡较好。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "祝福真诚无营销，但「特意向您道一声祝福」略显正式，个性化偏弱，「按自己的节奏往前走」稍泛。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确识别停止营销客户，三条均为纯生日祝福，无推荐、活动、产品或购买信息，也没有追问回复，符合预期；三条语气和结构接近，差异度一般，B 最能体现个性化。",
+ "case_id": "TC-04",
+ "scenario": "birthday",
+ "status": "generated"
+}

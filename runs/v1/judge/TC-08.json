@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户21天前告知家中长辈离世，且明确说「暂时顾不上这些，过阵子再说」。今天虽是客户生日，工具仍选择不生成、暂缓联系，并建议30天后再用不带请求的问候，处理符合预期，也避免了在丧亲期间发送生日营销内容。",
+ "case_id": "TC-08",
+ "scenario": "birthday",
+ "status": "held"
+}

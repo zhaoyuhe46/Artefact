@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户刚因拉链评估久等而失望，包还在店里评估，却问「您还在用吗」「有没有别的不顺手」，与事实矛盾且像在挑毛病；一次问了两个问题，也没有为报价迟迟未发致歉。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与资料一致（软布轻拭、拉链不要用力拉），无推荐，语气克制；但包已送店，「包面有灰」「别用力拉」不贴合当前状况，也没有致歉和明确的跟进时间。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户刚投诉、报价还没发，就提免费清洁，这是推销式邀约，违背「避免任何推荐或邀约」的提示；该权益是2025-08购买后12个月内，到2026-11已过期，属事实错误，有误导风险。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都只回了「收到」并说报价核对后发，没有一条为报价迟迟未发正式致歉，也没给出具体跟进时间，与预期行为不符。C 使用已过期的免费清洁权益，且属于邀约；A 的追问与包在店评估的事实矛盾；B 相对最稳妥，但仍需改写，加上致歉和明确跟进时间。",
+ "case_id": "TC-22",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

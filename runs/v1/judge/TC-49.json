@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉和回应报价都到位，也没有承诺免费或时间；但策略标为「问使用感受」，文中并没有问使用感受，策略不符。「先不多占您时间」略显突兀，「拉链更换按评估后再定方案」读起来像在解释流程，与客户当前的不满不太贴合。",
+   "diversity": 0
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉直接，并说明已去核实；养护提示「拉链先别用力拉扯」与 CARE:GEN-03 一致，策略吻合。但拉链已确认要更换，这条提示有些多余，「跟进不力」的自责也略重。",
+   "diversity": 0
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "坦承拖延并致歉，明确说现在无法给出金额，不编造；「评估、报价、再定方案」与 SVC:REPAIR-EVAL 一致，服务提醒策略吻合。「我盯着进度」略口语，但不影响发送。",
+   "diversity": 0
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先致歉并回应报价问题，没有推荐，也没有许诺免费或完成时间，处理符合预期。三条的开头和核心信息相近，差异主要在结尾。A 的策略标签与内容不符。C 最稳妥，事实与时机都最贴合。",
+ "case_id": "TC-49",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

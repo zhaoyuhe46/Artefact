@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「统一售价28,800元，我们没有额外折扣的权限」守住了定价，语气克制；但「理解您会这样问」略显居高，「我如实回应」稍生硬，也没有用到客户的任何信息。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实（光面牛皮、翻盖锁扣、手提或肩背、工作会面与晚间场合）与资料一致，也守住了定价；但只是复述产品信息，没有回应「老客户」这层诉求，也没有结合林女士的通勤和电脑需求，「明白您的想法」较敷衍。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「确实超出了您通勤的考虑」是替客户臆测预算，资料明确客户尚未说明预算；「把实物留到您方便时到店看」有暗示库存保留的风险；致歉的语气也不妥，与「预算或下一步」策略不符，需要较多修改。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价、没有越权承诺，处理方向符合预期。A、B 内容较接近，都以说明政策为主；C 违背了「先征得同意并询问预算」的要求，工具提示只提到「留」字，漏掉了更大的问题，即臆测客户预算。A 和 B 都没有利用客户的真实资料，个性化偏弱。",
+ "case_id": "TC-44",
+ "scenario": "price_objection",
+ "status": "generated"
+}

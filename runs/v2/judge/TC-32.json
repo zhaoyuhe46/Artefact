@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制、不带请求，也不提产品和活动；「一直惦记着您」略重，「愿您和家人都安稳」比较得体，几乎可直接发送。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「问一句近况」会让客户感到需要回答，等于隐性请求；「把日子过得从容些」略带说教，需要修改。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确「不用回复」，减轻客户负担，最贴合只发问候的预期；「我这边不打扰」稍口语，整体可直接发送。",
+   "personalization_note": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确识别丧亲状态，三条均无产品、活动和请求，没有否决项。C 最稳妥，明确说明无需回复；B 用「问近况」带出回复压力。三条结构相近，都是自我介绍加祝福，差异度一般。",
+ "case_id": "TC-32",
+ "scenario": "reactivation",
+ "status": "generated"
+}

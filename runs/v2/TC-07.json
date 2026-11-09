@@ -1,0 +1,382 @@
+{
+ "case_id": "TC-07",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false,
+  "recent_complaint": true
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短真挚",
+   "text": "吴先生，生日快乐。愿您新的一岁，日常顺心，想做的事都有余裕。",
+   "rationale": "干净的一句祝福，不牵涉产品或服务，符合生日当天的一对一问候。",
+   "refs": [
+    "C:C07"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "30字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "结合个人细节",
+   "text": "吴先生，生日快乐。您平时习惯把随身小物收得整齐，愿新的一岁里，这些日常小事都顺手顺心。",
+   "rationale": "用客户资料里的收纳习惯作为细节，只送祝福，不引向购买。",
+   "refs": [
+    "C:C07"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "43字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "礼貌得体",
+   "text": "吴先生，今天是您的生日，向您问好，也谢谢您一直以来的信任。祝您这一年从容顺意，需要时我随时在。",
+   "rationale": "关系偏正式但有来回，礼数周全、带一点顾问的分寸，不推销。",
+   "refs": [
+    "C:C07"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "47字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.20"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.02"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.01"
+  }
+ ],
+ "ca_note": [
+  "客户近期有不满记录，三条都先致歉，不含推荐。",
+  "今天是客户生日，以祝福为主；拉链报价一事可另行跟进，不要混进这条祝福里。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-S02",
+    "text": "「随行」拉链收纳包（XY-S02，小皮具）：统一售价6,800元；粒面牛皮，拉链闭合，内设小口袋；主要用途：收纳随身小物、旅行整理；客户于2025-08-15购买，颜色栗棕"
+   }
+  ],
+  "rag_query": "生日与节日祝福；行吧；收纳随身小物；实用；收纳包拉链开合不顺，已送店评估",
+  "rag": [
+   {
+    "ref": "BB:6.1",
+    "score": 0.566,
+    "text": "生日与节日祝福：场景「生日与节日祝福」。沟通重点：祝福本身成立，不附带购买要求。可以说：「林女士，生日快乐。愿您新的一岁，有喜欢的事可做，也有自在的时间留给自己。」。不该说：「生日快乐！今天买包有仪式感，来店里看看吧。」"
+   },
+   {
+    "ref": "BB:8.7",
+    "score": 0.39,
+    "text": "明确禁止：**未经授权的承诺**：「一定明天到」「我保证免费换新」「偷偷送您礼品」。"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.364,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "BB:5.3",
+    "score": 0.35,
+    "text": "尊重考虑时间：沟通原则「尊重考虑时间」。应该这样说：「您可以先考虑，有需要我再补充细节。」；应避免：「今天不买一定会后悔。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "吴先生",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "生日在11-11（C:C07）",
+   "常用收纳随身小物、偏好栗棕（C:C07 preferences）"
+  ],
+  "do_not_mention": [
+   "拉链评估",
+   "报价",
+   "等待时间",
+   "购买金额"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 6.4,
+  "calls": [
+   [
+    "generate",
+    3.71
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-07",
+  "today": "2026-11-11",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {},
+  "client": {
+   "id": "C07",
+   "address": "吴先生",
+   "relationship": "常客",
+   "since": "2024-01",
+   "preferences": {
+    "uses": [
+     "收纳随身小物"
+    ],
+    "style": "实用",
+    "colors": [
+     "栗棕"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "收纳包拉链开合不顺，已送店评估",
+   "purchases": [
+    {
+     "date": "2025-08-15",
+     "sku": "XY-S02",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-11"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "recent_complaint",
+     "date": "2026-10-20",
+     "note": "收纳包拉链评估等待时间较长，客户表达不满"
+    }
+   ],
+   "ref": "C:C07"
+  },
+  "history": [
+   {
+    "time": "2026-10-20 12:05",
+    "role": "client",
+    "text": "送去评估都一周了还没消息，有点失望"
+   },
+   {
+    "time": "2026-10-20 12:20",
+    "role": "ca",
+    "text": "吴先生，抱歉让您久等，我今天去跟进，有结果第一时间告诉您。"
+   },
+   {
+    "time": "2026-10-22 17:00",
+    "role": "ca",
+    "text": "吴先生，评估结果出来了，拉链需要更换，具体报价我稍后发您确认。"
+   },
+   {
+    "time": "2026-10-22 17:30",
+    "role": "client",
+    "text": "行吧"
+   }
+  ],
+  "products": []
+ },
+ "expect": "祝福的同时体谅或跟进拉链评估，不推荐",
+ "edge": "生日撞上近期投诉"
+}

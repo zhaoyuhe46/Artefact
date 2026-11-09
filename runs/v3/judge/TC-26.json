@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「有段时间没打扰您了」直接点出许久没联系，违反不提多久没联系的要求；没有问候京都之行，个性化不足；「工作和出行都还顺利吧」是泛问，不过没有营销和事实错误。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「上次您说『远行』旅行袋挺能装」引用的是客户去年10月的原话，属实，但「上次」含糊且显得久远；「我整理了一份……养护要点」是未核实的承诺，工具已提示需自行核实官方内容，CA 可能无法兑现；同时也没有问候京都之行。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 2,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「您手上有……」罗列客户已购产品，带有盘点购买记录的意味；「污损或换件」的假设有些唐突，也没有问候旅程；「评估报价」符合 SVC:REPAIR-EVAL，没有提免费清洁，也无越权承诺，但整体偏推销，不像一次自然的问候。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都没有问候已过去的京都旅行，而这正是预期行为。A 直接提「有段时间没打扰」，违反不提多久没联系的要求；B 承诺的资料没有核实；C 偏服务推销。三条的差别主要在话题（问候、养护、维修评估），个性化都较弱，整体需要 CA 修改后才能发。",
+ "case_id": "TC-26",
+ "scenario": "reactivation",
+ "status": "generated"
+}

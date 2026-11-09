@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「之前的信息打扰到您了，抱歉。」简短克制，没有营销内容，但这条消息本身是 8 月之后的一次主动联系，且没有说明以后怎么处理，略显突兀。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「之后我不会再主动给您发消息，您有需要再联系我」明确承诺尊重边界，与客户「不要主动推送」的要求一致，是三条中最稳妥的一条，几乎可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「售后方面的问题，您随时可以找我」本质是主动引导客户联系，没有明确承诺不再打扰，对已明确拒绝推送的客户略显多余；也没有出现营销内容，所以不构成否决。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "工具没有生成唤醒内容，改为三条致歉，符合预期。三条开头完全一致，差异只在结尾，多样性偏低。其中 B 最合适，也可以选择不发送。不过客户 8 月已被确认过，再发致歉本身也是一次额外的打扰，CA 需要自行判断是否有必要发送。",
+ "case_id": "TC-31",
+ "scenario": "reactivation",
+ "status": "generated"
+}

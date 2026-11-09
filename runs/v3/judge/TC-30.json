@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 1,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「有一阵子没联系了」点出了联系间隔，违反不提多久没来的要求，也无视客户因拉链评估久等而不满、报价仍未发出的背景，通用问候显得疏离，不过没有推销。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "接上了拉链换件的未决事项，方向对；但「核实后一下发您」语句不通，且是对报价的新承诺，而报价已拖了近三个月，没有致歉也没说明原因，工具自己也提示要尽快补上真实报价，不改不能发；另外没有关心使用情况，与预期行为有出入。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "提到拉链「仍不顺」，却无视换件结论和报价未发的事实，让客户再带到店检查，容易引发反感；「别用力拉」有说教感，一条里塞了检查和养护两件事，主目的不清。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都没有对报价久拖这件事先致歉或交代进展。A 完全回避，还点出了联系间隔；B 方向最接近，但措辞和承诺需要改；C 无视已有换件结论。预期是先关心拉链修好后的使用情况且不推荐，但资料里并无修好的记录，更稳妥的做法是 CA 先核实真实进展再联系。三条都不能直接发，处理不算到位。",
+ "case_id": "TC-30",
+ "scenario": "reactivation",
+ "status": "generated"
+}

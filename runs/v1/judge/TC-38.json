@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应价格并说明需核实，没有折扣暗示，但「TBD」直接出现在客户可见文字里，且在价格问题未解决时就提活动，显得生硬，未补全前不可发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用了客户通勤、拉链、13英寸电脑的真实需求，个性化最好；但用「您看方便吗」邀请客户参加一个时间地点都未定的活动，缺少可依据的信息，且「TBD」直接外露，需要改写。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「现场可以慢慢看包、聊聊使用细节」不在活动资料中（资料只写「小型客户茶叙，具体安排待定」），属于编造活动内容；同时「TBD」外露、一条消息里有两个意图，需修改。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "三条都先回应了价格、没有给折扣暗示，也都按预期保留了TBD，处理方向正确。但三条差异很小，都把「TBD」原样写给客户，需CA补全才能发；C 还编造了现场内容；B 的个性化最好，但邀约语气与信息缺失不匹配。",
+ "case_id": "TC-38",
+ "scenario": "event",
+ "status": "generated"
+}

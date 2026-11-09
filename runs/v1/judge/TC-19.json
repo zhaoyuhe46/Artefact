@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "问使用感受本身得体，但开头“那到时候您再说”略生硬，像在重复客户的话；“先问一句”后接问题，再加“随时找我”显得略啰嗦，且没有承接预期的清洁提醒。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与资料 GRAIN-01/GRAIN-03 完全一致，语气克制；但客户刚说“到时候再说”，直接给养护说明有些突兀，也没有回应预期的免费清洁提醒。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确提示 XY-T01 仍在12个月内可预约一次免费基础清洁，并衔接十二月京都出行，符合预期；未编造档期，只说“帮您问时间”。结尾略带推动，但无施压，轻微瑕疵。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条在目的上区分明显（问感受、养护、清洁提醒），均未越权或编造；C 最贴合预期行为与客户十二月行程，A、B 开头回应客户的措辞略机械。",
+ "case_id": "TC-19",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间、地点、内容与活动资料完全一致，语气克制；但没有任何问句，与提示的“轻问句”略有出入，「正好可以带到现场」略带建议，个性化也只用到了岩灰色。",
+   "_note": "无问句不扣分严重"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "关系感自然，但「通勤要带电脑和文件」中的「文件」并非客户原话（客户只提过电脑），属轻微编造；时间缺少具体的14:00-16:00和地点「静安店」，信息不完整，需要修改。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间、地点、内容（粒面与光面对比触感、日常打理）全部准确，语气温和不施压，「有空可以来看看」留有余地，可直接发送；个性化仅限岩灰色。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都基于活动事实、没有抬高身份，也没有提及购买金额或生日。差异主要在信息详略，结构相近。B 中「文件」为轻微编造，且缺少具体时间和地点；C 最完整、最适合直接发送。",
+ "case_id": "TC-34",
+ "scenario": "event",
+ "status": "generated"
+}

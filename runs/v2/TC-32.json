@@ -1,0 +1,359 @@
+{
+ "case_id": "TC-32",
+ "scenario": "reactivation",
+ "mode": "_bereavement_followup",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false,
+  "bereavement_days": 37
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短问候",
+   "text": "孙女士，您好，我是序隅的安然。这段时间一直惦记着您，愿您和家人都安稳。",
+   "rationale": "最短的纯问候，不提任何事由细节，回复负担最低。",
+   "refs": [
+    "H:1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "35字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关心近况",
+   "text": "孙女士，我是序隅的安然。天凉了，想着问一句近况，希望您和家里人都好好的，把日子过得从容些。",
+   "rationale": "以季节为由头表达关心，落到“您和家人”而非事件本身。",
+   "refs": [
+    "H:1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "45字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "不必回复",
+   "text": "孙女士，我是序隅的安然。给您问个安，您和家人都好就很好。这条不用回复，我这边不打扰。",
+   "rationale": "明确说明不必回复，把主动权完全交给客户。",
+   "refs": [
+    "H:1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "42字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.17"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.21"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.18"
+  }
+ ],
+ "ca_note": [
+  "客户家中有人离世已 37 天，本次只发不带请求的问候。",
+  "建议上午或傍晚发送，一次性发出即可，客户不回复也不必追问；后续联络让客户先开口。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [],
+  "rag_query": "亲人离世30天后的问候；最近家里老人走了，暂时顾不上这些，过阵子再说吧；日常搭配；低调；购买过「弧」小号肩包",
+  "rag": [
+   {
+    "ref": "BB:6.4",
+    "score": 0.468,
+    "text": "沉睡客户唤醒：场景「沉睡客户唤醒」。沟通重点：用真实相关的理由重新联系，降低回复负担。可以说：「林女士，您好。我是序隅的安然。您之前提过想了解肩包，我整理了「弧」小号的尺寸资料。您现在还有这方面的需要吗？」。不该说：「您已经半年没消费了，什么时候来支持一下？」"
+   },
+   {
+    "ref": "BB:5.3",
+    "score": 0.399,
+    "text": "尊重考虑时间：沟通原则「尊重考虑时间」。应该这样说：「您可以先考虑，有需要我再补充细节。」；应避免：「今天不买一定会后悔。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "孙女士",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "2026-10-25 客户提到家里老人离世，说过阵子再说（H:1）"
+  ],
+  "do_not_mention": [
+   "离世",
+   "老人",
+   "产品",
+   "活动",
+   "购买",
+   "生日",
+   "回复请求"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 4.3,
+  "calls": [
+   [
+    "generate",
+    2.09
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-32",
+  "today": "2026-12-01",
+  "advisor_name": "安然",
+  "scenario": "reactivation",
+  "scenario_context": {},
+  "client": {
+   "id": "C06",
+   "address": "孙女士",
+   "relationship": "常客",
+   "since": "2023-09",
+   "preferences": {
+    "uses": [
+     "日常搭配"
+    ],
+    "style": "低调",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "购买过「弧」小号肩包",
+   "purchases": [
+    {
+     "date": "2025-11-02",
+     "sku": "XY-B01",
+     "color": "岩灰",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-15"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "bereavement",
+     "date": "2026-10-25",
+     "note": "客户告知家中长辈离世"
+    }
+   ],
+   "ref": "C:C06"
+  },
+  "history": [
+   {
+    "time": "2026-10-25 22:10",
+    "role": "client",
+    "text": "最近家里老人走了，暂时顾不上这些，过阵子再说吧"
+   },
+   {
+    "time": "2026-10-25 22:30",
+    "role": "ca",
+    "text": "孙女士，节哀，您先照顾好自己和家人。"
+   }
+  ],
+  "products": []
+ },
+ "expect": "只发不带任何请求的问候，不提产品、活动、服务",
+ "edge": "离世消息已过 37 天"
+}

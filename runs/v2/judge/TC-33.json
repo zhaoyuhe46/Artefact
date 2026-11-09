@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间、地点、内容与活动资料完全一致，语气克制，结尾只有一个邀约；但没有接上她问过光面和粒面区别的线索，个性化不足，与预期行为不完全吻合。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "接上了她问过的光面与粒面区别，也提到刮花的顾虑，个性化最强；「我把时段发您」暗示有分场次，而资料只有14:00-16:00一个时段，容易产生误导，且未写明具体时间，需改后再发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间地点准确，「摸到」「对比触感」与活动内容一致，语气轻松不施压，可直接发送；但没有用到她问过光面和粒面的历史，个性化偏弱。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条的事实都没有错误，也都没有越权或施压。A、C 都是纯信息版，差异不大；只有 B 接上了她的提问，符合预期，但 B 有时段暗示和缺少具体时间的问题。工具提示里「优先发B」与 B 自身的瑕疵相冲突，整体处理未完全达到「接上提问且时间地点准确」的预期。",
+ "case_id": "TC-33",
+ "scenario": "event",
+ "status": "generated"
+}

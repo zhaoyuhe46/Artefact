@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应「等有空再说」，只问一个问题，购买年份和产品名都与资料一致；「上次您说等有空再看」略指向2025年咨询肩包，与随后问卡夹的话题衔接稍生硬，且「不着急」略显多余。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护建议与粒面牛皮资料一致，没有提清洁期，也没有提问，只留一句随时可问；「您先忙」自然。养护内容只有一条，略单薄，但可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 2,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "主动告知「已超过12个月、免费清洁不适用」，是对沉睡客户提醒一项已失效的权益，既带负面感，也触及「多久没来」的暗示；虽然不是说仍在免费期内，但对客户没有价值，建议改为养护建议或维修评估。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先回应了「等有空再说」，没有催促也没有推新品。A、B可用；C是服务提醒，内容是权益已过期，语气偏负面且无实际帮助，应改写为维修评估或养护咨询。A与B差异明显，C与B都落在养护咨询上，有些重叠。",
+ "case_id": "TC-21",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

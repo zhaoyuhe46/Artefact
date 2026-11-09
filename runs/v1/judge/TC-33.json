@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点准确，但沿用「光面易留痕」旧话题，没有接上她问过的光面与粒面区别；「干软布轻拭」不在给定资料中，属于新增的养护建议，且「您了解就好」略生硬。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确接上她问过的光面与粒面区别，时间地点正确，只有一个邀约动作；「您做设计，可能会感兴趣」稍显推测，但贴合资料，整体简短自然。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动内容描述较完整，但同样依赖「光面易留痕」旧话题，并加入未经资料支持的「干软布轻拭」；「留个时段」暗示需要预约，资料并未说明，且消息偏长，不符合她偏好的简短风格。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确选用活动场景，活动信息准确。B 最贴合预期，接上了她问过的皮面区别；A 和 C 回头讲光面易留痕，并加入资料之外的养护说法，三条差异主要在语气和长度。",
+ "case_id": "TC-33",
+ "scenario": "event",
+ "status": "generated"
+}

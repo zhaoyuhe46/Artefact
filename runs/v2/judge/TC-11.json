@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「您提过想要一只轻一点、出门只放手机钥匙的肩包」准确接上客户去年的原话，没有提间隔，价格和材质都与资料一致；但「还想看这只吗？」略带追问，「还」字暗示她之前拖着没看，可改得更自然。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "场景化表达自然，磁扣、可调肩带、价格都有资料支持；但「省去翻找」是资料中没有的功效推断，略有夸大，结尾问尺寸，而资料里并没有尺寸，之后追问时需要先核实。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「现在还在售」没有资料支持，等于变相确认库存，「之前跟您提过」把需求说成CA提的，没有接上客户「轻一点、放手机钥匙」的原话；「尺寸我再核实后发您」是CA主动承诺跟进，需要CA确认能做到才能发。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都围绕「弧」小号肩包一个需求，没有点出间隔，也没有越权承诺，整体安全；差异主要在开头和结尾问法，结构相近。A最贴合预期，B可用但需去掉「省去翻找」，C存在「还在售」的库存暗示，需要改写。",
+ "case_id": "TC-11",
+ "scenario": "recommendation",
+ "status": "generated"
+}

@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "接住了光面话题并对应粒面省心的需求，价格和材质正确；但「不用太担心」略弱化了客户的顾虑，也没点明与她工作会面、晚间场合的关联，推荐理由偏泛。「会合适些」略带主观判断。",
+   "comment_extra": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "材质、磁扣、可调节肩带、价格都与资料一致，并关联了工作会面用途；但「上次说的没问题」含糊，「东西不多的话」是假设，且「工作会面」并非该款资料中的主要用途（轻装出门、日常搭配），关联略牵强。该款也未必贴合客户偏好的结构感，需微调。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "低压力、符合「消息简短」的偏好，但承诺发送「尺寸和内部隔层资料」，而给定资料里并无这些信息，需要CA先确认是否有；「光面那点记着就好」语气含糊，也没有对应客户需求的推荐理由。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都接住了光面话题，价格18,800元和粒面牛皮均与资料一致，无越权或编造。但三条结构相近，都是先安抚后报产品，差异主要在最后一句。推荐理由与客户「结构感」偏好、墨黑色、晚间场合的联系都不足，且已购XY-B03的情况未被利用。C承诺的资料超出已给事实，需核实后再发。",
+ "case_id": "TC-13",
+ "scenario": "recommendation",
+ "status": "generated"
+}

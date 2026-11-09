@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "呼应了客户问过光面和粒面的区别，但「表面更耐日常细痕」超出资料，资料只写了粒面牛皮，没有耐刮结论，属于推断性产品声明，需删改；同时「您问过」对应的是9月旧对话，且客户已购墨黑 XY-B03，没有点明用途，收尾问题也偏泛。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "场景切入贴合客户的工作会面与晚间用途，但「墨黑与您已有的那只也搭」未经核实：资料没写「弧」有墨黑，也没有写与 XY-B03 的搭配，等于编造产品事实；而资料中「弧」的用途是轻装出门、日常搭配，并非工作转晚间，场景与用途不吻合，必须删掉配色半句并重写用途理由。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实（粒面牛皮、可调节肩带、18,800元）全部有据，邀约低压且简短；不足是「折角结构」资料里没有提及，略有越界，个性化较弱，未结合客户用途或结构感偏好，也没提她问过皮面的事。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条在切入点上差异明确（皮面问答、使用场景、到店邀约），都控制在短篇幅内。工具提示已提醒配色需核实，但 B 仍保留了未核实的配色半句，A 则加入了资料之外的耐刮判断。C 事实最稳，但对结构感客户的个性化不足。整体可用度需发送前修改，C 改动最小。",
+ "case_id": "TC-13",
+ "scenario": "recommendation",
+ "status": "generated"
+}

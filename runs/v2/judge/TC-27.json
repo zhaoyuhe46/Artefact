@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "自我介绍加纯问候，只有一个问题，没有编造需求，符合预期；「许久未联系」轻微点到间隔，略碰「不提多久没来」的边界，且「冒昧打扰」稍显卑微，但可直接发送。",
+   "_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「2022年购过栗棕的「折页」卡夹」与购买记录一致，养护咨询有服务依据；但对沉睡客户首次联系就带产品内容，偏离「纯问候、不编造需求」的预期，「整理了养护要点」略有包装感，也没提免费清洁，处理合规。",
+   "_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点和内容与资料一致，但未确认客户是否在上海就直接邀约，且对沉睡客户首次联系即邀约，偏离纯问候预期；「11月14日」未写明周六，需修改后再发。",
+   "_note": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都以自我介绍开头，未编造需求，也未提免费清洁、折扣等越权内容。A 最贴合预期；B、C 在首次联系时加入内容，C 还缺少对客户所在城市的确认。三条开头一致，差异主要在后半句，整体差异度中等。",
+ "case_id": "TC-27",
+ "scenario": "reactivation",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「上次光面刮花的问题您说懂了」措辞别扭，像在复述客户的话，而且客户并没有刮花；一条消息里问了两个问题（锁扣开合、肩背），超出「最多一个问题」，也没有结合预期的养护内容。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与 CARE:SMOOTH-01、SMOOTH-04 完全一致，贴合客户对光面的关心，也只问了一个问题；但没有带过「好的，懂了」，也没有提避免和钥匙同隔层这一预期要点，养护内容和使用感受两件事并行，略长，对偏好简短消息的客户略显信息多。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "购买日期和12个月免费基础清洁的事实准确，没有承诺具体时段，但「上次的问题您说懂了」生硬；整体偏服务通知，与养护关怀的预期不太贴，对刚买两个月的客户略早。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条的开头都有些生硬，只有 B 提供了真正有价值的养护内容；A 的开头措辞别扭且问了两个问题，C 偏向服务提醒。三条都没有自然带过「好的，懂了」，也都没有提到预期的「避免和钥匙同一隔层」要点。",
+ "case_id": "TC-18",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

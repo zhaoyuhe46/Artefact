@@ -1,0 +1,380 @@
+{
+ "case_id": "TC-13",
+ "scenario": "recommendation",
+ "mode": "recommendation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "需求对应",
+   "text": "郑女士，您问过光面和粒面的区别。「弧」小号肩包是粒面牛皮，表面更耐日常细痕，售价18,800元。想了解它的尺寸和内部布局吗？",
+   "rationale": "从客户主动问过的皮面问题切入，用粒面牛皮这一事实对应，再给一个可拒绝的下一步。",
+   "refs": [
+    "C:C08",
+    "H:1",
+    "P:XY-B01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "62字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "使用场景",
+   "text": "郑女士，工作会面后接晚间场合，常要一只不换的包。「弧」小号肩包粒面牛皮、可调节肩带，磁扣开合，售价18,800元，墨黑与您已有的那只也搭。",
+   "rationale": "用客户自己提过的两类场合切入，讲使用方式的事实，不推断购买力。",
+   "refs": [
+    "C:C08",
+    "P:XY-B01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "69字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "轻量下一步",
+   "text": "郑女士，「弧」小号肩包是粒面牛皮，可调节肩带，售价18,800元。您方便时到店看看皮面手感和折角结构，不合适也没关系。",
+   "rationale": "轻量邀约看实物，明确可拒绝，不预留、不承诺库存。",
+   "refs": [
+    "C:C08",
+    "P:XY-B01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "59字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.16"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.21"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.23"
+  }
+ ],
+ "ca_note": [
+  "郑女士消息简短偏好，三条都在70字内；旧对话已过50天，未当作新消息回应。若要提及墨黑配色，需先核实「弧」是否有该色，B条已按资料未写具体颜色——发送前请确认，否则删去配色半句。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B01",
+  "facts": [
+   {
+    "ref": "P:XY-B01",
+    "text": "「弧」小号肩包（XY-B01，手袋）：统一售价18,800元；粒面牛皮，可调节肩带，磁扣闭合；主要用途：轻装出门、日常搭配"
+   }
+  ],
+  "rag_query": "产品推荐；好的，懂了；工作会面、晚间场合；有结构感；室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+  "rag": [
+   {
+    "ref": "BB:6.2",
+    "score": 0.504,
+    "text": "产品推荐：场景「产品推荐」。沟通重点：用客户明确表达的需求连接具体产品。可以说：「您上次提到想找一只带拉链、能放13英寸电脑的通勤包。「序」中号托特符合这两点，售价24,800元。您想先看看内部布局吗？」。不该说：「这款特别符合您的身份，我已经替您留好了。」"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.485,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.419,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.398,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   },
+   {
+    "ref": "BB:5",
+    "score": 0.375,
+    "text": "客户经理角色与语气：角色定位：**熟悉客户偏好、能把产品说清楚、尊重客户决定的专业顾问。**\n\n微信语气要自然、温和、有分寸。使用客户认可的称呼；关系尚不熟悉时默认使用「您」。\n\n每条消息一个主要目的、最多一个问题，尽量让客户容易理解和回复。节日祝福可以没有问题，也不必邀请到店。（字数规则见文末修订。）"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "郑女士",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "对皮面质感感兴趣，问过光面与粒面的区别（C:C08 notes、H:1）",
+   "常用场景：工作会面、晚间场合（C:C08 preferences.uses）",
+   "偏好有结构感的设计、墨黑色（C:C08 preferences.style/colors）",
+   "已购「XY-B03」墨黑（C:C08 purchases）"
+  ],
+  "do_not_mention": [
+   "室内设计师职业",
+   "消费金额",
+   "会员等级",
+   "替客户预留",
+   "库存颜色",
+   "50天前的旧对话当作新消息"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.5,
+  "calls": [
+   [
+    "generate",
+    3.35
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-13",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "recommendation",
+  "scenario_context": {},
+  "client": {
+   "id": "C08",
+   "address": "郑女士",
+   "relationship": "常客",
+   "since": "2025-04",
+   "preferences": {
+    "uses": [
+     "工作会面",
+     "晚间场合"
+    ],
+    "style": "有结构感",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "消息简短就好",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+   "purchases": [
+    {
+     "date": "2026-09-01",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C08"
+  },
+  "history": [
+   {
+    "time": "2026-09-20 11:00",
+    "role": "client",
+    "text": "光面的会不会很容易刮花？"
+   },
+   {
+    "time": "2026-09-20 11:10",
+    "role": "ca",
+    "text": "郑女士，光面确实更容易留下细小痕迹，平时避免和钥匙放同一隔层就好。"
+   },
+   {
+    "time": "2026-09-20 11:12",
+    "role": "client",
+    "text": "好的，懂了"
+   }
+  ],
+  "products": [
+   "XY-B01"
+  ]
+ },
+ "expect": "对注重结构感的客户推荐日常款，理由要与客户用途相关，不夸大",
+ "edge": null
+}

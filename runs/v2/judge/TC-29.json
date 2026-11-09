@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「很久没打扰您」暗示多久没联系，违反不提多久没来的要求；也没有用上客户的真实信息，加上「工作还顺利吗」是泛泛的寒暄，且与客户「有事再联系即可」的偏好不太相符。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「您上次说喜欢『序』托特的内部拉链袋」把备注当成客户原话，属于编造客户经历；整条没有明确目的，只是重复她已经买到的款式信息，结尾的「还需要我补充什么信息吗」显得空泛。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "以免费基础清洁权益为由头，内容与资料一致（购买于2026年10月、12个月内、可预约一次），目的单一、没有催促；如果补上有效期到2027年10月30日，或写得更像顾问的口吻会更好，但基本可以直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具选择优先发C并提示B的备注问题，处理符合预期。C最符合以清洁权益为由头、不催促的设计；A有提示多久没联系的问题，B把备注当成客户原话。三条在目的上有区别，但A和B都偏泛，差异度一般。",
+ "case_id": "TC-29",
+ "scenario": "reactivation",
+ "status": "generated"
+}

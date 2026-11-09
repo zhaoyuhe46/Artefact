@@ -1,0 +1,358 @@
+{
+ "case_id": "TC-38",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "missing_event_fields": [
+   "时间",
+   "地点"
+  ]
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "周先生，关于价格我需要先向公司核实，之后回您。另外年末有一场小型客户茶叙，时间TBD、地点TBD，具体安排待定，您有兴趣的话我确认后告知。",
+   "rationale": "先回应降价诉求并如实说明需核实，再清楚交代活动内容与待定的时间地点，给客户留出选择空间。",
+   "refs": [
+    "EVT:YEAREND-TBD"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "69字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "周先生，价格这块我没有权限调整，需要先跟公司核实，之后回您。「序」中号托特定价24,800元。另外年末有一场小型客户茶叙，时间TBD、地点TBD，具体安排待定，有兴趣的话我确认后告知您。",
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "周先生，您之前提到通勤想找带拉链、能放13英寸电脑的包，价格方面我需要先核实再回您。年末我们有一场小型客户茶叙，时间地点都还待定（TBD），想请您来坐坐，您看方便吗？",
+   "rationale": "从已知的通勤需求切入，衔接茶叙邀约，先回应价格。",
+   "refs": [
+    "C:C02",
+    "H:2",
+    "EVT:YEAREND-TBD"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "83字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "周先生，价格的调整我这边定不了，需要核实后回复您。年末有一场小型客户茶叙，现场可以慢慢看包、聊聊日常使用的细节，时间TBD、地点TBD。您感兴趣的话，我把确定后的安排发您。",
+   "rationale": "用现场可看可聊的体验作说明，不承诺细节，价格如实说明需核实。",
+   "refs": [
+    "EVT:YEAREND-TBD",
+    "H:3"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "86字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.20"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.26"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.14"
+  }
+ ],
+ "ca_note": [
+  "活动信息缺失（时间、地点），话术中以 TBD 标出，请补全后再发送。",
+  "时间地点均为 TBD，发出前若能确认请补全；价格议价需内部核实后统一回复口径，勿在微信中给出任何折扣暗示。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "EVT:YEAREND-TBD",
+    "text": "活动：年末客户茶叙；时间：TBD TBD；地点：TBD；内容：年末的小型客户茶叙，具体安排待定"
+   }
+  ],
+  "rag_query": "活动邀约；24,800有点贵，能便宜一点吗？；工作通勤；简洁；在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.546,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.404,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.377,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "score": 0.375,
+    "text": "通用·拉链：通用的拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "周先生",
+  "client_waiting": true,
+  "reply_to": "24,800有点贵，能便宜一点吗？",
+  "usable_hooks": [
+   "之前在找带拉链、能放13英寸电脑的通勤包 [C:C02]",
+   "咨询过「序」中号托特，24,800元，可放13英寸电脑、拉链闭合 [H:2]",
+   "偏好简洁、墨黑，用于工作通勤 [C:C02]"
+  ],
+  "do_not_mention": [
+   "会员等级",
+   "消费金额",
+   "折扣承诺",
+   "库存颜色",
+   "亲/宝子"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 11.3,
+  "calls": [
+   [
+    "generate",
+    8.23
+   ],
+   [
+    "repair",
+    1.31
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-38",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:YEAREND-TBD"
+  },
+  "client": {
+   "id": "C02",
+   "address": "周先生",
+   "relationship": "新客",
+   "since": "2026-10",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "简洁",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C02"
+  },
+  "history": [
+   {
+    "time": "2026-11-07 21:02",
+    "role": "client",
+    "text": "你们那个能放电脑的托特多少钱？"
+   },
+   {
+    "time": "2026-11-07 21:05",
+    "role": "ca",
+    "text": "周先生您好，「序」中号托特目前统一售价24,800元，可容纳13英寸笔记本电脑，拉链闭合。"
+   },
+   {
+    "time": "2026-11-07 21:30",
+    "role": "client",
+    "text": "24,800有点贵，能便宜一点吗？"
+   }
+  ],
+  "products": []
+ },
+ "expect": "时间地点写 TBD，ca_note 提示补全；同时先回应客户的价格问题",
+ "edge": "活动信息缺失"
+}

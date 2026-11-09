@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯问候克制自然，符合预期行为；但「之前和您联系过」是资料中没有的说法（无对话历史），有编造联系经历的嫌疑，需删改；「方便时回一句就好」略显索取回复。",
+   "contact_claim": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "栗棕「折页」卡夹与购买记录一致，个性化到位；但「整理了一份养护方法」是资料中没有的现成资料，略有编造；且提及购买过去，对沉睡客户首次触达偏重，需改为可咨询养护建议的表述。",
+   "contact_claim": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，且与客户的粒面皮具相关；但客户是否在上海未知，且距活动仅5天，首次触达就邀约略显仓促，可补一句时间和地点的前提。",
+   "contact_claim": null
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都以自我介绍开头，分别是纯问候、养护资料、活动邀请，差异清晰，均未触碰免费清洁和折扣等红线。主要问题是A写「之前和您联系过」属于无依据说法，B写「整理了一份资料」略超出事实资料；预期行为是自我介绍加纯问候且不编造需求，A最贴近，但需删掉「之前联系过」。",
+ "case_id": "TC-27",
+ "scenario": "reactivation",
+ "status": "generated"
+}

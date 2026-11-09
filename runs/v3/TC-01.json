@@ -1,0 +1,365 @@
+{
+ "case_id": "TC-01",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短真挚",
+   "text": "林女士，生日快乐。愿这一年，忙碌里有条理，也有从容的空隙。",
+   "rationale": "一两句干净祝福，贴合她的工作节奏与品牌「秩序」语境，不提产品。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "29字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "结合个人细节",
+   "text": "林女士，生日快乐。祝新的一岁顺利、自在，包里包外都清清爽爽，东西一伸手就找到。",
+   "rationale": "化用她提过的内部拉链袋细节，轻轻带过而不点产品、不提购买。",
+   "refs": [
+    "C:C01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "39字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "礼貌得体",
+   "text": "林女士，今天是您的生日，祝您生日快乐。愿接下来的日子安排得当，也留有余地。",
+   "rationale": "略正式、用「您」，礼数周全但保持一对一微信口吻，不堆套话。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "37字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.07"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.09"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.06"
+  }
+ ],
+ "ca_note": [
+  "今天正是客户生日，建议当天工作日晚上（她习惯的联系时间）发送；三条都不带购买引导，选一条即可，无需重复发送。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "P:XY-B02",
+    "text": "「序」中号托特（XY-B02，手袋）：统一售价24,800元；粒面牛皮，拉链闭合，可容纳13英寸笔记本电脑，内设拉链袋；主要用途：工作通勤；客户于2026-10-30购买，颜色岩灰"
+   }
+  ],
+  "rag_query": "生日与节日祝福；今天拿到了，岩灰色很好看，谢谢安然；工作通勤；低调、容易搭配；设计院建筑师，常带电脑去工地和甲方会议；上次提到喜欢「序」托特的内部拉链袋",
+  "rag": [
+   {
+    "ref": "BB:6.1",
+    "score": 0.524,
+    "text": "生日与节日祝福：场景「生日与节日祝福」。沟通重点：祝福本身成立，不附带购买要求。可以说：「林女士，生日快乐。愿您新的一岁，有喜欢的事可做，也有自在的时间留给自己。」。不该说：「生日快乐！今天买包有仪式感，来店里看看吧。」"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.396,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.389,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.376,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "林女士",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "上次提到喜欢「序」托特的内部拉链袋[C:C01]",
+   "10-30 已拿到岩灰色「序」中号托特[H:3]"
+  ],
+  "do_not_mention": [
+   "购买金额",
+   "会员等级",
+   "推荐产品",
+   "到店邀约"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 8.9,
+  "calls": [
+   [
+    "generate",
+    5.49
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-01",
+  "today": "2026-11-12",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {},
+  "client": {
+   "id": "C01",
+   "address": "林女士",
+   "relationship": "常客",
+   "since": "2024-03",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "低调、容易搭配",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "工作日晚上",
+    "frequency": "有事再联系即可",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "设计院建筑师，常带电脑去工地和甲方会议；上次提到喜欢「序」托特的内部拉链袋",
+   "purchases": [
+    {
+     "date": "2026-10-30",
+     "sku": "XY-B02",
+     "color": "岩灰",
+     "note": "通勤用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-12"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C01"
+  },
+  "history": [
+   {
+    "time": "2026-10-28 20:15",
+    "role": "client",
+    "text": "我在找一只能放13寸电脑的通勤包，最好带拉链"
+   },
+   {
+    "time": "2026-10-28 20:20",
+    "role": "ca",
+    "text": "林女士，「序」中号托特可以放13英寸电脑，也是拉链闭合，您方便时可以来店里看看实物。"
+   },
+   {
+    "time": "2026-10-30 18:40",
+    "role": "client",
+    "text": "今天拿到了，岩灰色很好看，谢谢安然"
+   }
+  ],
+  "products": []
+ },
+ "expect": "生日祝福，可提通勤或工地细节，不推荐",
+ "edge": null
+}

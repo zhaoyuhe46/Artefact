@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和无折扣表述准确，但客户已明确预算两万以内，却仍提议继续讲解这款的使用细节，等于绕回原款，没有说明预算内暂无合适款式，不符合预期行为。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 2,
+   "personalization": 3,
+   "appropriateness": 1,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "在客户明确超预算后仍为24,800元的价格辩护，是变相劝说原款，「不能少」语气生硬，也没有告知预算内无匹配款；产品事实本身（粒面牛皮、拉链、13英寸）是对的。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "如实说明两万内暂无符合通勤用途的款式，不推卡夹，不暗示折扣，只留下「有合适新款再告诉您」一个轻量的后续，符合预期；开头复述价格略显多余。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具提示与 C 条符合预期行为；A、B 都没有如实说明预算内暂无匹配款，且仍在围绕原款说服，C 明显最好。三条都认可超预算，差异主要在是否绕回原款。",
+ "case_id": "TC-43",
+ "scenario": "price_objection",
+ "status": "generated"
+}

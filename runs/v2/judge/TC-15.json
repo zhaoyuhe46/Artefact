@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「是我没留意到您的意思」承担了责任，语气克制，也没有推销。但「之前的信息发得不合适」没有说清是哪类信息，也没有承诺今后不再发，边界感稍弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "道歉后明确承诺「不会再主动给您发这类信息」，直接回应了客户停止营销的要求，没有产品内容，可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「使用或售后上的问题您随时联系我」保留了服务渠道，也尊重了边界。但这句话多了一层服务引导，在纯致歉的场合略显多余，不过没有营销意味。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具按预期把推荐场景改成三条致歉，没有产品内容，也没有违反停止营销的要求。三条的区别主要在是否承诺不再打扰和是否保留服务渠道，差异不算大。",
+ "case_id": "TC-15",
+ "scenario": "recommendation",
+ "status": "generated"
+}

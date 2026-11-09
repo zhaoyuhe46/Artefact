@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应「没有折扣」，再简短邀约茶叙，克制清晰；但没有用客户的通勤需求，价格回应偏干，「让您失望了」略重，时间地点TBD需补全后才能发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先如实回应价格，再用「带拉链、能放13英寸电脑的通勤包」这一真实需求自然过渡，个性化最好；但整句偏长，茶叙与通勤需求的关联较弱，TBD需补全。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「现场可以看看包款和拉链结构」资料中没有，属于推测的活动内容；「留个位」带有轻微催促，对刚议价的新客偏急；「让价给不了」措辞生硬。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先回应了价格再带出活动，时间地点按预期写TBD并有提示补全。B最贴合客户需求；C编造了活动内容并带有催促感。三条结构相近，差异主要在个性化和邀约力度上。",
+ "case_id": "TC-38",
+ "scenario": "event",
+ "status": "generated"
+}

@@ -1,0 +1,381 @@
+{
+ "case_id": "TC-40",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "recent_complaint": true,
+  "missing_event_fields": []
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "吴先生，拉链更换的报价我还没拿到，今天再跟店里确认后回您。11月21日周六15:00-17:00，三里屯店有出行收纳小聚，讲短途出行的收纳整理。",
+   "rationale": "先回应客户在等的报价，如实说明需再核实；活动只写资料内的内容、时间、地点，不涉及产品名。",
+   "refs": [
+    "EVT:TRAVEL-1121",
+    "C:C07"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "72字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "吴先生，拉链更换的报价我这边还没拿到，今天再跟店里确认后回您。另外11月21日周六15:00-17:00，三里屯店有场出行收纳小聚，会讲短途出行的收纳整理，也能看到「远行」旅行袋和「随行」收纳包实物。",
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "吴先生，拉链的报价我还在等店里的确认，有结果就发您。您平时收纳随身小物比较多，11月21日周六下午三里屯店有个出行收纳小聚，会讲短途出行怎么收纳整理，我想到您可能会感兴趣。",
+   "rationale": "承接报价待确认，用资料里的收纳习惯作为邀请理由，不编造兴趣。",
+   "refs": [
+    "H:3",
+    "H:4",
+    "C:C07",
+    "EVT:TRAVEL-1121"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "86字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "吴先生，拉链报价我还没拿到，核实后回您。11月21日周六15:00-17:00三里屯店有出行收纳小聚，现场会分享短途出行的收纳整理方法。",
+   "rationale": "先回应报价，再只描述现场能了解到什么，让客户自行判断，不引用资料外的产品。",
+   "refs": [
+    "EVT:TRAVEL-1121",
+    "C:C07"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "68字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true,
+   "previous_text": "吴先生，拉链报价的具体数字我还没拿到，核实后马上回您。11月21日周六15:00-17:00三里屯店有出行收纳小聚，现场能看「远行」旅行袋和「随行」收纳包的实物，也会分享短途出行的收纳方法，您可以看是否感兴趣。",
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.28"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": false,
+   "detail": "0.60"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.24"
+  }
+ ],
+ "ca_note": [
+  "客户近期有不满记录，三条都不含推荐。",
+  "活动在11月21日，距今近两周，可发；发送前务必确认「随行」收纳包拉链的更换报价，不要把活动说成补偿或优惠。",
+  "以下检查仍未通过，请 CA 人工确认：R8 差异度 A-C"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "EVT:TRAVEL-1121",
+    "text": "活动：出行收纳小聚；时间：2026-11-21（周六） 15:00-17:00；地点：序隅北京三里屯店；内容：分享短途出行时的收纳与整理方法，现场可以看「远行」旅行袋与「随行」收纳包的实物"
+   }
+  ],
+  "rag_query": "活动邀约；行吧；收纳随身小物；实用；收纳包拉链开合不顺，已送店评估",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.579,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "score": 0.503,
+    "text": "通用·拉链：通用的拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "BB:8.7",
+    "score": 0.388,
+    "text": "明确禁止：**未经授权的承诺**：「一定明天到」「我保证免费换新」「偷偷送您礼品」。"
+   },
+   {
+    "ref": "BB:8.8",
+    "score": 0.384,
+    "text": "明确禁止：**纠缠式跟进**：连续追问「考虑好了吗」，或客户明确拒绝后继续营销。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "吴先生",
+  "client_waiting": true,
+  "reply_to": "行吧",
+  "usable_hooks": [
+   "收纳包拉链开合不顺，已送店评估 [C:C07]",
+   "评估结果需更换拉链、报价待确认 [H:3]",
+   "偏好实用风格、栗棕，收纳随身小物 [C:C07]"
+  ],
+  "do_not_mention": [
+   "生日",
+   "VIP",
+   "报价金额",
+   "换新承诺"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 8.9,
+  "calls": [
+   [
+    "generate",
+    4.94
+   ],
+   [
+    "repair",
+    2.09
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-40",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:TRAVEL-1121"
+  },
+  "client": {
+   "id": "C07",
+   "address": "吴先生",
+   "relationship": "常客",
+   "since": "2024-01",
+   "preferences": {
+    "uses": [
+     "收纳随身小物"
+    ],
+    "style": "实用",
+    "colors": [
+     "栗棕"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "收纳包拉链开合不顺，已送店评估",
+   "purchases": [
+    {
+     "date": "2025-08-15",
+     "sku": "XY-S02",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-11"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "recent_complaint",
+     "date": "2026-10-20",
+     "note": "收纳包拉链评估等待时间较长，客户表达不满"
+    }
+   ],
+   "ref": "C:C07"
+  },
+  "history": [
+   {
+    "time": "2026-10-20 12:05",
+    "role": "client",
+    "text": "送去评估都一周了还没消息，有点失望"
+   },
+   {
+    "time": "2026-10-20 12:20",
+    "role": "ca",
+    "text": "吴先生，抱歉让您久等，我今天去跟进，有结果第一时间告诉您。"
+   },
+   {
+    "time": "2026-10-22 17:00",
+    "role": "ca",
+    "text": "吴先生，评估结果出来了，拉链需要更换，具体报价我稍后发您确认。"
+   },
+   {
+    "time": "2026-10-22 17:30",
+    "role": "client",
+    "text": "行吧"
+   }
+  ],
+  "products": []
+ },
+ "expect": "不邀约或先处理投诉，ca_note 说明",
+ "edge": "近期投诉"
+}

@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短真挚，提到京都行程但不推销；「到时候再说就好」略像复述客户原话，且「上次说」时间稍模糊，整体可发。",
+   "comment_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用了十月旅行袋的细节，个性化较强，但「京都的事不急」放在开头生日祝福前显得突兀，「跑了不少路」是推断，且回扣产品略带营销感，需调整顺序。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「家人安康」呼应京都带家人出行，但措辞偏套话、「谨祝」过于正式；「随时联系我」略带邀约，生日当天重点不够干净。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是生日祝福加京都提及，没有推荐产品，符合预期；结构和内容相近，差异度一般。A 最自然，B 顺序需调整，C 偏程式化。",
+ "case_id": "TC-02",
+ "scenario": "birthday",
+ "status": "generated"
+}

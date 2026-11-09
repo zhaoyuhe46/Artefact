@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「远行」旅行袋与客户10月提到的使用感受相呼应，一个问题，语气克制；「用了一段时间」略泛，未体现快一年，也没有触及清洁提醒这一预期目的。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护要点与资料 GRAIN-01、GRAIN-02 一致，没有问题；但内容偏通用，没有结合客户的出差或用了快一年的情况，也没提免费清洁，没有达到预期的提醒目的，且没有互动的钩子。",
+   "personalization_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确提醒「远行」仍在12个月免费基础清洁期内，并自然衔接十二月出行，没有承诺具体时段；不过「十二月出行」引用客户去京都的计划，工具提示只作背景，略有越界，且「远行」购买于2025-12-10，距到期不到一个月，缺少具体截止时间会让提醒不够明确。",
+   "personalization_note": null
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条目的清晰不同（问感受、养护、服务提醒），均未触碰过期的「随行」免费清洁，也无越权承诺。C 最贴合预期行为，但可更明确说明期限在十二月上旬；A、B 未提及免费清洁，对预期目的的覆盖较弱。",
+ "case_id": "TC-19",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

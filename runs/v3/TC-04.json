@@ -1,0 +1,363 @@
+{
+ "case_id": "TC-04",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": true
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短真挚",
+   "text": "赵女士，生日快乐。愿您这一年过得顺心，也有从容的时间留给自己。",
+   "rationale": "干净的一句祝福，无产品、无问句，符合客户不要营销的要求。",
+   "refs": [
+    "C:C05",
+    "BB:6.1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "31字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "结合个人细节",
+   "text": "赵女士，今天是您的生日，祝您生日快乐。愿忙碌的会面之余，也常有一些安静自在的时刻属于您。",
+   "rationale": "只从偏好里取「工作会面」这一中性线索，带出被记得的感觉，不涉及购买与私事。",
+   "refs": [
+    "C:C05",
+    "BB:6.1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "44字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "礼貌得体",
+   "text": "赵女士，今天是您的生日，特意向您道一声祝福。祝您身体安好，工作与生活都按自己的节奏往前走。",
+   "rationale": "语气更正式、有敬意但不书面化，贴合与常客保持的分寸感。",
+   "refs": [
+    "C:C05",
+    "BB:6.1"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "45字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.10"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.04"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.11"
+  }
+ ],
+ "ca_note": [
+  "客户此前明确要求停止新品与活动信息，三条均为纯祝福、不附推荐，建议今天单条发出即可，不必追问回复。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-B03",
+    "text": "「隅」翻盖手袋（XY-B03，手袋）：统一售价28,800元；光面牛皮，翻盖锁扣，可手提及肩背；主要用途：工作会面、日常与晚间场合；客户于2024-09-20购买，颜色墨黑"
+   }
+  ],
+  "rag_query": "生日与节日祝福；以后新品和活动就别发给我了，有需要我会找你；工作会面；简洁；2026 年 8 月明确表示不想再收到新品和活动信息",
+  "rag": [
+   {
+    "ref": "BB:6.1",
+    "score": 0.505,
+    "text": "生日与节日祝福：场景「生日与节日祝福」。沟通重点：祝福本身成立，不附带购买要求。可以说：「林女士，生日快乐。愿您新的一岁，有喜欢的事可做，也有自在的时间留给自己。」。不该说：「生日快乐！今天买包有仪式感，来店里看看吧。」"
+   },
+   {
+    "ref": "BB:8.7",
+    "score": 0.411,
+    "text": "明确禁止：**未经授权的承诺**：「一定明天到」「我保证免费换新」「偷偷送您礼品」。"
+   },
+   {
+    "ref": "BB:8.8",
+    "score": 0.385,
+    "text": "明确禁止：**纠缠式跟进**：连续追问「考虑好了吗」，或客户明确拒绝后继续营销。"
+   },
+   {
+    "ref": "BB:8.6",
+    "score": 0.368,
+    "text": "明确禁止：**暴露敏感信息**：「听说您最近离婚了」「知道您升职加薪了」。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "赵女士",
+  "client_waiting": false,
+  "usable_hooks": [],
+  "do_not_mention": [
+   "新品活动",
+   "购买记录",
+   "会员消费",
+   "邀约到店"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 7.7,
+  "calls": [
+   [
+    "generate",
+    3.94
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-04",
+  "today": "2027-03-08",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {},
+  "client": {
+   "id": "C05",
+   "address": "赵女士",
+   "relationship": "常客",
+   "since": "2023-02",
+   "preferences": {
+    "uses": [
+     "工作会面"
+    ],
+    "style": "简洁",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "不要主动推送",
+    "no_marketing": true
+   },
+   "no_marketing": true,
+   "notes": "2026 年 8 月明确表示不想再收到新品和活动信息",
+   "purchases": [
+    {
+     "date": "2024-09-20",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "03-08"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C05"
+  },
+  "history": [
+   {
+    "time": "2026-08-02 19:40",
+    "role": "client",
+    "text": "以后新品和活动就别发给我了，有需要我会找你"
+   },
+   {
+    "time": "2026-08-02 19:45",
+    "role": "ca",
+    "text": "好的赵女士，明白了，有需要随时找我。"
+   }
+  ],
+  "products": []
+ },
+ "expect": "停止营销客户仍可收到生日祝福，不得附带任何推荐或活动",
+ "edge": null
+}

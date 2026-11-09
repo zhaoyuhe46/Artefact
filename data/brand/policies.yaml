@@ -1,0 +1,9 @@
+# 价格与服务政策（来源：Brand_Book.md 第四节）
+policies:
+  - {id: POL:PRICE-UNIFIED, title: 统一定价, text: 客户经理没有自行打折、抹零或承诺额外赠品的权限}
+  - {id: POL:PRICE-OPEN, title: 价格透明, text: 主动回答价格问题；客户提出预算限制时，可以征得同意后推荐预算内产品}
+  - {id: POL:FIT-USE, title: 尊重用途, text: 较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品}
+  - {id: POL:STOCK, title: 库存核实, text: 现货、调货、预留和交期以最新确认信息为准，未核实不承诺}
+  - {id: POL:CARE, title: 养护服务, text: 购买后12个月内，可预约一次免费基础清洁；污损修复和换件需先评估、报价}
+  - {id: POL:PROMISE, title: 承诺边界, text: 不能自行承诺永久保修、免费修复所有损伤、退款或换货结果}
+  - {id: POL:CONTACT, title: 联系偏好, text: 客户明确要求停止营销联系后，停止主动营销；客户主动提出的服务问题仍正常处理}

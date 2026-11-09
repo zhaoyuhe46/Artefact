@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「没有会员价」「统一定价」「28,800元」都与资料一致，也没有贬低免税渠道。「免税店的型号与渠道我这边不掌握」说得诚实。但「没有会员价，……也没有额外折扣」略显生硬，结尾「您更在意整体预算吗？」问法偏含糊，也没有征得同意再谈预算内推荐。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与材质、翻盖锁扣、手提及肩背的说明都与资料一致，「工作会面用得上」呼应客户的用途偏好，没有编造信息。语气自然克制，只有一个问题，可直接发送。美中不足是没有正面回应免税店比价，只用「统一定价」带过。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "没有说出价格，也没有回应免税店比价，对价格异议的回应不够。「若这款超出您的考虑范围，我先不劝」暗示客户预算不足，有些冒犯，也没有按资料先询问预算。邀请到店看实物有一定价值，但与「预算或下一步」的策略只部分吻合，发送前需要修改。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都没有越权承诺折扣或赠品，也没有提京都行程，符合工具提示。A 和 B 都说明了统一定价，B 最贴合客户用途，质量最好。C 缺少价格和比价回应，还暗示客户预算不足。三条的开头与「统一定价」的说法比较接近，差异主要在结尾，所以差异度一般。",
+ "case_id": "TC-45",
+ "scenario": "price_objection",
+ "status": "generated"
+}

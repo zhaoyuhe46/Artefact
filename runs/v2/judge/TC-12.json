@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "复述了客户的出差和两天衣物需求，产品事实与价格都对。但「想装两天衣物」之后接「用途是否对得上」，容易让客户以为这款能装下，而容量并无资料，也没说明需核实；结尾问「是否对得上」略显笼统。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "场景化讲了双向拉链的好处，产品事实正确。但「路上要反复取东西的话」是CA自己假设的用法，客户没提过；也没回应客户「装两天衣物」的核心需求，容量没提，也没有任何问题或下一步。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "只推荐一款，事实全部来自目录，主动承认容量要先核实，没有编造，「不着急」语气克制自然，是最稳妥可直接发送的一条；对客户的出差细节引用较少。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都只推「远行」一款，没有编造容量、颜色和库存，也没有越权。C 最稳妥，直接回应了容量未知这一点；A 和 B 没提容量需核实，容易让客户误以为已满足需求。三条在切入角度（需求对应、使用场景、轻量下一步）上有区分，但产品事实相同，差异主要在表达。",
+ "case_id": "TC-12",
+ "scenario": "recommendation",
+ "status": "generated"
+}

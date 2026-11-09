@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "信息清晰、一个目的，但「报名方式」资料未提供，属于未经核实的承诺；「我记着」需CA确认是否真有记录；个性化仅限京都一句。",
+   "_note": ""
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "个性化最强，引用了旅行袋与京都带家人，但缺少具体时间15:00-17:00，也没有回应「到时候再说」，结尾没有明确邀约或问题，「想着您可能用得上」略含推测。",
+   "_note": ""
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动事实最完整，实物与内容均有依据，但「我不催」显得刻意，「您看要不要来」语气偏直接，略有推动感，需要润色。",
+   "_note": ""
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都围绕同一活动，结构相近，差异主要在信息量与语气。均无硬性违规。A有未核实的「报名方式」，B缺少时间且无明确行动，C事实最全但语气需调整。工具提示仍有一项检查未通过，需要CA人工确认。",
+ "case_id": "TC-35",
+ "scenario": "event",
+ "status": "generated"
+}

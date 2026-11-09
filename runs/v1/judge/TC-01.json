@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，回应了客户感谢并祝福生日，不推销；「看到您说」略口语，「放心了」稍微偏弱，个性化仅限岩灰色。",
+   "_note": ""
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用了岩灰和拉链袋细节，但「上次您提过喜欢拉链袋」指的是「序」托特的内部拉链袋，而客户新购的是XY-B02，是否同款并无资料佐证，「用着顺手就好」有隐含推测；且句子偏长，需人工确认（工具也提示B未通过检查）。「忙碌里也有从容」未用到工地等细节，但尚可。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "得体但偏模板化、官方腔（「谨祝」「诸事顺遂」「我们很欣慰」），个性化仅限岩灰色，缺少顾问的亲近感。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是生日祝福，没有推荐或施压，符合预期；差异主要在语气和是否带细节，结构相近。B最有个性化但存在把拉链袋偏好与新购款式混同的风险，需人工核对；A最稳妥易发。",
+ "case_id": "TC-01",
+ "scenario": "birthday",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先说「价格这边是统一的」，正面回应了议价，也没有承诺折扣。但紧接着说「先帮您核实有无其他政策」，会让客户误以为可能有优惠，前后矛盾，需要改。后半句复述了客户的需求和产品事实，对应准确。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「这个价我暂时没法降」直接回应了价格，不越权。但「暂时」和「可帮您再核实」留了降价的余地，容易让人误以为有折扣。产品事实准确，也贴合通勤场景，但会重复上一条消息已经说过的内容。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「我核实后回复您」暗示价格可能有调整，但统一定价下 CA 没有这个权限，容易误导客户。「方便时到店看实物」略带推动，对刚表达价格顾虑的客户不太合适，句末「您需要再说」也偏生硬。产品事实没有错。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "三条都回应了议价，也没有新推荐其他产品，这点符合预期。但三条都以「核实其他政策」为由留下了降价的空间，这与统一定价、CA 无权打折的规则不符，工具自己的提示也承认「其他政策」尚未核实。更合适的做法是直接说明价格统一、无法调整，再对应客户的通勤需求讲一点产品价值。三条的结构和内容也很接近，差异度有限。",
+ "case_id": "TC-50",
+ "scenario": "recommendation",
+ "status": "generated"
+}

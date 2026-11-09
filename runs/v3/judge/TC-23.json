@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「用着是否顺手」是纯关怀，没有推荐和活动，用了真实的工作会面用途，语气自然。不过客户8月说过有需要会自己找来，这里主动发问略有打扰，但仍在购后服务范围内。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与资料一致（光面易留指纹、干软布轻拭），属于服务性信息，没有营销。「墨黑光面牛皮」对应客户购买的颜色，有个性化。结尾「养护上有想确认的，随时问我」略显模板化。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「别自己用清洁剂处理」「先联系我安排评估」与资料一致，没有提免费清洁。但整条是假设性提醒，语气偏指令式，客户没有污渍需求时显得突兀，有点像售后通知。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都遵守了停止营销的要求，没有推荐、活动，也没有提免费清洁，事实与资料一致。差异主要在关怀角度（询问、养护、评估），但都是低强度的服务性沟通，结构相似。B 最贴合「照常关怀」的预期，A 次之，C 偏提醒。",
+ "case_id": "TC-23",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

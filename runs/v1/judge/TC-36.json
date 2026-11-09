@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料完全一致，邀约不施压；致歉略重，且未用到周末偏好和栗棕等信息，个性化一般。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确回扣客户说过的轻便、手机钥匙需求，语气温和不施压；「这句我一直记着」略显刻意，「看看包型」暗示现场有包可看，资料未证实，「下午」较含糊，结尾提出的是发时间而非确认是否来，略偏弱。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "事实准确、语气克制，但只提「肩包的事」，个性化浅；没有任何邀请或下一步，也未点明周六，略显平淡。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条均无否决项，事实与活动资料一致，对沉睡客户不施压，利用了周六活动。差异主要在个性化程度，结构相近（致歉或回顾＋活动信息），差异度中等；B 个性化最好，但「看看包型」略超出资料。",
+ "case_id": "TC-36",
+ "scenario": "event",
+ "status": "generated"
+}

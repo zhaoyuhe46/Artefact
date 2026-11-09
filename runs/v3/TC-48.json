@@ -1,0 +1,399 @@
+{
+ "case_id": "TC-48",
+ "scenario": "price_objection",
+ "mode": "price_objection",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "bereavement_days": 15
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "政策",
+   "text": "孙女士，「随行」拉链收纳包统一售价6,800元，没有额外折扣。价格上我这边确实没有余地，其他细节您想了解，我随时说清楚。",
+   "rationale": "先直接答价并说明统一定价，不暗示让价空间，语气克制。",
+   "refs": [
+    "P:XY-S02",
+    "POL:PRICE-UNIFIED"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "60字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "用途",
+   "text": "孙女士，「随行」收纳包售价6,800元，统一定价。它是粒面牛皮、拉链闭合，内设小口袋，用来收纳随身小物或旅行整理。您主要看重哪一点？",
+   "rationale": "把价格对应到具体的材质与用途事实上，便于客户自己判断。",
+   "refs": [
+    "P:XY-S02",
+    "POL:PRICE-UNIFIED"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "66字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "预算或下一步",
+   "text": "孙女士，「随行」收纳包售价6,800元，统一售价，没有额外折扣。不急着定也没关系，您方便时再说，我不打扰。",
+   "rationale": "在尊重客户当下状态的前提下给低压力下一步，不问预算、不推荐。",
+   "refs": [
+    "P:XY-S02",
+    "POL:PRICE-UNIFIED"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "53字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.13"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.24"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.17"
+  }
+ ],
+ "ca_note": [
+  "客户近期家中有人离世，本次只回应客户主动提出的问题。",
+  "客户近期家中有人离世，三条均只答价格与政策、不邀约不问预算；A、C 条较短，若客户追问可再补材质用途，但别主动展开产品推荐。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-S02",
+  "facts": [
+   {
+    "ref": "P:XY-S02",
+    "text": "「随行」拉链收纳包（XY-S02，小皮具）：统一售价6,800元；粒面牛皮，拉链闭合，内设小口袋；主要用途：收纳随身小物、旅行整理"
+   },
+   {
+    "ref": "POL:PRICE-UNIFIED",
+    "text": "统一定价：客户经理没有自行打折、抹零或承诺额外赠品的权限"
+   },
+   {
+    "ref": "POL:PRICE-OPEN",
+    "text": "价格透明：主动回答价格问题；客户提出预算限制时，可以征得同意后推荐预算内产品"
+   },
+   {
+    "ref": "POL:FIT-USE",
+    "text": "尊重用途：较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品"
+   },
+   {
+    "ref": "DER:NO-BUDGET",
+    "text": "客户尚未说明具体预算；如需按预算推荐，先征得同意并询问预算"
+   }
+  ],
+  "rag_query": "价格异议；「随行」收纳包现在多少钱？能少一点吗；日常搭配；低调；购买过「弧」小号肩包",
+  "rag": [
+   {
+    "ref": "BB:7",
+    "score": 0.568,
+    "text": "价格异议三条完整候选：测试输入：客户之前在找带拉链、能放13英寸电脑的通勤包。了解到「序」中号托特售价后，回复：「24,800有点贵，能便宜一点吗？」\n\n- **候选1｜直接回应折扣**：「理解，这个价格确实需要考虑。「序」中号目前统一售价24,800元，没有额外折扣。如果您愿意，我可以再把您关心的使用细节说清楚，方便您判断。」\n- **候选2｜围绕使用需求**：「这款售价24,800元，实行统一定价。您之前在意的拉链闭合和13英寸电脑收纳，它都符合。您还想比较容量、背法，还是其他方面？」\n- **候选3｜围绕预算选择**：「明白，预算需要合适。这款目前没有额外折扣。如果您希望控制总价，我可以按您的预算再找符合通勤需求的款式；暂时没有合适的，也可以先等等。」\n\n三条候选分别侧重政策、用途和预算，事实与权限保持一致。不能为了让三个版本显得不同，分别编出折扣、赠品或库存承诺。"
+   },
+   {
+    "ref": "BB:6.6",
+    "score": 0.564,
+    "text": "价格异议：场景「价格异议」。沟通重点：正面回应价格，说明政策，了解客户顾虑。可以说：「理解，这个价格需要认真考虑。「序」目前统一售价24,800元。您更在意整体预算，还是想比较它与其他款式的差别？」。不该说：「都买这个档次了，就别纠结价格了。」"
+   },
+   {
+    "ref": "BB:3",
+    "score": 0.513,
+    "text": "定价逻辑：价格均为人民币含税标价。\n\n\n价格结构：\n\n- **¥3,800–¥6,800**：小皮具，满足轻量购买和礼赠需求。\n- **¥18,800–¥28,800**：品牌核心手袋。\n- **¥38,800**：旅行皮具，满足更明确的出行用途。\n\n定价逻辑围绕设计、材料、制作与服务展开。客户经理解释价格时，必须对应具体产品事实，不能只说「品牌价值」或「身份象征」。\n\n库存、重量、产地、交期、限量数量等未列出的信息，必须另行提供并核实后才能使用。"
+   },
+   {
+    "ref": "POL:FIT-USE",
+    "score": 0.433,
+    "text": "尊重用途：政策「尊重用途」：较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品"
+   },
+   {
+    "ref": "BB:5.6",
+    "score": 0.404,
+    "text": "解释价格政策：沟通原则「解释价格政策」。应该这样说：「这款目前统一售价为24,800元。」；应避免：「您真心要的话，我帮您找店长。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "孙女士",
+  "client_waiting": true,
+  "reply_to": "「随行」收纳包现在多少钱？能少一点吗",
+  "usable_hooks": [],
+  "do_not_mention": [
+   "老人离世",
+   "生日",
+   "邀约到店",
+   "预算询问",
+   "岩灰偏好"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.0,
+  "calls": [
+   [
+    "generate",
+    3.09
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-48",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "price_objection",
+  "scenario_context": {},
+  "client": {
+   "id": "C06",
+   "address": "孙女士",
+   "relationship": "常客",
+   "since": "2023-09",
+   "preferences": {
+    "uses": [
+     "日常搭配"
+    ],
+    "style": "低调",
+    "colors": [
+     "岩灰"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "购买过「弧」小号肩包",
+   "purchases": [
+    {
+     "date": "2025-11-02",
+     "sku": "XY-B01",
+     "color": "岩灰",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-15"
+    }
+   ],
+   "sensitivities": [
+    {
+     "type": "bereavement",
+     "date": "2026-10-25",
+     "note": "客户告知家中长辈离世"
+    }
+   ],
+   "ref": "C:C06"
+  },
+  "history": [
+   {
+    "time": "2026-10-25 22:10",
+    "role": "client",
+    "text": "最近家里老人走了，暂时顾不上这些，过阵子再说吧"
+   },
+   {
+    "time": "2026-10-25 22:30",
+    "role": "ca",
+    "text": "孙女士，节哀，您先照顾好自己和家人。"
+   },
+   {
+    "time": "2026-11-09 12:00",
+    "role": "client",
+    "text": "「随行」收纳包现在多少钱？能少一点吗"
+   }
+  ],
+  "products": []
+ },
+ "expect": "克制地回答价格与政策，不推荐、不邀约",
+ "edge": "离世 15 天、客户主动来问"
+}

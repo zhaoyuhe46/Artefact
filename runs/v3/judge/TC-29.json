@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气克制，「不必特意回复，需要时找我就好」符合客户「有事再联系即可」的偏好；但只有季节问候，没有用到客户的通勤和岩灰托特等真实信息，也没有以养护或清洁为由头，与预期行为不符。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 2,
+   "personalization": 2,
+   "appropriateness": 1,
+   "factuality": 3,
+   "sendable": 1,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户已在2026-10-30购买这只托特，却写「目前仍在售」并报价24,800元，像在向她推荐已买过的包，既不合时宜又暴露记录失误；客户已购买，不应再用找包的旧需求做由头。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确引用购买日期和12个月免费基础清洁，与资料完全一致，贴合预期的清洁养护由头，不催促；小瑕疵是「帮您安排」略主动，也没有提及通勤或岩灰等个人细节，且未提截止时间也合理。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "A和C语气都得体，C最贴合预期的清洁养护由头；B把已购产品当作新品推荐，是明显的上下文错误，三条的差异主要来自目的不同，但B质量拖累整体。",
+ "case_id": "TC-29",
+ "scenario": "reactivation",
+ "status": "generated"
+}

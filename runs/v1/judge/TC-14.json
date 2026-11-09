@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应超预算，价格准确，并承诺核实预算内款式；但「核实后回复您」是给CA的占位提示，发送前需确认可选产品，否则容易变成空头承诺。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "事实准确，但客户已说超预算，仍再次介绍这款托特，有变相推销的嫌疑，回应预算不够干脆；「供您参考」略生硬，且同样有待核实的占位。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制、不施压，可直接发送；但仍围绕超预算的款式发资料，没有回应预算内的选择，也没提通勤放电脑的需求，对客户帮助有限。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先承认超预算且价格无误，没有越权承诺，也没有把卡夹当通勤包推荐。A 最贴近预期，直接回应预算和电脑需求；B、C 仍绕回超预算款。A、B 含「核实后回复」的占位，发送前需确认；三条在「先核实预算内款式」上差异不大。",
+ "case_id": "TC-14",
+ "scenario": "recommendation",
+ "status": "generated"
+}

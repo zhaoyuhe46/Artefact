@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "自我介绍加纯问候，符合预期，没有编造需求，也没有施压。「想问候一下您近况」略套话，「祝您一切顺利」偏泛，但可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确引用了栗棕「折页」卡夹这一真实购买记录，也没有提免费清洁。但开场就带出多年前的购买，略有「翻旧账」感，与预期的纯问候相比稍有偏离；「日常打理我可以随时帮您看看」对应养护咨询服务，事实一致。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，但没有确认客户所在城市就邀请到上海静安店，对沉睡客户首次触达偏突兀；离活动只有5天，也缺少与客户已有需求的关联。需要先核实城市后才能发，否则应改约养护咨询。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都以自我介绍开头，没有编造「您说过」，也没有提免费清洁。A 最贴合预期的纯问候；B 较自然地带出真实购买记录和养护服务；C 受城市条件限制，需要 CA 先确认。三条差异主要在第二句，整体结构相近。",
+ "case_id": "TC-27",
+ "scenario": "reactivation",
+ "status": "generated"
+}

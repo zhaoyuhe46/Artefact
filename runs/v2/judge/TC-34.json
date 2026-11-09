@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间地点准确，语气克制，只有一个邀请，没有抬高身份。但「我提前留个位置」资料中没有留位的依据，属于未经证实的承诺，需要确认或删改；「包用得勤」也只是泛泛的推测。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "时间地点准确，产品事实（13寸电脑、拉链）与资料一致。但「您上次说」是在复述客户的需求，客户刚买到包，再提「用下来应该也顺手」略显多余，像在回头确认。结尾「您看是否方便来」偏口语，前半段与活动的衔接也较弱。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动内容描述与资料一致，并贴合客户常带包去工地的备注，相关性最强，也没有留位之类的承诺。缺点是结尾「可能有用的」语句不完整，且没有明确的询问，发送前需要修一下。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都避开了生日，时间地点准确，没有抬高身份，整体处理符合预期。但三条的结构接近，都是「时间地点＋活动内容＋邀请」，差异主要在个性化切入点。A 的留位承诺缺乏依据，C 最贴合客户的实际使用场景，但结尾需要补成一个完整的询问。",
+ "case_id": "TC-34",
+ "scenario": "event",
+ "status": "generated"
+}

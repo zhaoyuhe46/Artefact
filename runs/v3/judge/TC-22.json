@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉克制，也没有推销或承诺免费；但「费用以评估报价为准」没有给出报价，也没有说明何时给，距上次说「稍后发报价」已18天，客户仍要继续等，跟进感偏弱。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "直接承认报价拖久了并给出下一步，「请您看过再定要不要换」尊重客户决定；但「今天再去确认」「拿到后第一时间发您」属于时间承诺，与提示「别再承诺时间」有冲突，且发送前需先确认能否兑现。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉态度诚恳，但没有提报价，也没有具体下一步；「实在抱歉」「不会让您再反复来问」偏空泛，又承诺了全程负责，客户仍不知道报价何时能拿到。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确把场景改为致歉与跟进，三条都没有推荐产品、没有提生日、没有承诺免费，也没有违规。差异主要在跟进的具体程度：B 最有行动，但带时间承诺；A 和 C 都缺少实质进展。三条都需要CA先确认报价再发送，差异度中等。",
+ "case_id": "TC-22",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

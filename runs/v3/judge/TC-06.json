@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制、没有编造，「吃块月饼、看看月亮」稍有画面感但不越界；客户资料极少，个性化低是合理的，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「上个月您来过店里一次，那天没多聊」把内部备注写成客户经历，还加了「没多聊」这个无依据的细节，略越界；到店时间与资料（2027-08）大致吻合，不算严重编造，但建议删去后再发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「感谢您对序隅的关注」得体又不编造；「和家人」是通用祝福，没有假设具体事实，语气温和克制，可直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是没有营销的节日问候，符合信息极少新客的预期；工具已提示B越界风险，处理合适。三条结构相近，差异主要在是否提到到店，差异度中等。",
+ "case_id": "TC-06",
+ "scenario": "birthday",
+ "status": "generated"
+}

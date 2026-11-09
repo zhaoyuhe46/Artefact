@@ -1,0 +1,386 @@
+{
+ "case_id": "TC-09",
+ "scenario": "recommendation",
+ "mode": "recommendation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "需求对应",
+   "text": "王先生，您十二月带家人去京都，如果除了旅行袋还想带一只会面也能用的包，「隅」翻盖手袋可手提及肩背，光面牛皮，售价28,800元。",
+   "rationale": "从客户提过的出行与工作会面需求，对应到「隅」的手提/肩背与用途事实。",
+   "refs": [
+    "C:C04",
+    "H:1",
+    "P:XY-B03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "64字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "使用场景",
+   "text": "王先生，京都那几天白天出门、晚上吃饭，旅行袋可能偏大。「隅」翻盖手袋可手提及肩背，光面牛皮翻盖锁扣，应付会面和晚间场合够用，28,800元。",
+   "rationale": "以客户自己说过的京都出行为场景，说明「隅」在会面与晚间场合的使用方式。",
+   "refs": [
+    "C:C04",
+    "P:XY-B03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "70字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "轻量下一步",
+   "text": "王先生，之前说的京都行快到日子了。「隅」翻盖手袋售价28,800元，可手提及肩背，适合会面与晚间。尺寸和内部布局我核实后发您，您先看看。",
+   "rationale": "低压力下一步：主动提出核实尺寸与内部布局再发，不催促、不预留。",
+   "refs": [
+    "C:C04",
+    "H:2",
+    "P:XY-B03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "68字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.28"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.21"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.19"
+  }
+ ],
+ "ca_note": [
+  "三条都只推「隅」一款，客户买过的旅行袋与收纳件不再提。11月20日是客户生日，本次消息不宜顺带提生日，可另按祝福场景单独发。若客户问颜色或库存，需先核实再回。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-B03",
+    "text": "「隅」翻盖手袋（XY-B03，手袋）：统一售价28,800元；光面牛皮，翻盖锁扣，可手提及肩背；主要用途：工作会面、日常与晚间场合"
+   }
+  ],
+  "rag_query": "产品推荐；好，到时候再说；短途旅行、工作会面；实用；经常出差；上次说十二月要带家人去京都过几天",
+  "rag": [
+   {
+    "ref": "BB:6.2",
+    "score": 0.508,
+    "text": "产品推荐：场景「产品推荐」。沟通重点：用客户明确表达的需求连接具体产品。可以说：「您上次提到想找一只带拉链、能放13英寸电脑的通勤包。「序」中号托特符合这两点，售价24,800元。您想先看看内部布局吗？」。不该说：「这款特别符合您的身份，我已经替您留好了。」"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.399,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   },
+   {
+    "ref": "BB:5.3",
+    "score": 0.381,
+    "text": "尊重考虑时间：沟通原则「尊重考虑时间」。应该这样说：「您可以先考虑，有需要我再补充细节。」；应避免：「今天不买一定会后悔。」"
+   },
+   {
+    "ref": "BB:R1",
+    "score": 0.364,
+    "text": "修订：**字数**：所有场景硬约束 10–80 字；活动邀约放宽到 10–100 字。不堆叠不必要的辞藻。（取代第五节原先建议的 40–100 字。）"
+   },
+   {
+    "ref": "BB:R3",
+    "score": 0.363,
+    "text": "修订：**停止营销**：客户明确要求停止营销联系时，产品推荐、活动邀约、沉睡客户唤醒三个场景不按原场景生成，改为三条发给客户的简短致歉，尊重客户边界，不含任何营销内容。生日与节日祝福、购后关怀、价格异议照常生成。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "王先生",
+  "client_waiting": false,
+  "usable_hooks": [
+   "十二月要带家人去京都过几天（C:C04 notes，H:2 已提过）",
+   "旅行袋用了快一年，还挺能装（H:1）",
+   "偏好墨黑、实用风格（C:C04 preferences）"
+  ],
+  "do_not_mention": [
+   "生日",
+   "消费金额",
+   "京都具体行程",
+   "库存与颜色"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.6,
+  "calls": [
+   [
+    "generate",
+    2.55
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-09",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "recommendation",
+  "scenario_context": {},
+  "client": {
+   "id": "C04",
+   "address": "王先生",
+   "relationship": "重要客户",
+   "since": "2022-11",
+   "preferences": {
+    "uses": [
+     "短途旅行",
+     "工作会面"
+    ],
+    "style": "实用",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "不限",
+    "frequency": "可以定期联系",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "经常出差；上次说十二月要带家人去京都过几天",
+   "purchases": [
+    {
+     "date": "2025-05-03",
+     "sku": "XY-S02",
+     "color": "墨黑",
+     "note": "出差收纳"
+    },
+    {
+     "date": "2025-12-10",
+     "sku": "XY-T01",
+     "color": "墨黑",
+     "note": "短途出行"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-20"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C04"
+  },
+  "history": [
+   {
+    "time": "2026-10-15 09:12",
+    "role": "client",
+    "text": "旅行袋用了快一年了，还挺能装的"
+   },
+   {
+    "time": "2026-10-15 09:20",
+    "role": "ca",
+    "text": "王先生，用得顺手就好。十二月去京都的话，有需要整理收纳的地方随时问我。"
+   },
+   {
+    "time": "2026-10-15 09:25",
+    "role": "client",
+    "text": "好，到时候再说"
+   }
+  ],
+  "products": []
+ },
+ "expect": "从工作会面或京都出行切入，推荐一款未购买过的产品",
+ "edge": null
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「通勤用着顺手吗」一问回应了客户的正面反馈，「拉链开合、收电脑」与客户之前找带拉链、能放13英寸电脑通勤包的需求对应，且与产品事实一致；末句略带泛泛，但整体可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「干燥软布轻拭表面灰尘」与 CARE:GRAIN-01 一致，零问收尾压力小；但「放在桌面或抽屉里也够」是资料外的延伸，对包的存放方式有些随意，且没有提到防尘袋等存放建议，个性化也偏弱。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁的12个月内权益属实，但客户刚收到包第二天，就提清洁预约偏早、显得像服务推销；「我帮您安排」没有先确认门店可约时段，略有承诺过头，也没回应客户「挺好的」的反馈。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都是轻收尾，没有推荐新品，也没有施压或越权承诺。A 最贴合客户的通勤与电脑需求；B 是可用的养护建议，但有一句资料外的随意说法；C 时机偏早，且预约承诺未先核实。三条策略区分清晰，差异度较好。",
+ "case_id": "TC-20",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

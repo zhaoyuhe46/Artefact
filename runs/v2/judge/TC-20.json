@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应「挺好的」，再用一个问题问通勤使用感受，并点到拉链和内袋，与产品事实（拉链闭合、内设拉链袋）一致；唯一小瑕疵是句末「随时跟我说」略带第二个邀请，且「收到您这句就放心了」略显口语。",
+   "容": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与资料一致（干软布轻拭、沾水按干后阴凉自然晾干），贴合通勤场景；小问题是「按干后放阴凉处」表述略含糊，漏了「干软布」，且「墨黑粒面牛皮」的颜色提法虽然属实但略显刻意。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁的事实准确，也没有承诺具体日期；但客户刚收到包仅一天，就提醒清洁服务显得偏早、偏服务导向，对「挺好的」的回应也较敷衍。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条分别为问感受、养护建议、服务提醒，策略区分清楚，均未推荐新品、未越权，符合预期行为；A、B 最贴合预期，C 时机偏早。",
+ "case_id": "TC-20",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

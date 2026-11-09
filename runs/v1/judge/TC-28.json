@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯问候基本得体，但「忙项目」是由职业推测出来的，客户并未提过项目；「我就放心了」略显刻意；也没有按预期以养护或活动为由头；且工具提示说三条都先回应客户最后一句，这里只是回顾，并未真正承接。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "承接客户问过光面和粒面区别的真实历史，单一问题、简短，符合预期；小瑕疵是「整理了一份说明」暗示已有现成资料，而资料库只有养护建议服务，需确认真有此文档。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "12个月内免费基础清洁与购买日期（2026-09-01）及资料一致，简短有分寸、无问句；「您那只『隅』」略口语，但无压力；与预期一致，可直接发。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条目的清晰不同：问候、资料、服务提醒。B、C最贴合预期，C事实最稳；A最弱，含推测性的「忙项目」，且与预期的养护或活动由头有距离。",
+ "case_id": "TC-28",
+ "scenario": "reactivation",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确统一定价、无折扣，语气克制，与资料一致；「理解您会这样问」略客套，结尾提议说明皮面和肩带细节不算贴合，个性化较弱，但整体可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与无折扣表述正确，也呼应了客户问过粒面和光面。但「相对不易留细痕」资料中没有这一表述，属于推断；客户只问折扣，回答内容偏多，还要二选一提问，需要人工核实后修改。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "定价和无折扣表述正确，征得同意后询问预算符合 DER:NO-BUDGET；用到了客户的工作会面、晚间场合偏好。但客户没有提预算限制，直接引导降价款有些越过客户意图，且长句稍多。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价、不打折的底线，没有越权承诺。A最稳妥、最简短；B有个性化，但「不易留细痕」没有资料依据，需要核实；C用预算问题做转向，略显主动。客户偏好消息简短，三条都稍长，A最接近预期。",
+ "case_id": "TC-46",
+ "scenario": "price_objection",
+ "status": "generated"
+}

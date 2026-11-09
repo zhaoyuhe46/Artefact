@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "短而克制，没有任何营销内容。但「之前的信息打扰到您」没有说明具体是什么，也没有说明之后会怎么做，客户读完只收到一句抱歉，没有明确的边界承诺。另外「是我没把握好分寸」把责任揽得偏重，稍显过度自责。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉、确认边界、「您需要时联系我就好」三者齐全，与客户 8 月「有需要我会找你」的原话一致，语气自然有分寸，且没有提问和营销，可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉和边界确认都到位。但「若包袋使用上有任何问题，随时找我，我会照常处理」是在这条边界确认里额外加了售后话题，有轻微借机维系的意味，「照常处理」也略像承诺；以包袋使用为例也只是推测，没有资料支撑。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具遵守了停止营销要求，三条都改成致歉和边界确认，没有活动或产品信息，处理符合预期。三条差别主要在信息量：A 只致歉，B 加边界确认，C 再加服务渠道，结构相近，差异度一般。B 最稳妥；A 偏单薄；C 的售后提示略超出本次只做边界确认的目的。",
+ "case_id": "TC-39",
+ "scenario": "event",
+ "status": "generated"
+}

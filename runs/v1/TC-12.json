@@ -1,0 +1,341 @@
+{
+ "case_id": "TC-12",
+ "scenario": "recommendation",
+ "mode": "recommendation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "需求对应",
+   "text": "罗先生，您提到成都三天、要能装两天衣物。对应的是「远行」旅行袋，粒面牛皮，双向拉链，配可拆卸肩带，售价38,800元。这个方向符合您的需求吗？",
+   "rationale": "从客户明说的短途出行与装两天衣物出发，只对应到一款与两三个产品事实。",
+   "refs": [
+    "P:XY-T01",
+    "BB:5.2"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "71字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "使用场景",
+   "text": "罗先生，成都三天出差，衣物和随身物品装在一只包里会更省事。「远行」旅行袋是旅行皮具，双向拉链开合，肩带可拆卸，手提或肩背都行，售价38,800元。",
+   "rationale": "以客户自己说的出差场景切入，描述开合与肩带在旅途中的实际用法。",
+   "refs": [
+    "P:XY-T01",
+    "BB:5.2"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "73字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "轻量下一步",
+   "text": "罗先生，短途出行这款「远行」旅行袋可以看看，售价38,800元。您方便的话，我把肩带和内部的具体情况再整理给您，您先参考。",
+   "rationale": "给一个可拒绝的下一步：整理肩带与内部资料，不催到店、不承诺库存。",
+   "refs": [
+    "P:XY-T01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "61字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.23"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.13"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.13"
+  }
+ ],
+ "ca_note": [
+  "客户已等待三天回复，优先发出。A 用预算前置说明价格较高，建议先确认客户价格预期；「远行」目前墨黑是否有货、内部布局与重量均未提供，需另行核实后再答。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-T01",
+    "text": "「远行」旅行袋（XY-T01，旅行皮具）：统一售价38,800元；粒面牛皮，双向拉链，可拆卸肩带；主要用途：短途旅行"
+   }
+  ],
+  "rag_query": "产品推荐；下个月去成都出差三天，有没有适合短途出行的包；短途旅行；实用；下个月去成都出差三天，想找能装两天衣物的包",
+  "rag": [
+   {
+    "ref": "BB:6.2",
+    "score": 0.532,
+    "text": "产品推荐：场景「产品推荐」。沟通重点：用客户明确表达的需求连接具体产品。可以说：「您上次提到想找一只带拉链、能放13英寸电脑的通勤包。「序」中号托特符合这两点，售价24,800元。您想先看看内部布局吗？」。不该说：「这款特别符合您的身份，我已经替您留好了。」"
+   },
+   {
+    "ref": "POL:FIT-USE",
+    "score": 0.395,
+    "text": "尊重用途：政策「尊重用途」：较低价产品仍需符合客户需求，不能把卡夹当作通勤包的替代品"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.382,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:3",
+    "score": 0.376,
+    "text": "定价逻辑：价格均为人民币含税标价。\n\n\n价格结构：\n\n- **¥3,800–¥6,800**：小皮具，满足轻量购买和礼赠需求。\n- **¥18,800–¥28,800**：品牌核心手袋。\n- **¥38,800**：旅行皮具，满足更明确的出行用途。\n\n定价逻辑围绕设计、材料、制作与服务展开。客户经理解释价格时，必须对应具体产品事实，不能只说「品牌价值」或「身份象征」。\n\n库存、重量、产地、交期、限量数量等未列出的信息，必须另行提供并核实后才能使用。"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.33,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "罗先生",
+  "client_waiting": true,
+  "reply_to": "下个月去成都出差三天，有没有适合短途出行的包",
+  "usable_hooks": [
+   "下个月去成都出差三天（客户资料 notes / H:1）",
+   "想找能装两天衣物的包（客户资料 notes）",
+   "偏好墨黑、实用风格（客户资料 preferences）"
+  ],
+  "do_not_mention": [
+   "墨黑是否有货",
+   "库存",
+   "交期",
+   "折扣",
+   "会员等级",
+   "消费金额"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.7,
+  "calls": [
+   [
+    "generate",
+    4.27
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-12",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "recommendation",
+  "scenario_context": {},
+  "client": {
+   "address": "罗先生",
+   "relationship": "新客",
+   "since": "2026-11",
+   "preferences": {
+    "colors": [
+     "墨黑"
+    ],
+    "style": "实用",
+    "uses": [
+     "短途旅行"
+    ]
+   },
+   "notes": "下个月去成都出差三天，想找能装两天衣物的包",
+   "ref": "INPUT:client",
+   "contact_prefs": {},
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "budget": null
+  },
+  "history": [
+   {
+    "time": "2026-11-06 19:30",
+    "role": "client",
+    "text": "下个月去成都出差三天，有没有适合短途出行的包"
+   },
+   {
+    "time": "2026-11-06 19:40",
+    "role": "ca",
+    "text": "罗先生您好，我整理一下适合短途出行的款式再发您。"
+   }
+  ],
+  "products": []
+ },
+ "expect": "推荐「远行」旅行袋，事实来自目录（双向拉链、可拆卸肩带），不编造容量",
+ "edge": null
+}

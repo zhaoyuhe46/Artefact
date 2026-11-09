@@ -1,0 +1,14 @@
+# 养护建议（虚构，由 Claude 整理，待 Joey 审核）
+# 原则：只写日常打理方法；不写「防水」「不会磨损」等夸大说法；不确定的情况引导到评估服务
+care:
+  - {id: CARE:GRAIN-01, material: 粒面牛皮, topic: 日常清洁, advice: 日常用干燥的软布轻拭表面灰尘即可}
+  - {id: CARE:GRAIN-02, material: 粒面牛皮, topic: 水渍, advice: 沾到水时先用干软布轻按吸干，放在阴凉通风处自然晾干，避免吹风机或暴晒}
+  - {id: CARE:GRAIN-03, material: 粒面牛皮, topic: 存放, advice: 不用时在包内放些填充物保持包型，装进防尘袋，放在通风干燥处}
+  - {id: CARE:GRAIN-04, material: 粒面牛皮, topic: 染色, advice: 尽量避免长时间与深色牛仔等易掉色衣物摩擦}
+  - {id: CARE:SMOOTH-01, material: 光面牛皮, topic: 日常清洁, advice: 光面较容易留下指纹和细小痕迹，用后用干软布轻拭即可}
+  - {id: CARE:SMOOTH-02, material: 光面牛皮, topic: 划痕, advice: 尽量避免与钥匙等尖锐硬物放在同一隔层}
+  - {id: CARE:SMOOTH-03, material: 光面牛皮, topic: 水渍, advice: 遇水后尽快用干软布轻按吸干，自然阴干，不要用力擦拭}
+  - {id: CARE:SMOOTH-04, material: 光面牛皮, topic: 存放, advice: 存放时内部放填充物，翻盖自然合上， 装进防尘袋}
+  - {id: CARE:GEN-01, material: 通用, topic: 五金, advice: 五金尽量避免接触香水、护手霜，用后可用干布擦拭}
+  - {id: CARE:GEN-02, material: 通用, topic: 污渍, advice: 遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估}
+  - {id: CARE:GEN-03, material: 通用, topic: 拉链, advice: 拉链开合不顺时不要用力拉扯，可以带到店里检查}

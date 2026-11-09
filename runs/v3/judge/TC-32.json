@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「入冬了，天气凉，您和家人多保重」克制得体，不提产品和请求，未直接提丧亲，分寸合适；个性化较弱，但这个场景下可以接受。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「想知道您和家人还顺心」带有探问，隐含让客户回应近况，与「不带请求」的预期有偏差；「没什么打扰您」表述生硬，「顺心」对刚丧亲的客户也不够贴切，需要修改。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「这条不用回」明确免除客户回复的压力，最贴合预期；但「我这边一切正常」多余，「您有空再说」又暗留了后续话题，需要删减。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都没有涉及产品、活动或服务，也没有提消费记录，没有触发否决项；工具按丧亲后续模式处理，符合预期。三条都是简短问候，差异主要在语气和是否免回复，C 最稳妥，A 最干净，B 带探问略有偏差。",
+ "case_id": "TC-32",
+ "scenario": "reactivation",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "只回应价格并说明统一定价，没有附带推荐，符合停止营销要求；「这点如实跟您说」略显生硬，可再自然一些。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和产品事实均准确，也结合了客户的工作用途；但「我可以再讲细些」是在价格异议后主动延伸产品介绍，略有推销感，对已明确拒绝营销的客户不够克制，不过尚未构成新品或活动推荐。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "在客户明确要求停止营销后，仍主动提出按预算推荐款式；虽有征询语气，但工具提示明确要求今日勿附带推荐，只能在客户同意后再谈，违背本场景预期；「能便宜这个问题我如实说」表达也不顺。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都如实说明统一定价且没有越权承诺。A 最稳妥；B 略有延伸；C 在客户要求停止营销后仍提出推荐，与预期行为不符，建议 CA 选 A。工具本身按 price_objection 模式生成并附带了正确提示，处理基本合格。",
+ "case_id": "TC-47",
+ "scenario": "price_objection",
+ "status": "generated"
+}

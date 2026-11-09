@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "问使用感受并结合通勤、拉链和13英寸电脑，贴合客户需求且无编造；但开头复述客户「看到您说包收到了」略生硬，「顺手吗」后又加邀请提问，目的略散，发前宜微调。",
+   "diversity_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与资料完全一致且没有扩大承诺；但开头「收到您的消息就好」生硬，没有真正回应客户的「挺好」，且客户没问养护，内容偏通用，个性化弱。",
+   "diversity_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁12个月内一次与资料一致；但刚收到包两天就提醒清洁显得过早，开头「收到您的消息」冷淡，没有回应「挺好」，像服务通知而非关怀。",
+   "diversity_note": null
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都无违规，事实均与资料一致，且没有推荐新品；A最贴合预期（回应正面反馈并问使用感受），B符合养护建议但略泛，C时机偏早。三条开头都偏生硬，没有真正回应客户说的「挺好」。",
+ "case_id": "TC-20",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

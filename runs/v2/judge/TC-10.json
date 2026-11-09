@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「找通勤包时说希望带拉链」确有对话依据，但客户已于10月30日买到包，再提找包的需求有些过时；收纳包与拉链的关联也牵强，不像在回应客户当前需要，且没有用上工地、电脑这些更贴切的信息。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「常带电脑去工地和甲方会议」直接对应预期场景，产品事实和价格6,800元准确；「先收好再放进大包」是合理的使用建议，未编造资料。小瑕疵是提到客户的工作细节略显直白，且「包里东西多时」是对客户状态的推测。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「方便时我把资料核实后发您」暗示要补发资料，但工具提示没有图片和尺寸，该承诺不一定能兑现，也有「核实」这种内部动作外露的问题，必须修改后才能发；整体偏弱，也比较被动。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都只用了资料里有的产品事实，价格一致，没有越权或虚构，也没有借生日营销。B 最贴合预期的工地和电脑场景，A 的依据已过时，C 的后续承诺不稳妥。三条结构相近，都是点名加产品加价格，差异度一般。",
+ "case_id": "TC-10",
+ "scenario": "recommendation",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「这个价位的手袋我暂时没有可对应的款式」是资料里没有的断言，等于说两万内没有款，与「核实后」自相矛盾，还可能误导客户；需要改写后才能发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应超预算，再点出客户要的「能放13寸电脑的通勤包」，并提出在两万内再核对，没有编造，也没有施压；「您说得对」略显附和，但整体可以直接发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和「拉链闭合、可放13寸电脑」都与资料一致，只提一个轻量的下一步；但重复介绍客户已经看过的款，对预算问题没有额外帮助，略显多余。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先回应了超预算，也没有把卡夹当通勤包推荐，也没有提库存或预留。B 最贴合客户需求，C 事实最稳，A 有无款的断言，需要修改。三条结构接近，都是先确认价格再提出核实，差异度一般。",
+ "case_id": "TC-14",
+ "scenario": "recommendation",
+ "status": "generated"
+}

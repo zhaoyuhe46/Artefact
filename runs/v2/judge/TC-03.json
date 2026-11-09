@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，符合客户偏好消息简短；「手头的设计」只隐含了职业，个性化较弱，但没有编造，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用了客户真实的室内设计师身份和对材质的兴趣，自然不生硬，没有营销，长度适中，几乎可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「感谢您这一年里的信任与交流」得体，但略偏正式模板；「设计与生活各自有序」稍显书面，句子偏长，不如前两条贴合简短偏好。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都是无营销的元旦祝福，没有越界或编造；差异主要在个性化程度和语气正式度，结构相近，差异度中等。场景选了birthday但实际按元旦处理，符合预期。",
+ "case_id": "TC-03",
+ "scenario": "birthday",
+ "status": "generated"
+}

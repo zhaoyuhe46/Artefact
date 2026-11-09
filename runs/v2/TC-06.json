@@ -1,0 +1,317 @@
+{
+ "case_id": "TC-06",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短真挚",
+   "text": "冯女士，中秋快乐。愿这个节日里，您有时间好好吃顿饭，也有心情好好歇一歇。",
+   "rationale": "纯祝福，带称呼、给明确祝愿，不提产品、不问问题，短到不打扰。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "36字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "结合个人细节",
+   "text": "冯女士，中秋快乐。上个月您来店里看过小皮具，希望那天留下的印象是舒服的。愿您这个节过得松快些。",
+   "rationale": "用备注里「到店看过一次小皮具」这个真实细节，把祝福落在被记得上，不引申购买。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "47字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "礼貌得体",
+   "text": "冯女士，中秋快乐。认识您不久，借这个节日向您问安。愿您和家人这几天吃得踏实、休息得充分。",
+   "rationale": "对新客用「您」和稍正式的问安语，礼数到位但不堆套话，也不涉产品。",
+   "refs": [],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "44字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.08"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.11"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.09"
+  }
+ ],
+ "ca_note": [
+  "中秋为 2027-09-15 当天，今天发正合适；B 条涉及到店经历，如客户对那次到店有明确不满则改发 A 条。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [],
+  "rag_query": "生日与节日祝福；到店看过一次小皮具",
+  "rag": [
+   {
+    "ref": "BB:6.1",
+    "score": 0.579,
+    "text": "生日与节日祝福：场景「生日与节日祝福」。沟通重点：祝福本身成立，不附带购买要求。可以说：「林女士，生日快乐。愿您新的一岁，有喜欢的事可做，也有自在的时间留给自己。」。不该说：「生日快乐！今天买包有仪式感，来店里看看吧。」"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.31,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.305,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   },
+   {
+    "ref": "BB:5",
+    "score": 0.29,
+    "text": "客户经理角色与语气：角色定位：**熟悉客户偏好、能把产品说清楚、尊重客户决定的专业顾问。**\n\n微信语气要自然、温和、有分寸。使用客户认可的称呼；关系尚不熟悉时默认使用「您」。\n\n每条消息一个主要目的、最多一个问题，尽量让客户容易理解和回复。节日祝福可以没有问题，也不必邀请到店。（字数规则见文末修订。）"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "冯女士",
+  "client_waiting": false,
+  "usable_hooks": [
+   "到店看过一次小皮具（notes）"
+  ],
+  "do_not_mention": [
+   "购买",
+   "到店邀请",
+   "会员",
+   "消费金额",
+   "新客身份"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 6.4,
+  "calls": [
+   [
+    "generate",
+    4.41
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-06",
+  "today": "2027-09-15",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {
+   "festival": "中秋"
+  },
+  "client": {
+   "address": "冯女士",
+   "relationship": "新客",
+   "since": "2027-08",
+   "notes": "到店看过一次小皮具",
+   "ref": "INPUT:client",
+   "preferences": {},
+   "contact_prefs": {},
+   "purchases": [],
+   "key_dates": [],
+   "sensitivities": [],
+   "budget": null
+  },
+  "history": [],
+  "products": []
+ },
+ "expect": "信息极少的新客，用礼貌得体的节日问候，不编造细节",
+ "edge": null
+}

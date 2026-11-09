@@ -1,0 +1,428 @@
+{
+ "case_id": "TC-19",
+ "scenario": "post_purchase",
+ "mode": "post_purchase",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "问使用感受",
+   "text": "王先生，好，那到时候您再说。先问一句，「远行」旅行袋最近出差用着还顺手吗？有收纳上的问题随时找我。",
+   "rationale": "先回应客户「到时候再说」，再把话题落回最近一次购买的旅行袋使用体验，只问一句。",
+   "refs": [
+    "H:1",
+    "H:3",
+    "P:XY-T01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "49字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "养护建议",
+   "text": "王先生，好，到时候再说。「远行」这类粒面牛皮日常用干软布轻拭灰尘就行，不用时包内放些填充物保持包型，装进防尘袋通风干燥处存放。",
+   "rationale": "回应后给一条资料内的养护做法，与旅行袋粒面牛皮对应，不需要客户回复。",
+   "refs": [
+    "H:3",
+    "P:XY-T01",
+    "CARE:GRAIN-01",
+    "CARE:GRAIN-03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "63字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "服务提醒",
+   "text": "王先生，好，到时候再说。「远行」旅行袋还在购买后12个月内，可预约一次免费基础清洁，十二月出门前想安排的话我来帮您问时间。",
+   "rationale": "回应后提醒与旅行袋相关的售后权益，并贴合十二月出行，只留一个可答复的邀请。",
+   "refs": [
+    "H:3",
+    "P:XY-T01",
+    "SVC:CLEAN-12M",
+    "DER:CLEAN-XY-T01",
+    "C:C04"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "61字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.05"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.09"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.08"
+  }
+ ],
+ "ca_note": [
+  "客户上一条已表态「到时候再说」，三条都先做简短回应；C 中免费清洁的可预约档期资料未给，若客户问起需核实后再回。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-T01",
+  "facts": [
+   {
+    "ref": "P:XY-S02",
+    "text": "「随行」拉链收纳包（XY-S02，小皮具）：统一售价6,800元；粒面牛皮，拉链闭合，内设小口袋；主要用途：收纳随身小物、旅行整理；客户于2025-05-03购买，颜色墨黑"
+   },
+   {
+    "ref": "P:XY-T01",
+    "text": "「远行」旅行袋（XY-T01，旅行皮具）：统一售价38,800元；粒面牛皮，双向拉链，可拆卸肩带；主要用途：短途旅行；客户于2025-12-10购买，颜色墨黑"
+   },
+   {
+    "ref": "CARE:GRAIN-01",
+    "text": "粒面牛皮·日常清洁：日常用干燥的软布轻拭表面灰尘即可"
+   },
+   {
+    "ref": "CARE:GRAIN-02",
+    "text": "粒面牛皮·水渍：沾到水时先用干软布轻按吸干，放在阴凉通风处自然晾干，避免吹风机或暴晒"
+   },
+   {
+    "ref": "CARE:GRAIN-03",
+    "text": "粒面牛皮·存放：不用时在包内放些填充物保持包型，装进防尘袋，放在通风干燥处"
+   },
+   {
+    "ref": "CARE:GRAIN-04",
+    "text": "粒面牛皮·染色：尽量避免长时间与深色牛仔等易掉色衣物摩擦"
+   },
+   {
+    "ref": "CARE:GEN-01",
+    "text": "通用·五金：五金尽量避免接触香水、护手霜，用后可用干布擦拭"
+   },
+   {
+    "ref": "CARE:GEN-02",
+    "text": "通用·污渍：遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "text": "通用·拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:CLEAN-12M",
+    "text": "免费基础清洁：购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   },
+   {
+    "ref": "DER:CLEAN-XY-T01",
+    "text": "客户于2025-12-10购买「远行」旅行袋，目前仍在购买后12个月内，可预约一次免费基础清洁"
+   }
+  ],
+  "rag_query": "购后关怀；好，到时候再说；短途旅行、工作会面；实用；经常出差；上次说十二月要带家人去京都过几天",
+  "rag": [
+   {
+    "ref": "BB:6.3",
+    "score": 0.475,
+    "text": "购后关怀：场景「购后关怀」。沟通重点：确认体验，提供与所购物品有关的帮助。可以说：「林女士，想问问这几天「序」托特用得是否顺手？如果收纳或日常养护上有疑问，随时发我。」。不该说：「包应该收到了吧？顺便再给您推荐个卡夹。」"
+   },
+   {
+    "ref": "BB:5.3",
+    "score": 0.42,
+    "text": "尊重考虑时间：沟通原则「尊重考虑时间」。应该这样说：「您可以先考虑，有需要我再补充细节。」；应避免：「今天不买一定会后悔。」"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.403,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   },
+   {
+    "ref": "BB:5.4",
+    "score": 0.332,
+    "text": "保持专业亲近：沟通原则「保持专业亲近」。应该这样说：「上次您比较喜欢岩灰色。」；应避免：未建立关系就称呼「宝子」「亲爱的」「姐」"
+   },
+   {
+    "ref": "BB:R1",
+    "score": 0.328,
+    "text": "修订：**字数**：所有场景硬约束 10–80 字；活动邀约放宽到 10–100 字。不堆叠不必要的辞藻。（取代第五节原先建议的 40–100 字。）"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "王先生",
+  "client_waiting": true,
+  "reply_to": "好，到时候再说",
+  "usable_hooks": [
+   "2026-10-15 客户说旅行袋用了快一年还挺能装（H:1）",
+   "2025-12-10 购买「远行」旅行袋，墨黑（P:XY-T01）",
+   "2025-05-03 购买「随行」拉链收纳包，用于出差收纳（P:XY-S02）",
+   "十二月要带家人去京都（C:C04 notes）"
+  ],
+  "do_not_mention": [
+   "京都行程细节",
+   "生日",
+   "消费金额",
+   "会员等级",
+   "新品推荐",
+   "折扣赠品",
+   "免费修复换新"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 7.6,
+  "calls": [
+   [
+    "generate",
+    5.68
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-19",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "post_purchase",
+  "scenario_context": {},
+  "client": {
+   "id": "C04",
+   "address": "王先生",
+   "relationship": "重要客户",
+   "since": "2022-11",
+   "preferences": {
+    "uses": [
+     "短途旅行",
+     "工作会面"
+    ],
+    "style": "实用",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "不限",
+    "frequency": "可以定期联系",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "经常出差；上次说十二月要带家人去京都过几天",
+   "purchases": [
+    {
+     "date": "2025-05-03",
+     "sku": "XY-S02",
+     "color": "墨黑",
+     "note": "出差收纳"
+    },
+    {
+     "date": "2025-12-10",
+     "sku": "XY-T01",
+     "color": "墨黑",
+     "note": "短途出行"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-20"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C04"
+  },
+  "history": [
+   {
+    "time": "2026-10-15 09:12",
+    "role": "client",
+    "text": "旅行袋用了快一年了，还挺能装的"
+   },
+   {
+    "time": "2026-10-15 09:20",
+    "role": "ca",
+    "text": "王先生，用得顺手就好。十二月去京都的话，有需要整理收纳的地方随时问我。"
+   },
+   {
+    "time": "2026-10-15 09:25",
+    "role": "client",
+    "text": "好，到时候再说"
+   }
+  ],
+  "products": []
+ },
+ "expect": "旅行袋用了快一年，提醒仍在 12 个月免费基础清洁期内",
+ "edge": null
+}

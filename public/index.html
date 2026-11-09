@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>序隅话术工作台</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%2710%27 fill=%27%231856FF%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27%3E序%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ---------- tokens ---------- */
+:root{
+  --primary:#1856FF; --primary-ink:#ffffff; --primary-soft:rgba(24,86,255,.10);
+  --secondary:#3A344E; --success:#07A85A; --warning:#B8611F; --danger:#D61C3B;
+  --text:#141414; --muted:#545A66; --line:rgba(20,20,20,.08);
+  --bg:#EEF2FB; --blob1:rgba(24,86,255,.30); --blob2:rgba(170,120,255,.26); --blob3:rgba(255,170,120,.22);
+  --glass:rgba(255,255,255,.58); --glass-strong:rgba(255,255,255,.78); --glass-border:rgba(255,255,255,.75);
+  --glass-hi:inset 0 1px 0 rgba(255,255,255,.9); --shadow:0 10px 40px rgba(36,52,110,.10);
+  --bubble-client:rgba(255,255,255,.82); --bubble-ca:#1856FF; --bubble-ca-ink:#fff;
+  --r-xl:28px; --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px;
+  --blur:saturate(180%) blur(24px);
+  --font:"Plus Jakarta Sans","PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --primary:#5B86FF; --primary-ink:#0B0F1E; --primary-soft:rgba(91,134,255,.16);
+    --success:#3DDC8C; --warning:#F0A86E; --danger:#FF6B82;
+    --text:#F2F3F7; --muted:#A9AFBE; --line:rgba(255,255,255,.08);
+    --bg:#0C1020; --blob1:rgba(24,86,255,.28); --blob2:rgba(140,90,255,.22); --blob3:rgba(255,140,90,.12);
+    --glass:rgba(28,33,52,.55); --glass-strong:rgba(32,38,60,.82); --glass-border:rgba(255,255,255,.10);
+    --glass-hi:inset 0 1px 0 rgba(255,255,255,.08); --shadow:0 10px 40px rgba(0,0,0,.35);
+    --bubble-client:rgba(40,46,70,.85); --bubble-ca:#3D6DFF; --bubble-ca-ink:#fff;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --primary:#5B86FF; --primary-ink:#0B0F1E; --primary-soft:rgba(91,134,255,.16);
+  --success:#3DDC8C; --warning:#F0A86E; --danger:#FF6B82;
+  --text:#F2F3F7; --muted:#A9AFBE; --line:rgba(255,255,255,.08);
+  --bg:#0C1020; --blob1:rgba(24,86,255,.28); --blob2:rgba(140,90,255,.22); --blob3:rgba(255,140,90,.12);
+  --glass:rgba(28,33,52,.55); --glass-strong:rgba(32,38,60,.82); --glass-border:rgba(255,255,255,.10);
+  --glass-hi:inset 0 1px 0 rgba(255,255,255,.08); --shadow:0 10px 40px rgba(0,0,0,.35);
+  --bubble-client:rgba(40,46,70,.85); --bubble-ca:#3D6DFF; --bubble-ca-ink:#fff;
+  color-scheme:dark;
+}
+
+/* ---------- base ---------- */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font:15px/1.6 var(--font);color:var(--text);background:var(--bg);overflow:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:-20%;z-index:-1;
+  background:radial-gradient(40% 40% at 15% 20%,var(--blob1),transparent 70%),
+             radial-gradient(35% 35% at 85% 15%,var(--blob2),transparent 70%),
+             radial-gradient(45% 45% at 70% 90%,var(--blob3),transparent 70%)}
+button,input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:var(--r-sm)}
+.glass{background:var(--glass);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);
+  border:1px solid var(--glass-border);box-shadow:var(--shadow),var(--glass-hi)}
+.muted{color:var(--muted)} .mono{font-family:var(--mono)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--glass-border);background:var(--glass-strong);
+  border-radius:999px;padding:8px 16px;cursor:pointer;font-weight:600;font-size:14px;transition:transform .12s,background .12s}
+.btn:hover{background:var(--primary-soft)}
+.btn:active{transform:scale(.97)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.primary{background:var(--primary);color:var(--primary-ink);border-color:transparent}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.danger{color:var(--danger)}
+.btn.icon{padding:8px;width:38px;height:38px;justify-content:center}
+.chip{border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px;font-weight:600;white-space:nowrap}
+.chip[aria-checked="true"]{background:var(--primary);color:var(--primary-ink);border-color:transparent}
+.tag{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px;background:var(--primary-soft);color:var(--primary)}
+.tag.warn{background:rgba(232,149,88,.16);color:var(--warning)}
+.tag.bad{background:rgba(234,33,67,.12);color:var(--danger)}
+.tag.ok{background:rgba(7,202,107,.14);color:var(--success)}
+
+/* ---------- layout ---------- */
+.app{display:grid;grid-template-columns:288px 1fr;gap:var(--s4);height:100vh;padding:var(--s4)}
+.side{border-radius:var(--r-xl);display:flex;flex-direction:column;overflow:hidden}
+.brand{padding:var(--s5) var(--s5) var(--s3);display:flex;align-items:center;justify-content:space-between}
+.brand b{font-size:18px;letter-spacing:.06em}
+.brand small{display:block;font-size:12px;color:var(--muted);letter-spacing:0}
+.clients{flex:1;overflow:auto;padding:0 var(--s3) var(--s3)}
+.client{display:flex;gap:var(--s3);align-items:center;width:100%;text-align:left;border:0;background:transparent;border-radius:var(--r-md);padding:10px;cursor:pointer}
+.client:hover{background:var(--primary-soft)}
+.client[aria-current="true"]{background:var(--glass-strong);box-shadow:var(--glass-hi)}
+.avatar{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-weight:700;background:linear-gradient(135deg,var(--primary),#8B6CFF);color:#fff}
+.client .meta{min-width:0;flex:1}
+.client .name{display:flex;align-items:center;justify-content:space-between;gap:6px;font-weight:600}
+.client .preview{display:block;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--warning);flex:none;margin-top:8px}
+.side-foot{padding:var(--s3) var(--s4) var(--s4);border-top:1px solid var(--line);display:flex;align-items:center;gap:var(--s2)}
+.side-foot label{font-size:12px;color:var(--muted)}
+.side-foot input{border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:var(--r-sm);padding:6px 8px;font-size:13px;flex:1;min-width:0}
+
+.main{display:flex;flex-direction:column;gap:var(--s3);min-width:0;min-height:0}
+.head{border-radius:var(--r-lg);padding:var(--s3) var(--s4);display:flex;align-items:center;gap:var(--s3)}
+.head h1{font-size:17px;margin:0}
+.head .facts{display:flex;gap:6px;flex-wrap:wrap;flex:1;min-width:0}
+.thread{flex:1;overflow:auto;padding:var(--s2) var(--s4);display:flex;flex-direction:column;gap:var(--s2)}
+.day{align-self:center;font-size:12px;color:var(--muted);padding:2px 12px;border-radius:999px;background:var(--glass);margin:var(--s3) 0 var(--s1)}
+.bubble{max-width:min(560px,78%);padding:10px 14px;border-radius:18px;white-space:pre-wrap;word-break:break-word;box-shadow:var(--glass-hi)}
+.bubble.client{align-self:flex-start;background:var(--bubble-client);border:1px solid var(--glass-border);border-bottom-left-radius:6px}
+.bubble.ca{align-self:flex-end;background:var(--bubble-ca);color:var(--bubble-ca-ink);border-bottom-right-radius:6px}
+.bubble time{display:block;font-size:11px;opacity:.65;margin-top:2px}
+.bubble.new{animation:pop .25s ease-out}
+@keyframes pop{from{transform:translateY(6px);opacity:0}to{transform:none;opacity:1}}
+
+.dock{border-radius:var(--r-xl);padding:var(--s3) var(--s4) var(--s4)}
+.seg{display:inline-flex;padding:3px;border-radius:999px;background:var(--glass-strong);border:1px solid var(--glass-border);margin-bottom:var(--s3)}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer;color:var(--muted)}
+.seg button[aria-selected="true"]{background:var(--primary);color:var(--primary-ink)}
+.compose{display:flex;gap:var(--s2);align-items:flex-end}
+.compose textarea,.editor textarea{flex:1;resize:none;border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:var(--r-md);padding:10px 14px;min-height:44px;max-height:140px;line-height:1.5}
+.scen{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.ca-row{display:flex;gap:var(--s2);align-items:center;flex-wrap:wrap;margin-top:var(--s2)}
+.ca-row select,.ca-row input{border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:999px;padding:7px 12px;font-size:13px;max-width:260px}
+.ca-row .grow{flex:1}
+.notes{display:flex;flex-direction:column;gap:6px;margin-top:var(--s3)}
+.note{font-size:13px;padding:8px 12px;border-radius:var(--r-md);background:rgba(232,149,88,.12);border:1px solid rgba(232,149,88,.25)}
+.cands{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s3);margin-top:var(--s3)}
+.cand{border-radius:var(--r-lg);padding:var(--s3) var(--s4);display:flex;flex-direction:column;gap:6px;cursor:pointer;text-align:left;border:1px solid var(--glass-border);background:var(--glass-strong);box-shadow:var(--glass-hi);transition:transform .12s,border-color .12s}
+.cand:hover{transform:translateY(-2px)}
+.cand[aria-pressed="true"]{border-color:var(--primary);box-shadow:0 0 0 2px var(--primary) inset}
+.cand .top{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.cand p{margin:0;font-size:15px}
+.cand small{font-size:12px;color:var(--muted)}
+.kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:6px;padding:0 6px;color:var(--muted)}
+.skel{height:120px;border-radius:var(--r-lg);background:linear-gradient(90deg,var(--glass) 0%,var(--glass-strong) 50%,var(--glass) 100%);background-size:200% 100%;animation:sh 1.2s linear infinite}
+@keyframes sh{to{background-position:-200% 0}}
+.editor{display:flex;gap:var(--s2);align-items:flex-end;margin-top:var(--s3)}
+details.why{margin-top:var(--s2);font-size:12px;color:var(--muted)}
+details.why pre{white-space:pre-wrap;font-family:var(--mono);font-size:11px;background:var(--glass);padding:var(--s2);border-radius:var(--r-sm);max-height:200px;overflow:auto}
+
+/* profile drawer */
+.drawer{position:fixed;top:var(--s4);right:var(--s4);bottom:var(--s4);width:340px;border-radius:var(--r-xl);padding:var(--s5);overflow:auto;transform:translateX(120%);transition:transform .25s ease;z-index:5;background:var(--glass-strong)}
+.drawer[data-open="true"]{transform:none}
+.drawer h2{font-size:16px;margin:0 0 var(--s3)}
+.kv{display:grid;grid-template-columns:72px 1fr;gap:6px var(--s3);font-size:13px}
+.kv dt{color:var(--muted)} .kv dd{margin:0}
+
+/* ---------- settings ---------- */
+.settings{display:none;height:100vh;padding:var(--s4);flex-direction:column;gap:var(--s3)}
+body[data-view="settings"] .app{display:none}
+body[data-view="settings"] .settings{display:flex}
+.sbar{border-radius:var(--r-lg);padding:var(--s3) var(--s4);display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap}
+.sbar h1{font-size:17px;margin:0}
+.tabs{display:flex;gap:6px;flex:1;overflow-x:auto;scrollbar-width:none}
+.sync{font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.sync::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--success)}
+.sync[data-s="saving"]::before{background:var(--warning)}
+.sync[data-s="error"]::before{background:var(--danger)}
+.sbody{flex:1;overflow:auto;display:grid;grid-template-columns:240px 1fr;gap:var(--s3);align-items:start}
+.sbody.full{grid-template-columns:1fr}
+.slist{border-radius:var(--r-lg);padding:var(--s2);position:sticky;top:0}
+.bento{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--s3)}
+.card{border-radius:var(--r-lg);padding:var(--s4);display:flex;flex-direction:column;gap:var(--s3)}
+.card.wide{grid-column:span 2}
+.card h3{margin:0;font-size:14px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:12px;font-weight:600;color:var(--muted)}
+.field input,.field textarea,.field select{border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:var(--r-sm);padding:8px 10px;font-size:14px;width:100%}
+.field textarea{resize:vertical;min-height:64px}
+.field .hint{font-size:11px;color:var(--muted)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:var(--s2)}
+.switch{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);font-size:14px}
+.switch input{width:40px;height:22px;appearance:none;border-radius:999px;background:var(--line);position:relative;cursor:pointer;transition:background .15s;border:1px solid var(--glass-border)}
+.switch input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .15s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.switch input:checked{background:var(--danger)}
+.switch input:checked::after{transform:translateX(18px)}
+.lrow{display:grid;grid-template-columns:120px 120px 1fr 32px;gap:6px;align-items:center}
+.lrow input,.lrow select{border:1px solid var(--glass-border);background:var(--glass-strong);border-radius:var(--r-sm);padding:6px 8px;font-size:13px;min-width:0}
+.empty{color:var(--muted);text-align:center;padding:var(--s6) 0;font-size:14px}
+
+@media (max-width: 900px){
+  body{overflow:auto}
+  .app{grid-template-columns:1fr;height:auto;min-height:100vh}
+  .side{max-height:none}
+  .clients{display:flex;overflow-x:auto;padding-bottom:var(--s3)}
+  .client{min-width:200px}
+  .main{min-height:80vh}
+  .cands{grid-template-columns:1fr}
+  .sbody{grid-template-columns:1fr}
+  .card.wide{grid-column:auto}
+  .drawer{width:auto;left:var(--s4)}
+  .lrow{grid-template-columns:1fr 1fr;}
+}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body data-view="chat">
+
+<!-- ================= 聊天 ================= -->
+<div class="app">
+  <aside class="side glass" aria-label="客户列表">
+    <div class="brand">
+      <div><b>序隅 XUYU</b><small>话术工作台 · 虚构品牌</small></div>
+      <button class="btn icon" id="toSettings" aria-label="打开设置" title="设置">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+      </button>
+    </div>
+    <div class="clients" id="clients" role="list"></div>
+    <div class="side-foot">
+      <label for="today">演示日期</label>
+      <input type="date" id="today" value="2026-11-09">
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="head glass">
+      <div class="avatar" id="hAvatar" aria-hidden="true">·</div>
+      <div style="min-width:0">
+        <h1 id="hName">加载中…</h1>
+        <div class="facts" id="hFacts"></div>
+      </div>
+      <span style="flex:1"></span>
+      <button class="btn" id="toggleProfile" aria-expanded="false" aria-controls="drawer">客户画像</button>
+    </header>
+
+    <section class="thread" id="thread" aria-live="polite" aria-label="对话记录"></section>
+
+    <section class="dock glass" aria-label="输入区">
+      <div class="seg" role="tablist" aria-label="输入身份">
+        <button role="tab" id="modeClient" aria-selected="false">以客户身份发消息</button>
+        <button role="tab" id="modeCA" aria-selected="true">CA 助手</button>
+      </div>
+
+      <div id="paneClient" hidden>
+        <div class="compose">
+          <label class="sr" for="clientMsg">客户消息</label>
+          <textarea id="clientMsg" rows="1" placeholder="模拟客户发来一条微信，例如：24,800有点贵，能便宜一点吗？"></textarea>
+          <button class="btn primary" id="sendClient">发送</button>
+        </div>
+      </div>
+
+      <div id="paneCA">
+        <div class="scen" role="radiogroup" aria-label="场景" id="scen"></div>
+        <div class="ca-row">
+          <select id="extra" aria-label="产品或活动"></select>
+          <input id="festival" placeholder="节日（留空按生日）" aria-label="节日" hidden>
+          <span class="grow"></span>
+          <span class="muted" style="font-size:12px"><span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> 选择 · <span class="kbd">⌘↵</span> 发送</span>
+          <button class="btn primary" id="gen">生成 3 条回复</button>
+        </div>
+        <div id="result"></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<aside class="drawer glass" id="drawer" data-open="false" aria-label="客户画像">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <h2 id="dName" style="margin:0">客户画像</h2>
+    <button class="btn icon" id="closeDrawer" aria-label="关闭客户画像">✕</button>
+  </div>
+  <dl class="kv" id="dBody"></dl>
+  <div style="margin-top:16px"><button class="btn" id="editProfile">编辑画像</button></div>
+</aside>
+
+<!-- ================= 设置 ================= -->
+<div class="settings">
+  <div class="sbar glass">
+    <button class="btn" id="back">← 返回对话</button>
+    <h1>设置</h1>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <span class="sync" id="sync" data-s="ok" role="status">已与数据库同步</span>
+  </div>
+  <div class="sbody" id="sbody"></div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SCEN = [["price_objection","价格异议"],["recommendation","产品推荐"],["post_purchase","购后关怀"],["birthday","生日节日"],["reactivation","沉睡唤醒"],["event","活动邀约"]];
+let META = null, CUR = null, SCENARIO = "price_objection", RES = null, SEL = null, TAB = "client", SCID = null;
+
+async function api(path, body){
+  const r = await fetch(path, body ? {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body)} : {cache:"no-store"});
+  const d = await r.json(); if(!r.ok || d.error) throw new Error(d.error || r.status); return d;
+}
+async function load(){ META = await api("/api/meta"); }
+const client = id => META.clients.find(c => c.id === (id || CUR));
+const today = () => $("#today").value || "2026-11-09";
+const nowTime = () => `${today()} ${new Date().toTimeString().slice(0,5)}`;
+
+/* ---------------- chat ---------------- */
+function renderClients(){
+  $("#clients").innerHTML = META.clients.map(c => {
+    const last = (c.history || []).at(-1);
+    const flag = c.no_marketing || (c.sensitivities || []).length;
+    return `<button class="client" role="listitem" data-id="${c.id}" aria-current="${c.id === CUR}">
+      <span class="avatar" aria-hidden="true">${esc(c.address[0])}</span>
+      <span class="meta"><span class="name"><span>${esc(c.address)}</span><span class="tag">${esc(c.relationship || "")}</span></span>
+      <span class="preview">${last ? (last.role === "ca" ? "我：" : "") + esc(last.text) : "暂无对话"}</span></span>
+      ${flag ? '<span class="dot" title="有需要注意的事项" aria-label="有需要注意的事项"></span>' : ""}</button>`;
+  }).join("");
+  document.querySelectorAll(".client").forEach(b => b.onclick = () => openClient(b.dataset.id));
+}
+
+function suggestScenario(c){
+  const h = c.history || [], last = h.at(-1);
+  if(last && last.role === "client" && /贵|便宜|折|价|预算|代购|免税/.test(last.text)) return "price_objection";
+  const md = today().slice(5);
+  if((c.key_dates || []).some(k => k.date === md)) return "birthday";
+  if(c.relationship === "沉睡") return "reactivation";
+  if((c.purchases || []).length && (new Date(today()) - new Date(c.purchases.at(-1).date)) / 864e5 < 30) return "post_purchase";
+  return "recommendation";
+}
+
+function openClient(id){
+  CUR = id; RES = null; SEL = null;
+  const c = client();
+  SCENARIO = suggestScenario(c);
+  renderClients(); renderHead(); renderThread(); renderScen(); renderResult();
+}
+
+function renderHead(){
+  const c = client(), p = c.preferences || {};
+  $("#hAvatar").textContent = c.address[0]; $("#hName").textContent = c.address;
+  const facts = [c.relationship, ...(p.colors || []), ...(p.uses || [])].filter(Boolean).map(x => `<span class="tag">${esc(x)}</span>`);
+  if(c.budget) facts.push(`<span class="tag">预算 ${c.budget.toLocaleString()}</span>`);
+  if(c.no_marketing) facts.push('<span class="tag bad">已要求停止营销</span>');
+  (c.sensitivities || []).forEach(s => facts.push(`<span class="tag warn">${s.type === "bereavement" ? "家中有人离世" : s.type === "recent_complaint" ? "近期投诉" : esc(s.type)} · ${esc(s.date)}</span>`));
+  $("#hFacts").innerHTML = facts.join("");
+  renderDrawer();
+}
+
+function renderThread(newIdx){
+  const h = client().history || [];
+  let day = "", out = [];
+  h.forEach((m, i) => {
+    const d = String(m.time).slice(0,10);
+    if(d !== day){ day = d; out.push(`<div class="day">${esc(d)}</div>`); }
+    out.push(`<div class="bubble ${m.role}${i === newIdx ? " new" : ""}">${esc(m.text)}<time>${esc(String(m.time).slice(11,16))}${m.role === "ca" ? " · 安然" : ""}</time></div>`);
+  });
+  $("#thread").innerHTML = out.join("") || '<div class="empty">还没有对话。可以切到「以客户身份发消息」模拟客户，或直接用 CA 助手主动联系。</div>';
+  $("#thread").scrollTop = 1e9;
+}
+
+function renderScen(){
+  $("#scen").innerHTML = SCEN.map(([k, n]) => `<button class="chip" role="radio" aria-checked="${k === SCENARIO}" data-k="${k}">${n}</button>`).join("");
+  document.querySelectorAll("#scen .chip").forEach(b => b.onclick = () => { SCENARIO = b.dataset.k; renderScen(); });
+  const ex = $("#extra");
+  if(SCENARIO === "event"){
+    ex.hidden = false;
+    ex.innerHTML = META.events.map(e => `<option value="${e.id}">${esc(e.name)}${e.date ? " · " + e.date : "（信息待定）"}</option>`).join("");
+  }else if(["recommendation","price_objection"].includes(SCENARIO)){
+    ex.hidden = false;
+    ex.innerHTML = '<option value="">产品：自动判断</option>' + META.products.map(p => `<option value="${p.sku}">${esc(p.name)} ¥${p.price.toLocaleString()}</option>`).join("");
+  }else ex.hidden = true;
+  $("#festival").hidden = SCENARIO !== "birthday";
+}
+
+async function generate(){
+  const body = {client_id: CUR, scenario: SCENARIO, today: today(), products: [], scenario_context: {}, case_id: "web"};
+  const x = $("#extra").value;
+  if(SCENARIO === "event") body.scenario_context.event_id = x; else if(x && !$("#extra").hidden) body.products = [x];
+  if(SCENARIO === "birthday" && $("#festival").value.trim()) body.scenario_context.festival = $("#festival").value.trim();
+  RES = "loading"; SEL = null; renderResult();
+  $("#gen").disabled = true;
+  try{ RES = await api("/api/generate", body); }
+  catch(e){ RES = {error: e.message}; }
+  $("#gen").disabled = false; renderResult();
+}
+
+function renderResult(){
+  const el = $("#result");
+  if(!RES){ el.innerHTML = ""; return; }
+  if(RES === "loading"){
+    el.innerHTML = `<p class="muted" style="font-size:13px;margin:12px 0 0">正在检索品牌库与客户库，并生成三条候选…</p><div class="cands">${'<div class="skel"></div>'.repeat(3)}</div>`; return;
+  }
+  if(RES.error){ el.innerHTML = `<div class="notes"><div class="note">生成失败：${esc(RES.error)}</div></div>`; return; }
+  const notes = (RES.ca_note || []).map(n => `<div class="note">${esc(n)}</div>`).join("");
+  if(RES.status === "held"){ el.innerHTML = `<div class="notes">${notes}</div>`; return; }
+  const rt = RES.retrieval || {};
+  el.innerHTML = `<div class="notes">${notes}</div>
+    <div class="cands" role="group" aria-label="三条候选">${RES.candidates.map((c, i) => `
+      <button class="cand" data-i="${i}" aria-pressed="${SEL === i}">
+        <span class="top"><span class="tag">${i + 1} · ${esc(c.strategy_name)}</span>
+        ${c.passed ? '<span class="tag ok">规则通过</span>' : '<span class="tag bad">需人工确认</span>'}</span>
+        <p>${esc(c.text)}</p>
+        <small>${esc(c.rationale)}</small>
+        ${c.passed ? "" : `<small style="color:var(--danger)">${esc(c.checks.filter(k => !k.ok).map(k => k.rule + " " + k.detail).join("；"))}</small>`}
+      </button>`).join("")}</div>
+    <div id="editor"></div>
+    <details class="why"><summary>查看依据（检索结果 · ${esc(RES.meta.seconds)}s · ${esc(RES.meta.version)}-${esc(RES.meta.hash)}）</summary>
+      <pre>硬事实（SQL 精确查询）\n${esc((rt.facts || []).map(f => `[${f.ref}] ${f.text}`).join("\n") || "—")}\n\n品牌知识（pgvector 语义检索）\n${esc((rt.rag || []).map(r => `[${r.ref}] ${r.score}  ${r.text}`).join("\n") || "—")}</pre></details>`;
+  document.querySelectorAll(".cand").forEach(b => b.onclick = () => pick(+b.dataset.i));
+  if(SEL !== null) renderEditor();
+}
+
+function pick(i){
+  if(!RES || !RES.candidates || !RES.candidates[i]) return;
+  SEL = i;
+  document.querySelectorAll(".cand").forEach((b, j) => b.setAttribute("aria-pressed", j === i));
+  renderEditor();
+}
+function renderEditor(){
+  const c = RES.candidates[SEL];
+  $("#editor").innerHTML = `<div class="editor"><label class="sr" for="final">发送前可修改</label>
+    <textarea id="final" rows="2">${esc(c.text)}</textarea>
+    <button class="btn primary" id="sendCA">发送给${esc(client().address)}</button></div>`;
+  const t = $("#final"); autoGrow(t); t.oninput = () => autoGrow(t);
+  $("#sendCA").onclick = sendCA;
+}
+
+async function sendMsg(role, text){
+  const time = nowTime();
+  await api("/api/admin", {action:"message", client_id: CUR, role, text, time});
+  client().history = [...(client().history || []), {time, role, text}];
+  renderThread(client().history.length - 1); renderClients();
+}
+async function sendCA(){
+  const t = $("#final").value.trim(); if(!t) return;
+  $("#sendCA").disabled = true;
+  try{ await sendMsg("ca", t); RES = null; SEL = null; renderResult(); }
+  catch(e){ alertNote("发送失败：" + e.message); $("#sendCA").disabled = false; }
+}
+async function sendClient(){
+  const t = $("#clientMsg").value.trim(); if(!t) return;
+  $("#sendClient").disabled = true;
+  try{
+    await sendMsg("client", t); $("#clientMsg").value = ""; autoGrow($("#clientMsg"));
+    SCENARIO = suggestScenario(client()); setMode("ca"); renderScen();
+  }catch(e){ alertNote("发送失败：" + e.message); }
+  $("#sendClient").disabled = false;
+}
+function alertNote(msg){ $("#result").insertAdjacentHTML("afterbegin", `<div class="notes"><div class="note">${esc(msg)}</div></div>`); }
+function autoGrow(t){ t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 140) + "px"; }
+
+function setMode(m){
+  $("#modeClient").setAttribute("aria-selected", m === "client"); $("#modeCA").setAttribute("aria-selected", m === "ca");
+  $("#paneClient").hidden = m !== "client"; $("#paneCA").hidden = m !== "ca";
+  if(m === "client") $("#clientMsg").focus();
+}
+
+function renderDrawer(){
+  const c = client(), p = c.preferences || {}, cp = c.contact_prefs || {};
+  $("#dName").textContent = c.address + " · 画像";
+  const row = (k, v) => `<dt>${k}</dt><dd>${v || "—"}</dd>`;
+  $("#dBody").innerHTML = row("关系", esc(c.relationship) + (c.since ? ` · ${esc(c.since)} 起` : "")) +
+    row("颜色", esc((p.colors || []).join("、"))) + row("风格", esc(p.style)) + row("用途", esc((p.uses || []).join("、"))) +
+    row("预算", c.budget ? c.budget.toLocaleString() + " 元以内" : "") +
+    row("联系", esc([cp.frequency, cp.time].filter(Boolean).join(" · ")) + (c.no_marketing ? ' <span class="tag bad">停止营销</span>' : "")) +
+    row("关键日期", esc((c.key_dates || []).map(k => `${k.type} ${k.date}`).join("；"))) +
+    row("已购", esc((c.purchases || []).map(x => `${x.date} ${(META.products.find(p => p.sku === x.sku) || {}).name || x.sku}`).join("；"))) +
+    row("敏感", esc((c.sensitivities || []).map(s => `${s.type} ${s.date}：${s.note || ""}`).join("；"))) +
+    row("备注", esc(c.notes));
+}
+
+/* ---------------- settings ---------------- */
+const TABS = [["client","客户画像"],["brand","品牌与产品"],["event","活动"],["service","服务与政策"],["care","养护建议"]];
+function goSettings(tab, cid){
+  TAB = tab || TAB; SCID = cid || SCID || CUR;
+  document.body.dataset.view = "settings"; location.hash = "settings";
+  renderTabs(); renderSettings();
+}
+function goChat(){
+  document.body.dataset.view = "chat"; history.replaceState(null, "", location.pathname);
+  load().then(() => openClient(CUR)).catch(()=>{});
+}
+function renderTabs(){
+  $("#tabs").innerHTML = TABS.map(([k, n]) => `<button class="chip" role="tab" aria-selected="${k === TAB}" aria-checked="${k === TAB}" data-k="${k}">${n}</button>`).join("");
+  document.querySelectorAll("#tabs .chip").forEach(b => b.onclick = () => { TAB = b.dataset.k; renderTabs(); renderSettings(); });
+}
+
+const F = (label, f, v, o = {}) => {
+  const id = "f" + Math.random().toString(36).slice(2, 8);
+  const ctl = o.area ? `<textarea id="${id}" data-f="${f}" data-t="${o.t || "text"}" rows="${o.rows || 3}">${esc(v)}</textarea>`
+    : o.options ? `<select id="${id}" data-f="${f}" data-t="${o.t || "text"}">${o.options.map(x => `<option ${x === v ? "selected" : ""}>${esc(x)}</option>`).join("")}</select>`
+    : `<input id="${id}" data-f="${f}" data-t="${o.t || "text"}" value="${esc(v)}" ${o.type ? `type="${o.type}"` : ""}>`;
+  return `<div class="field"><label for="${id}">${label}</label>${ctl}${o.hint ? `<span class="hint">${o.hint}</span>` : ""}</div>`;
+};
+const L = v => (v || []).join("、");
+const lines = v => (v || []).join("\n");
+
+function renderSettings(){
+  const B = $("#sbody");
+  B.className = "sbody" + (TAB === "client" ? "" : " full");
+  if(TAB === "client"){
+    const c = client(SCID), p = c.preferences || {}, cp = c.contact_prefs || {};
+    const card = (title, inner, cls = "") => `<section class="card glass ${cls}" data-entity="client" data-id="${c.id}"><h3>${title}</h3>${inner}</section>`;
+    B.innerHTML = `<nav class="slist glass" aria-label="选择客户">${META.clients.map(x => `<button class="client" aria-current="${x.id === c.id}" data-id="${x.id}"><span class="avatar" aria-hidden="true">${esc(x.address[0])}</span><span class="meta"><span class="name">${esc(x.address)}</span><span class="preview">${x.id} · ${esc(x.relationship || "")}</span></span></button>`).join("")}</nav>
+    <div class="bento">
+      ${card("基本信息", `<div class="row2">${F("称呼", "address", c.address)}${F("关系", "relationship", c.relationship, {options:["新客","常客","重要客户","沉睡"]})}</div>${F("成为客户", "since", c.since, {hint:"格式 2024-03"})}`)}
+      ${card("偏好", `${F("颜色", "preferences.colors", L(p.colors), {t:"list", hint:"用顿号分隔"})}${F("风格", "preferences.style", p.style)}${F("用途", "preferences.uses", L(p.uses), {t:"list"})}${F("预算（元以内）", "budget", c.budget || "", {t:"int", type:"number"})}`)}
+      ${card("联系偏好", `<div class="row2">${F("频率", "contact_prefs.frequency", cp.frequency)}${F("时段", "contact_prefs.time", cp.time)}</div>
+        <div class="switch"><label for="nm">客户已要求停止营销联系</label><input type="checkbox" role="switch" id="nm" data-f="contact_prefs.no_marketing" data-t="bool" ${c.no_marketing ? "checked" : ""}></div>
+        <span class="hint muted" style="font-size:11px">开启后，产品推荐、活动邀约、沉睡唤醒将改为三条致歉。</span>`)}
+      ${card("备注", F("CA 的内部记录（不会当作客户原话引用）", "notes", c.notes, {area:true, rows:5}))}
+      <section class="card glass wide" data-list="sensitivities" data-id="${c.id}"><h3>敏感事项 <button class="btn" data-add>＋ 添加</button></h3>
+        ${(c.sensitivities || []).map(s => listRow(["bereavement","recent_complaint","health","private_life"], s.type, s.date, s.note)).join("") || '<span class="muted" style="font-size:13px">无</span>'}
+        <span class="hint muted" style="font-size:11px">bereavement：30 天内不主动联系；recent_complaint：60 天内营销类场景改为致歉跟进。</span></section>
+      <section class="card glass" data-list="key_dates" data-id="${c.id}"><h3>关键日期 <button class="btn" data-add>＋ 添加</button></h3>
+        ${(c.key_dates || []).map(k => listRow(["生日","纪念日"], k.type, k.date, null)).join("") || '<span class="muted" style="font-size:13px">无</span>'}</section>
+      <section class="card glass"><h3>购买记录 <span class="tag">只读</span></h3>${(c.purchases || []).map(x => `<div style="font-size:13px">${esc(x.date)} · ${esc((META.products.find(p => p.sku === x.sku) || {}).name || x.sku)} · ${esc(x.color || "")}</div>`).join("") || '<span class="muted">无</span>'}</section>
+    </div>`;
+    B.querySelectorAll(".slist .client").forEach(b => b.onclick = () => { SCID = b.dataset.id; renderSettings(); });
+  }
+  if(TAB === "brand"){
+    const r = META.rules, b = r.brand || {};
+    B.innerHTML = `<div class="bento">
+      <section class="card glass wide" data-entity="rule" data-id="brand"><h3>品牌</h3>
+        <div class="row2">${F("品牌名", "brand.name", b.name)}${F("主张", "brand.tagline", b.tagline)}</div>
+        ${F("定位", "brand.positioning", b.positioning, {area:true, rows:2})}${F("品牌故事边界", "brand.story_limits", b.story_limits, {area:true, rows:2})}</section>
+      <section class="card glass" data-entity="rule" data-id="voice"><h3>语气要求</h3>${F("每行一条", "voice", lines(r.voice), {area:true, rows:7, t:"lines"})}</section>
+      <section class="card glass" data-entity="rule" data-id="banned_phrases"><h3>禁用表达</h3>${F("每行一条，规则 R1 会拦截", "banned_phrases", lines(r.banned_phrases), {area:true, rows:7, t:"lines"})}</section>
+      ${META.products.map(p => `<section class="card glass" data-entity="product" data-id="${p.sku}"><h3>${esc(p.name)} <span class="tag mono">${p.sku}</span></h3>
+        <div class="row2">${F("名称", "name", p.name)}${F("价格（元）", "price", p.price, {t:"int", type:"number"})}</div>
+        <div class="row2">${F("品类", "category", p.category)}${F("材质", "material", p.material)}</div>
+        ${F("产品事实", "facts", L(p.facts), {t:"list", hint:"只有这里列出的事实会出现在话术里"})}${F("主要用途", "uses", L(p.uses), {t:"list"})}</section>`).join("")}
+    </div>`;
+  }
+  if(TAB === "event"){
+    B.innerHTML = `<div class="bento">${META.events.map(e => `<section class="card glass" data-entity="event" data-id="${e.id}"><h3>${esc(e.name)} <span class="tag ${e.status === "confirmed" ? "ok" : "warn"}">${esc(e.status)}</span></h3>
+      ${F("名称", "name", e.name)}<div class="row2">${F("日期", "date", e.date || "", {type:"date"})}${F("星期", "weekday", e.weekday)}</div>
+      <div class="row2">${F("时间", "time", e.time)}${F("状态", "status", e.status, {options:["confirmed","tentative"]})}</div>
+      ${F("地点", "location", e.location)}${F("内容", "content", e.content, {area:true, rows:3, hint:"缺失的时间、地点、内容会在话术里写成 TBD"})}</section>`).join("")}</div>`;
+  }
+  if(TAB === "service"){
+    B.innerHTML = `<div class="bento">
+      ${META.services.map(s => `<section class="card glass" data-entity="service" data-id="${s.id}"><h3>${esc(s.name)} <span class="tag mono">${s.id}</span></h3>${F("名称", "name", s.name)}${F("说明", "detail", s.detail, {area:true, rows:2})}</section>`).join("")}
+      ${META.policies.map(s => `<section class="card glass" data-entity="policy" data-id="${s.id}"><h3>${esc(s.title)} <span class="tag mono">${s.id}</span></h3>${F("名称", "title", s.title)}${F("政策", "text", s.text, {area:true, rows:2})}</section>`).join("")}
+    </div>`;
+  }
+  if(TAB === "care"){
+    B.innerHTML = `<div class="bento">${META.care.map(x => `<section class="card glass" data-entity="care" data-id="${x.id}"><h3>${esc(x.material)} · ${esc(x.topic)} <span class="tag mono">${x.id}</span></h3>
+      <div class="row2">${F("材质", "material", x.material)}${F("主题", "topic", x.topic)}</div>${F("建议", "advice", x.advice, {area:true, rows:2})}</section>`).join("")}</div>`;
+  }
+  if(TAB !== "client"){
+    B.insertAdjacentHTML("beforeend", `<section class="card glass" style="margin-top:12px"><h3>演示数据</h3><span class="muted" style="font-size:13px">把品牌库、客户库和聊天记录恢复为初始的虚构数据，并重建向量索引（约 10 秒）。</span><div><button class="btn danger" id="reset">恢复初始数据</button></div></section>`);
+    $("#reset").onclick = resetData;
+  }
+  bindAutosave();
+}
+
+function listRow(types, type, date, note){
+  return `<div class="lrow" data-row>
+    <select aria-label="类型" data-c="type">${types.map(t => `<option ${t === type ? "selected" : ""}>${t}</option>`).join("")}</select>
+    <input aria-label="日期" data-c="date" value="${esc(date || "")}" placeholder="${note === null ? "11-12" : "2026-10-25"}">
+    ${note === null ? "<span></span>" : `<input aria-label="说明" data-c="note" value="${esc(note || "")}" placeholder="说明">`}
+    <button class="btn icon" data-del aria-label="删除这一行">✕</button></div>`;
+}
+
+/* ---- autosave ---- */
+const timers = {};
+function setSync(s, text){ const el = $("#sync"); el.dataset.s = s; el.textContent = text; }
+function bindAutosave(){
+  document.querySelectorAll("#sbody [data-entity] [data-f]").forEach(el => {
+    const ev = el.type === "checkbox" || el.tagName === "SELECT" ? "change" : "input";
+    el.addEventListener(ev, () => schedule(el.closest("[data-entity]")));
+  });
+  document.querySelectorAll("#sbody [data-list]").forEach(card => {
+    card.addEventListener("input", () => scheduleList(card));
+    card.addEventListener("change", () => scheduleList(card));
+    card.addEventListener("click", e => {
+      if(e.target.closest("[data-del]")){ e.target.closest("[data-row]").remove(); scheduleList(card, 0); }
+      if(e.target.closest("[data-add]")){
+        const isDates = card.dataset.list === "key_dates";
+        card.querySelector("h3").insertAdjacentHTML("afterend", listRow(isDates ? ["生日","纪念日"] : ["bereavement","recent_complaint","health","private_life"], "", "", isDates ? null : ""));
+        const ph = card.querySelector(":scope > .muted"); if(ph && ph.textContent === "无") ph.remove();
+      }
+    });
+  });
+}
+function collect(entity, id){
+  const out = {};
+  document.querySelectorAll(`#sbody [data-entity="${entity}"][data-id="${id}"] [data-f]`).forEach(el => {
+    let v = el.type === "checkbox" ? el.checked : el.value;
+    const t = el.dataset.t;
+    if(t === "list") v = v.split(/[、,，\n]/).map(s => s.trim()).filter(Boolean);
+    if(t === "lines") v = v.split("\n").map(s => s.trim()).filter(Boolean);
+    if(t === "int") v = v === "" ? null : Number(v);
+    const [a, b] = el.dataset.f.split(".");
+    if(b){ out[a] = out[a] || {}; out[a][b] = v === "" ? null : v; } else out[a] = v;
+  });
+  return out;
+}
+function schedule(card){
+  const {entity, id} = card.dataset; const key = entity + id;
+  setSync("saving", "保存中…");
+  clearTimeout(timers[key]);
+  timers[key] = setTimeout(async () => {
+    let fields = collect(entity, id);
+    if(entity === "rule") fields = {value: fields[id]};
+    try{
+      const r = await api("/api/admin", {action:"update", entity, id, fields});
+      setSync("ok", `已同步 · ${new Date().toTimeString().slice(0,8)}${r.reindexed ? " · 向量已更新" : ""}`);
+      load().then(() => { if(entity === "product" || entity === "event") {/* 保持输入焦点，不重绘 */} });
+    }catch(e){ setSync("error", "保存失败：" + e.message); }
+  }, 600);
+}
+function scheduleList(card, delay = 600){
+  const key = card.dataset.list + card.dataset.id;
+  setSync("saving", "保存中…");
+  clearTimeout(timers[key]);
+  timers[key] = setTimeout(async () => {
+    const rows = [...card.querySelectorAll("[data-row]")].map(r => Object.fromEntries([...r.querySelectorAll("[data-c]")].map(i => [i.dataset.c, i.value.trim()])));
+    try{
+      await api("/api/admin", {action:"replace_list", client_id: card.dataset.id, kind: card.dataset.list, rows});
+      setSync("ok", `已同步 · ${new Date().toTimeString().slice(0,8)}`);
+      load();
+    }catch(e){ setSync("error", "保存失败：" + e.message); }
+  }, delay);
+}
+async function resetData(){
+  const b = $("#reset");
+  if(b.dataset.confirm !== "1"){ b.dataset.confirm = "1"; b.textContent = "再点一次确认恢复"; return; }
+  b.disabled = true; b.textContent = "恢复中…"; setSync("saving", "正在恢复初始数据…");
+  try{ await api("/api/admin", {action:"reset"}); await load(); setSync("ok", "已恢复初始数据"); renderSettings(); }
+  catch(e){ setSync("error", "恢复失败：" + e.message); b.disabled = false; }
+}
+
+/* ---------------- wiring ---------------- */
+$("#gen").onclick = generate;
+$("#sendClient").onclick = sendClient;
+$("#modeClient").onclick = () => setMode("client");
+$("#modeCA").onclick = () => setMode("ca");
+$("#toSettings").onclick = () => goSettings("client", CUR);
+$("#back").onclick = goChat;
+$("#editProfile").onclick = () => { toggleDrawer(false); goSettings("client", CUR); };
+$("#toggleProfile").onclick = () => toggleDrawer();
+$("#closeDrawer").onclick = () => toggleDrawer(false);
+function toggleDrawer(force){
+  const d = $("#drawer"), open = force ?? d.dataset.open !== "true";
+  d.dataset.open = open; $("#toggleProfile").setAttribute("aria-expanded", open);
+}
+$("#clientMsg").addEventListener("keydown", e => { if(e.key === "Enter" && !e.shiftKey){ e.preventDefault(); sendClient(); } });
+$("#clientMsg").addEventListener("input", e => autoGrow(e.target));
+$("#today").onchange = () => { SCENARIO = suggestScenario(client()); renderScen(); };
+document.addEventListener("keydown", e => {
+  if(document.body.dataset.view !== "chat") return;
+  if(e.key === "Escape") toggleDrawer(false);
+  const typing = ["INPUT","TEXTAREA","SELECT"].includes(document.activeElement.tagName);
+  if((e.metaKey || e.ctrlKey) && e.key === "Enter" && $("#final")){ e.preventDefault(); sendCA(); return; }
+  if(typing) return;
+  if(["1","2","3"].includes(e.key)) pick(+e.key - 1);
+});
+
+(async () => {
+  try{
+    await load();
+    CUR = META.clients[0].id; openClient(CUR); setMode("ca");
+    if(location.hash === "#settings") goSettings("client", CUR);
+  }catch(e){
+    $("#thread").innerHTML = `<div class="empty">无法连接数据库：${esc(e.message)}</div>`;
+  }
+})();
+</script>
+</body>
+</html>

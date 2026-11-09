@@ -1,0 +1,378 @@
+{
+ "case_id": "TC-35",
+ "scenario": "event",
+ "mode": "event",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false,
+  "missing_event_fields": []
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "信息清晰",
+   "text": "王先生，您说十二月京都的事到时候再聊，我记着。11月21日周六15:00-17:00，三里屯店有一场出行收纳小聚，讲短途出行的收纳整理。您有空的话我把报名方式发您。",
+   "rationale": "先回应「到时候再说」，再按活动邀约把内容、时间、地点一次说清，结尾只留一个问句。",
+   "refs": [
+    "EVT:TRAVEL-1121",
+    "H:3",
+    "C:C04"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "82字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "关系版",
+   "text": "王先生，您上次说旅行袋用了一年还挺能装，十二月又要带家人去京都。11月21日周六下午三里屯店有场出行收纳小聚，会聊短途出行怎么整理，想着您可能用得上。",
+   "rationale": "从客户自己的使用反馈和京都出行计划切入，再把活动挂上去，不施压。",
+   "refs": [
+    "H:1",
+    "C:C04",
+    "EVT:TRAVEL-1121",
+    "H:3"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "75字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "体验描述",
+   "text": "王先生，京都的事您说到时候再说，我不催。11月21日周六15:00-17:00在三里屯店有一场出行收纳小聚，现场可以看「远行」旅行袋和「随行」收纳包的实物，也会讲短途出行怎么收拾。您看要不要来。",
+   "rationale": "先回应客户「到时候再说」，再描述现场能看到的实物和内容，让客户自行判断；产品与时间地点均取自活动资料。",
+   "refs": [
+    "EVT:TRAVEL-1121",
+    "H:3"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": false,
+     "detail": " 不在本条资料包：远行、随行"
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "97字（10–100）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": false,
+     "detail": "提到产品或价格但没有注明引用编号"
+    }
+   ],
+   "repaired": true,
+   "previous_text": "王先生，您说京都的事到时候再聊，我记着。11月21日周六15:00-17:00三里屯店有出行收纳小聚，现场能看「远行」旅行袋和「随行」收纳包实物，也会讲短途出行的收纳方法。您感兴趣的话我把时段发您。",
+   "passed": false
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.22"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.35"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.21"
+  }
+ ],
+ "ca_note": [
+  "活动信息齐全，无需补 TBD。三条都先回应了「好，到时候再说」，措辞为「我记着」，若您实际未做记录请自行调整。京都行程日期不明，正文不提及。发送时间建议本周内，距 11-21 约两周。",
+  "以下检查仍未通过，请 CA 人工确认：C"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "EVT:TRAVEL-1121",
+    "text": "活动：出行收纳小聚；时间：2026-11-21（周六） 15:00-17:00；地点：序隅北京三里屯店；内容：分享短途出行时的收纳与整理方法，现场可以看「远行」旅行袋与「随行」收纳包的实物"
+   }
+  ],
+  "rag_query": "活动邀约；好，到时候再说；短途旅行、工作会面；实用；经常出差；上次说十二月要带家人去京都过几天",
+  "rag": [
+   {
+    "ref": "BB:6.5",
+    "score": 0.571,
+    "text": "活动邀约：场景「活动邀约」。沟通重点：说明内容、时间和地点，给客户选择空间。可以说：「林女士，周六下午店里有一场皮料与养护分享，可以现场了解不同皮面的日常打理。您有兴趣的话，我把具体时段发您。」。不该说：「您是我们最尊贵的VIP，必须来，机会非常难得。」"
+   },
+   {
+    "ref": "BB:R1",
+    "score": 0.397,
+    "text": "修订：**字数**：所有场景硬约束 10–80 字；活动邀约放宽到 10–100 字。不堆叠不必要的辞藻。（取代第五节原先建议的 40–100 字。）"
+   },
+   {
+    "ref": "BB:R2",
+    "score": 0.396,
+    "text": "修订：**活动信息缺失**：缺失的时间、地点或内容在话术中原位写成「TBD」，并在给 CA 的提示中列出缺了哪些。"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.388,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "王先生",
+  "client_waiting": true,
+  "reply_to": "好，到时候再说",
+  "usable_hooks": [
+   "十二月要带家人去京都过几天[C:C04]",
+   "旅行袋用了快一年，觉得挺能装[H:1]",
+   "偏好短途旅行、墨黑、实用[C:C04]",
+   "买过「远行」旅行袋类收纳产品用于短途出行[C:C04]"
+  ],
+  "do_not_mention": [
+   "生日",
+   "会员等级",
+   "消费金额",
+   "京都行程细节",
+   "京都具体日期"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 10.4,
+  "calls": [
+   [
+    "generate",
+    5.94
+   ],
+   [
+    "repair",
+    2.34
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-35",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "event",
+  "scenario_context": {
+   "event_id": "EVT:TRAVEL-1121"
+  },
+  "client": {
+   "id": "C04",
+   "address": "王先生",
+   "relationship": "重要客户",
+   "since": "2022-11",
+   "preferences": {
+    "uses": [
+     "短途旅行",
+     "工作会面"
+    ],
+    "style": "实用",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "不限",
+    "frequency": "可以定期联系",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "经常出差；上次说十二月要带家人去京都过几天",
+   "purchases": [
+    {
+     "date": "2025-05-03",
+     "sku": "XY-S02",
+     "color": "墨黑",
+     "note": "出差收纳"
+    },
+    {
+     "date": "2025-12-10",
+     "sku": "XY-T01",
+     "color": "墨黑",
+     "note": "短途出行"
+    }
+   ],
+   "key_dates": [
+    {
+     "type": "生日",
+     "date": "11-20"
+    }
+   ],
+   "sensitivities": [],
+   "ref": "C:C04"
+  },
+  "history": [
+   {
+    "time": "2026-10-15 09:12",
+    "role": "client",
+    "text": "旅行袋用了快一年了，还挺能装的"
+   },
+   {
+    "time": "2026-10-15 09:20",
+    "role": "ca",
+    "text": "王先生，用得顺手就好。十二月去京都的话，有需要整理收纳的地方随时问我。"
+   },
+   {
+    "time": "2026-10-15 09:25",
+    "role": "client",
+    "text": "好，到时候再说"
+   }
+  ],
+  "products": []
+ },
+ "expect": "结合十二月京都行程邀约出行收纳小聚",
+ "edge": null
+}

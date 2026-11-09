@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉加进展，「换件要先报价确认后才会定方案」与维修评估资料一致，没有邀约和促销；但客户 10-22 已被告知评估结果，这里重复说明，新信息少，也没给报价时间点，「报价拖到现在」略显自责式表述。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用「说好稍后发您报价」呼应此前承诺，给出今天核对费用并发给客户确认的明确下一步，没有促销和邀约，也没提金额，未越权；「后面由我一路跟」稍口语，但整体最贴合客户当前需要，可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉真诚，但「跟进到底」「有进展先跟您说」偏空泛，没有报价这个客户真正等的东西，也没有具体下一步，对已等 18 天的客户帮助有限；「实在抱歉」稍重。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具按预期放弃活动邀约，改为投诉致歉与跟进，三条都没提生日和促销，无越权，也没有编造金额。三条结构相近，都是致歉加跟进，差异主要在信息量：B 有明确下一步，A 重述进展，C 最空泛。ca_note 未提供，无法核对是否说明了不邀约的原因。",
+ "case_id": "TC-40",
+ "scenario": "event",
+ "status": "generated"
+}

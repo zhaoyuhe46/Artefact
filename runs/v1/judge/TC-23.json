@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯购后关怀，无推荐或活动，内容和事实都没问题；但客户8月说过有需要会自己找你，这时主动问候略有打扰，且包已购两年多，'用到现在'尚可，整体可发。",
+   "diversity": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护建议与光面牛皮资料完全一致，只做关怀，无营销，克制实用；是三条中最稳妥的一条。",
+   "diversity": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 1,
+   "factuality": 1,
+   "sendable": 1,
+   "strategy_match": true,
+   "veto": true,
+   "veto_reason": "免费基础清洁仅限购买后12个月内，该包购于2024-09-20，至2026-11已过期，属于虚构服务/越权承诺；且带有服务推送性质，不符合客户停止营销的要求，工具也提示过期则不得发送。",
+   "comment": "提及已过期的免费清洁，事实错误且越权承诺，必须拦截。",
+   "diversity": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "A、B 都是合规的购后关怀，B 最稳妥；但工具仍生成了已过期的免费清洁话术 C，虽在提示中让 CA 先核实，却没有自行拦截或改写成只提养护咨询，处理不到位。三条中 A 与 B 差异明显，C 与预期行为相悖，整体差异度一般。",
+ "case_id": "TC-23",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

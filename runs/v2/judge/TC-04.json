@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "纯祝福，无产品、无活动、无追问，克制简短；个性化偏弱，但符合停止营销客户的分寸，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「记得您说过有需要会来找我」引用了客户真实说过的话，但这是回提停止营销的约定，让祝福显得带有边界提醒；「这份默契我记着」略显亲昵、有些用力，需要修改后再发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「我代序隅向您道一声祝福」得体，「工作顺心」呼应客户工作会面的用途，不显突兀；无营销内容，可直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都只有祝福，没有产品、活动或追问，符合停止营销客户的预期。A 与 C 可直接发送；B 回提停止营销的约定，略显刻意，需要修改。三条结构相近，差异度一般。",
+ "case_id": "TC-04",
+ "scenario": "birthday",
+ "status": "generated"
+}

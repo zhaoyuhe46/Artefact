@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "内容只涉及使用感受与养护，没有推荐或活动，也引用了「工作会面」这一真实用途。但客户明确说过「有需要我会找你」并要求不要主动推送，这条无事由的主动问询仍属打扰；同时它在一句话里既问使用感受又提养护，主要目的不够单一。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护要点均与资料一致，没有营销、没有问题，语气克制。不足是通篇讲解，缺少收尾或关怀语，略像说明书；在客户要求不主动推送的情况下仍属主动联系，但内容有实际用处。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "评估后报价的流程与资料一致，也没有提免费清洁。但在客户没有任何污损需求时主动「想说明一下」维修服务，更像服务推介，关怀感弱，时机和必要性最差；「想说明一下」的措辞也偏生硬。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都避开了新品、活动和推荐，没有提免费清洁，事实准确，基本符合「照常关怀」的预期。但客户已明确要求不要主动推送，三条都是无事由的主动联系，只适合择一低频发送。B 最稳妥，A 次之，C 最像服务推介。三条之间的差异一般，都围绕养护与服务展开。",
+ "case_id": "TC-23",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

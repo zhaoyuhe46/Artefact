@@ -1,0 +1,92 @@
+[
+ {
+  "review_id": "BR-01",
+  "case_id": "TC-03",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-02",
+  "case_id": "TC-02",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-03",
+  "case_id": "TC-04",
+  "strategy_id": "B"
+ },
+ {
+  "review_id": "BR-04",
+  "case_id": "TC-09",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-05",
+  "case_id": "TC-50",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-06",
+  "case_id": "TC-13",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-07",
+  "case_id": "TC-18",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-08",
+  "case_id": "TC-19",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-09",
+  "case_id": "TC-21",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-10",
+  "case_id": "TC-25",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-11",
+  "case_id": "TC-29",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-12",
+  "case_id": "TC-26",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-13",
+  "case_id": "TC-33",
+  "strategy_id": "C"
+ },
+ {
+  "review_id": "BR-14",
+  "case_id": "TC-40",
+  "strategy_id": "B"
+ },
+ {
+  "review_id": "BR-15",
+  "case_id": "TC-36",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-16",
+  "case_id": "TC-47",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-17",
+  "case_id": "TC-41",
+  "strategy_id": "A"
+ },
+ {
+  "review_id": "BR-18",
+  "case_id": "TC-42",
+  "strategy_id": "C"
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制、不推销，但「评估一直挂在心上」会让客户觉得问题还悬着，三个月没有结论，这句话有些空；「近来还好吗」也没有回应拉链现状，需要补上结果或下一步，才不显得敷衍。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「报价我这边可以再帮您确认」，对客户已投诉的事再次含糊拖延，没有给出金额或时间；「拉链不顺时别用力拉」是编出来的养护建议，资料里没有，也不算「相关资料」策略；整体不能直接发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "提到养护咨询服务与资料一致，并用一个问题主动提出核对报价，方向正确；但开头直接说「您用收纳包收纳随身小物」略生硬，也没有对此前久等表达歉意，需要微调。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": false,
+ "set_comment": "三条都没有直接回应上次评估久等、报价悬而未决的问题，且都未明确致歉；工具已提示发送前要确认报价，却仍生成了模糊的候选。预期是先关心拉链修好后的使用情况，但这批话术没有做到。B 含编造的使用建议，应改写或不用。",
+ "case_id": "TC-30",
+ "scenario": "reactivation",
+ "status": "generated"
+}

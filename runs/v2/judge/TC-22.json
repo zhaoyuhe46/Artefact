@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉得体，不涉数字与免费承诺；但「评估结果已出，需要更换拉链」是10-22已告知的内容，重复显得多余，「核实清楚后」也没有给出时间点，对已等了18天的客户缺少具体跟进动作。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先致歉，再给出「今天跟进报价」的具体动作，并交由客户决定方案，符合预期行为，未提生日、数字或免费；「今天去跟进」是对CA自身行动的承诺，发送前需确认CA确实会做。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，无事实风险；但没有提到拉链或报价，内容偏泛，「这件事」指代不清，「一直跟到有结果」也没有具体动作，对已久等的客户显得空泛。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确把购后关怀改写为致歉与跟进，没有提生日、数字、免费或推荐，也没有复述「行吧」。三条差异主要在具体程度：B最能回应当前需要，A重复已告知的评估结果，C过于笼统。三条都以致歉加跟进为主，整体差异度一般。",
+ "case_id": "TC-22",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

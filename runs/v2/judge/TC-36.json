@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间、地点、内容与资料一致，语气克制，用「周末有空」呼应了周末偏好，对沉睡客户没有施压。但「帮您留个位」是资料里没有的服务，提示也说明活动是开放到店形式，需先核实是否要留位，所以不能直接发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "提起 2025 年的肩包咨询确有其事，但「后来一直没打扰您」暗示了很久没联系，违反不提多久没来的规定，也容易勾起客户当时说「等有空再说」的旧话题。「帮您留位」同样未经核实。另外活动讲的是皮料养护，和肩包需求关联弱，这段个性化显得牵强。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「现场能摸到粒面和光面牛皮的差别」对应活动内容，没有虚构服务，语气轻，「把场次发您」是低压力的回应方式。缺点是个性化较弱，没有利用周末偏好，「周六下午两点」也没写完整的时间段和地点之外的信息，可小改后发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都只围绕活动本身，没有施压，也没有越权承诺折扣或赠品。A、B 都用了未经核实的「留位」，需要先确认活动是否要预约；B 还触碰了不提多久没联系的规定。C 最稳妥。三条结构相近，差异主要在是否提旧话题和结尾动作，多样性一般。",
+ "case_id": "TC-36",
+ "scenario": "event",
+ "status": "generated"
+}

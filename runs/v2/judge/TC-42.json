@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格28,800准确，不贬低代购，用一个问题追问比较渠道，符合预期；「没有额外折扣」略直白，「服务一并对齐」说法略笼统，但没有承诺具体服务，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实（光面牛皮、翻盖锁扣、手提及肩背）和工作会面用途都对应资料，但没有回应「代购便宜」的比价顾虑，开放式提问「更想了解哪一点」略泛，只算部分贴合。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先征得同意再按预算推荐，符合 DER:NO-BUDGET 的要求；但客户在比价而不是说预算有限，「价格要合适」带有预设，且转向换款略偏离其关注点，没有回应代购问题。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条价格均准确，没有折扣、赠品或贬低代购的越权内容。A 最贴合预期（问比较的渠道），B 偏产品介绍，C 偏预算转向，三条策略差异清晰。",
+ "case_id": "TC-42",
+ "scenario": "price_objection",
+ "status": "generated"
+}

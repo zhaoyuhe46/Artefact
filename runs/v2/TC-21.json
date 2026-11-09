@@ -1,0 +1,413 @@
+{
+ "case_id": "TC-21",
+ "scenario": "post_purchase",
+ "mode": "post_purchase",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "问使用感受",
+   "text": "陈女士，您2023年买的「折页」卡夹是栗棕那款，用到现在卡位和中间夹层还顺手吗？有任何使用上的问题随时告诉我。",
+   "rationale": "直接确认所购卡夹的使用感受，只带一个轻问题，不涉及推荐。",
+   "refs": [
+    "P:XY-S01",
+    "C:C03"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "55字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "养护建议",
+   "text": "陈女士，栗棕「折页」卡夹是粒面牛皮，平时用干燥软布轻拭表面灰尘就行。若沾到水，先用干软布按干，放阴凉通风处自然晾干。",
+   "rationale": "给一条粒面牛皮的日常清洁与吸水处理建议，对应养护记录。",
+   "refs": [
+    "P:XY-S01",
+    "CARE:GRAIN-01",
+    "CARE:GRAIN-02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "58字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "服务提醒",
+   "text": "陈女士，您那只栗棕「折页」卡夹如果出现污损或需要换件，可以联系我做评估，评估报价后再决定是否处理。有需要我随时在。",
+   "rationale": "提醒维修评估服务及先评估报价的条件，已避开不适用的免费清洁。",
+   "refs": [
+    "P:XY-S01",
+    "SVC:REPAIR-EVAL"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "57字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.06"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.06"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.06"
+  }
+ ],
+ "ca_note": [
+  "客户最后消息距今 576 天且购买已超 12 个月，不宜提免费清洁或当成刚收到回复；周末发送更贴合其联系偏好。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B01",
+  "facts": [
+   {
+    "ref": "P:XY-S01",
+    "text": "「折页」卡夹（XY-S01，小皮具）：统一售价3,800元；粒面牛皮，6个卡位，中央票据夹层；主要用途：日常随身、小件礼赠；客户于2023-06-18购买，颜色栗棕"
+   },
+   {
+    "ref": "CARE:GRAIN-01",
+    "text": "粒面牛皮·日常清洁：日常用干燥的软布轻拭表面灰尘即可"
+   },
+   {
+    "ref": "CARE:GRAIN-02",
+    "text": "粒面牛皮·水渍：沾到水时先用干软布轻按吸干，放在阴凉通风处自然晾干，避免吹风机或暴晒"
+   },
+   {
+    "ref": "CARE:GRAIN-03",
+    "text": "粒面牛皮·存放：不用时在包内放些填充物保持包型，装进防尘袋，放在通风干燥处"
+   },
+   {
+    "ref": "CARE:GRAIN-04",
+    "text": "粒面牛皮·染色：尽量避免长时间与深色牛仔等易掉色衣物摩擦"
+   },
+   {
+    "ref": "CARE:GEN-01",
+    "text": "通用·五金：五金尽量避免接触香水、护手霜，用后可用干布擦拭"
+   },
+   {
+    "ref": "CARE:GEN-02",
+    "text": "通用·污渍：遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "text": "通用·拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "DER:CLEAN-EXPIRED-XY-S01",
+    "text": "客户于2023-06-18购买「折页」卡夹，已超过12个月，免费基础清洁不适用，不要提免费清洁"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   }
+  ],
+  "rag_query": "购后关怀；好的，最近忙，等有空再说；轻装出门；轻便；2025 年咨询过肩包，说想要轻一点、能放手机钥匙的款式，之后没有再联系",
+  "rag": [
+   {
+    "ref": "BB:6.3",
+    "score": 0.575,
+    "text": "购后关怀：场景「购后关怀」。沟通重点：确认体验，提供与所购物品有关的帮助。可以说：「林女士，想问问这几天「序」托特用得是否顺手？如果收纳或日常养护上有疑问，随时发我。」。不该说：「包应该收到了吧？顺便再给您推荐个卡夹。」"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.445,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.416,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   },
+   {
+    "ref": "BB:5.3",
+    "score": 0.407,
+    "text": "尊重考虑时间：沟通原则「尊重考虑时间」。应该这样说：「您可以先考虑，有需要我再补充细节。」；应避免：「今天不买一定会后悔。」"
+   },
+   {
+    "ref": "BB:8.3",
+    "score": 0.389,
+    "text": "明确禁止：**身份施压**：「真正懂奢侈品的人不会问价格」「成功人士都选这款」。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "陈女士",
+  "client_waiting": false,
+  "usable_hooks": [
+   "2023-06-18 购买「折页」卡夹，栗棕（C:C03 purchases）",
+   "粒面牛皮材质（P:XY-S01）"
+  ],
+  "do_not_mention": [
+   "免费清洁",
+   "肩包新品",
+   "沉睡客户",
+   "购买金额",
+   "2025年咨询"
+  ]
+ },
+ "meta": {
+  "version": "v2",
+  "hash": "501f5e03",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 10.1,
+  "calls": [
+   [
+    "generate",
+    6.76
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-21",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "post_purchase",
+  "scenario_context": {},
+  "client": {
+   "id": "C03",
+   "address": "陈女士",
+   "relationship": "沉睡",
+   "since": "2023-06",
+   "preferences": {
+    "uses": [
+     "轻装出门"
+    ],
+    "style": "轻便",
+    "colors": [
+     "栗棕"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": "周末",
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "2025 年咨询过肩包，说想要轻一点、能放手机钥匙的款式，之后没有再联系",
+   "purchases": [
+    {
+     "date": "2023-06-18",
+     "sku": "XY-S01",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C03"
+  },
+  "history": [
+   {
+    "time": "2025-04-12 15:10",
+    "role": "client",
+    "text": "你们有没有轻一点的肩包，出门就放手机钥匙那种"
+   },
+   {
+    "time": "2025-04-12 15:18",
+    "role": "ca",
+    "text": "陈女士，「弧」小号肩包比较轻便，肩带可以调节，您有空可以来看看。"
+   },
+   {
+    "time": "2025-04-12 15:30",
+    "role": "client",
+    "text": "好的，最近忙，等有空再说"
+   }
+  ],
+  "products": []
+ },
+ "expect": "不说仍在免费清洁期内；可提养护建议或维修评估",
+ "edge": "购买已三年以上"
+}

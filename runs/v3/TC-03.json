@@ -1,0 +1,368 @@
+{
+ "case_id": "TC-03",
+ "scenario": "birthday",
+ "mode": "birthday",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "简短真挚",
+   "text": "郑女士，元旦快乐。愿新的一年，日子过得顺手，也有让自己舒服的节奏。",
+   "rationale": "纯祝福，不涉及产品与任何提问，符合她「消息简短就好」的偏好。",
+   "refs": [
+    "C:C08"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "33字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "结合个人细节",
+   "text": "郑女士，元旦快乐。记得您对皮面质感一直很有兴趣，愿新的一年里，喜欢的东西都能慢慢遇到。",
+   "rationale": "自然带出她对皮面质感的兴趣（来自九月那次光面与粒面的提问），只祝福不推荐。",
+   "refs": [
+    "H:1",
+    "C:C08"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "43字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "礼貌得体",
+   "text": "郑女士，新年将至，祝您元旦快乐。感谢这一年的往来，愿新的一年工作顺手，生活从容。",
+   "rationale": "偏正式、礼数周全，用「您」，提到往来但不涉消费或产品。",
+   "refs": [
+    "C:C08"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "40字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.14"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.18"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.12"
+  }
+ ],
+ "ca_note": [
+  "今天是12月31日，元旦祝福可发；若想严格按当天口径，也可明早发出。三条均不含产品与提问，客户不回也自然。B条引用的兴趣点出自9月20日对话，时间较久，仅作温和提及。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-B03",
+    "text": "「隅」翻盖手袋（XY-B03，手袋）：统一售价28,800元；光面牛皮，翻盖锁扣，可手提及肩背；主要用途：工作会面、日常与晚间场合；客户于2026-09-01购买，颜色墨黑"
+   }
+  ],
+  "rag_query": "生日与节日祝福；好的，懂了；工作会面、晚间场合；有结构感；室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+  "rag": [
+   {
+    "ref": "BB:6.1",
+    "score": 0.552,
+    "text": "生日与节日祝福：场景「生日与节日祝福」。沟通重点：祝福本身成立，不附带购买要求。可以说：「林女士，生日快乐。愿您新的一岁，有喜欢的事可做，也有自在的时间留给自己。」。不该说：「生日快乐！今天买包有仪式感，来店里看看吧。」"
+   },
+   {
+    "ref": "BB:5",
+    "score": 0.402,
+    "text": "客户经理角色与语气：角色定位：**熟悉客户偏好、能把产品说清楚、尊重客户决定的专业顾问。**\n\n微信语气要自然、温和、有分寸。使用客户认可的称呼；关系尚不熟悉时默认使用「您」。\n\n每条消息一个主要目的、最多一个问题，尽量让客户容易理解和回复。节日祝福可以没有问题，也不必邀请到店。（字数规则见文末修订。）"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.391,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:1",
+    "score": 0.332,
+    "text": "品牌设定：品牌名：**序隅 XUYU**\n品牌主张：**让日常，有自己的秩序。**\n\n序隅是一家虚构的当代中国高端皮具品牌，以建筑中的线条、转折与空间关系为设计灵感，销售手袋、小皮具和旅行皮具。品牌的辨识度来自包型比例、折角结构和低调五金。产品采用小尺寸品牌标识，以墨黑、岩灰、栗棕等常用色为主。\n\n品牌向客户提供的价值：\n\n- **设计**：线条简洁，适合通勤、出行与日常穿搭。\n- **使用体验**：根据不同用途安排容量、隔层和携带方式。\n- **制作细节**：关注皮料触感、缝线、边缘处理和五金使用感。\n- **长期服务**：提供养护建议、基础清洁预约和维修评估。\n\n品牌故事围绕设计与使用展开，不设定百年历史、皇室背景或名人背书。"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "郑女士",
+  "client_waiting": false,
+  "usable_hooks": [
+   "曾问过光面与粒面的区别（H:1，备注同样记录）",
+   "对皮面质感感兴趣（C:C08 notes）"
+  ],
+  "do_not_mention": [
+   "光面易刮花",
+   "购物邀请",
+   "消费金额",
+   "会员等级",
+   "102天前的对话"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 6.8,
+  "calls": [
+   [
+    "generate",
+    3.2
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-03",
+  "today": "2026-12-31",
+  "advisor_name": "安然",
+  "scenario": "birthday",
+  "scenario_context": {
+   "festival": "元旦"
+  },
+  "client": {
+   "id": "C08",
+   "address": "郑女士",
+   "relationship": "常客",
+   "since": "2025-04",
+   "preferences": {
+    "uses": [
+     "工作会面",
+     "晚间场合"
+    ],
+    "style": "有结构感",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": "消息简短就好",
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "室内设计师，对皮面质感很感兴趣，问过光面和粒面有什么区别",
+   "purchases": [
+    {
+     "date": "2026-09-01",
+     "sku": "XY-B03",
+     "color": "墨黑",
+     "note": "自用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C08"
+  },
+  "history": [
+   {
+    "time": "2026-09-20 11:00",
+    "role": "client",
+    "text": "光面的会不会很容易刮花？"
+   },
+   {
+    "time": "2026-09-20 11:10",
+    "role": "ca",
+    "text": "郑女士，光面确实更容易留下细小痕迹，平时避免和钥匙放同一隔层就好。"
+   },
+   {
+    "time": "2026-09-20 11:12",
+    "role": "client",
+    "text": "好的，懂了"
+   }
+  ],
+  "products": []
+ },
+ "expect": "元旦祝福，简短（客户偏好简短消息）",
+ "edge": null
+}

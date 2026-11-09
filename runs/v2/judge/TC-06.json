@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制自然，没有编造任何细节，符合信息极少新客的节日问候；个性化几乎为零，但这正是预期，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「上个月您来店里看过小皮具」与备注一致（客户2027-08到店），没有编造；但「希望那天留下的印象是舒服的」略带试探，且节日问候里提到到店经历略有回访意味，需确认客户无不满后再发，否则略显突兀。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「认识您不久」坦诚得体，但略显生硬，像在说明关系；「和家人」是对客户家庭情况的假设，资料中并无依据，属小瑕疵。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都得体、没有编造，也没有营销或施压，符合预期。A最稳妥、可直接发；B用了真实的到店记录，个性化最强，但需CA确认客户对到店无不满；C「和家人」略有假设。三条在开头和祝福语上相似，差异主要在是否提到到店和关系，差异度中等。",
+ "case_id": "TC-06",
+ "scenario": "birthday",
+ "status": "generated"
+}

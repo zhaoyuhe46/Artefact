@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短，但开头回顾三个月前“光面您说懂了，我就不再打扰”显得突兀，像在交代自己不再打扰，反而带出压力感；“日子有自己的节奏”略文艺，需改写。",
+   "bad": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 2,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "“结构与线条”呼应客户风格偏好，但“愿您手里那些结构与线条恰好像您想要的样子”辞藻堆砌且含糊；开头回顾旧话题生硬，不像序隅克制的顾问，需大改。",
+   "bad": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 2,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "“谨祝”“值此”“不再赘述”过于公文化，不像一对一微信对话；回顾旧对话生硬，也不属于自然的礼貌得体风格。",
+   "bad": null
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "场景是元旦祝福，但三条都以“光面的事您说懂了，我就不再多说”开头，把三个月前已结束的对话硬拉回来，显得刻意，还容易让客户觉得被记着、被盯着。提示本来建议个人细节留到后续养护话题，工具却把它放进了祝福里。三条结构和开头高度雷同，差异小。应直接给出一两句简短的元旦祝福，不带旧话题，也不提营销。",
+ "case_id": "TC-03",
+ "scenario": "birthday",
+ "status": "generated"
+}

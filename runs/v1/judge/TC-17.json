@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应致谢再只问一个问题，克制自然；但问题里有两个小问（装电脑、拿取东西），且没提客户喜欢的内部拉链袋，个性化偏弱；“收到您这句话就放心了”略显口语化。",
+   "strategy_id_note": ""
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容都来自粒面牛皮资料，也结合了工地通勤场景；但客户刚收到包三天，直接上养护建议略显说教，“最近工地来回跑”是对客户日常的推断，且没有任何提问或邀约，收尾偏生硬。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁12个月内一次，与资料一致；但刚买三天就提醒清洁，需求不明显，像例行服务通知，个性化弱，客户也没有提出清洁需求。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都先回应致谢，没有越权或编造。A 最贴近预期的“问使用感受”，但没提内部拉链袋；B 的养护内容有据可依，但时机偏早；C 事实准确，但与客户当前需求关联最弱。三条策略差异清晰，生日均未提及，符合工具提示。",
+ "case_id": "TC-17",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

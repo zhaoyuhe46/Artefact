@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "直接回应客户「成都三天、装两天衣物」的需求，产品事实和价格都与目录一致，没有编造容量。「正对短途出行的用途」稍显推断，没有说明能否装下两天衣物，也没有下一步，但整体可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "场景化描述自然，但「行李通常不多」是对客户行李量的推测。「拉链拉好」「拆下手提、装上背」以及「日常也耐看」超出了目录给出的事实，需要核实或改写后再发。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "事实准确，并坦率说明尺寸和内部结构待核实，不编造容量，做法稳妥。但「到店看实物」同时承诺核实和邀约到店，目的略多，结尾「您觉得呢」偏含糊，需要小修。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都推荐「远行」，价格和卖点与目录一致，没有编造容量，也没有越权承诺。A 最贴合客户需求，可优先发；B 有推测和延伸内容；C 最稳妥，但下一步略多。三条差异主要在切入角度，推荐的产品和事实相同，所以多样性中等。",
+ "case_id": "TC-12",
+ "scenario": "recommendation",
+ "status": "generated"
+}

@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先明确无优惠空间，价格与资料一致，语气克制；结尾「您更在意总预算，还是想再确认它是否合用？」是二选一问法，略像在摸底，「价格上确实没有优惠空间」也稍硬，需要轻微润色。",
+   "_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确引用客户找的「拉链闭合」和「13英寸电脑」两点，价格与产品事实一致、无编造；但没有提问，也没有回应价格偏贵的感受，结尾「您可以先按这两点判断」略显推给客户，有点冷。",
+   "_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确无折扣后征得同意并询问预算，符合 PRICE-OPEN 和 NO-BUDGET；只有一个问题，且强调「符合通勤用途」，不会拿卡夹替代。承诺「再找款式」前资料里没有款式清单，需核实，但属于合规的下一步。",
+   "_note": null
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都没有让价，价格 24,800 与资料一致，无越权承诺。A 是澄清式，B 是用途式，C 是预算式，路径有区别。C 最能推进对话，且符合预算询问的规则；B 最贴合客户需求，但缺少互动。A、B、C 的结尾都较平，没有明显的差异化收尾。",
+ "case_id": "TC-41",
+ "scenario": "price_objection",
+ "status": "generated"
+}

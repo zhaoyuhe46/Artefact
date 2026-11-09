@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户 21 天前告知家中长辈离世，今天恰逢其生日。工具选择 held、不生成任何话术，并提示暂不联系、30 天后再用不带请求的问候，符合「丧亲期间不营销、不写喜庆内容」的要求，也与预期行为一致。生日提醒没有压过客户当前的处境，处理正确。candidates 留空，diversity 按无候选填 1。",
+ "case_id": "TC-08",
+ "scenario": "birthday",
+ "status": "held"
+}

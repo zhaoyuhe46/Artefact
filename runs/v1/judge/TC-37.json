@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "活动时间地点与资料一致，一个目的一个问题，语气克制；个性化只用了岩灰色和通勤，偏弱，且“您拿到了就好”略像套话。",
+   "strategy_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用上客户提过的托特内部拉链袋，与活动内容衔接自然；但客户新购的是XY-B02，是否为托特资料未明确，此处个性化引用的是上次的偏好，没有编造；“用着顺手就行”稍随意，结尾是陈述而非问句，仍可发送。",
+   "strategy_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "“体验描述”策略本应更突出现场体验，但实际只多一句“分区整理”，与A几乎一样，策略区分不明显；“分区”是对活动内容的轻微延伸，基本可接受。",
+   "strategy_note": null
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "三条都使用了CA填写的活动信息，没有编造名额或赠品，也没有与生日问候混发，事实基本合规。问题在于三条结构和开头几乎一致（“拿到了就好”+日期地点+询问意向），差异度不足，与工具自己提示的R8未通过相符；C没有体现体验描述的策略。建议CA先选B，或人工改写A/C后再发。",
+ "case_id": "TC-37",
+ "scenario": "event",
+ "status": "generated"
+}

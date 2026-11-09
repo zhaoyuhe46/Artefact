@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「短途出行多」确有依据，但翻盖手袋资料中的用途是工作会面、日常与晚间场合，并非短途出行，需求对应有些牵强；「能装下的东西」资料中没有容量信息，只是提出要说明，没有编造。结尾只有一个问题，语气自然，但没有直接承接京都或工作会面。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用「若想带」的假设语气自然引出京都行程，没有写成「您说过」，也扣住工作会面用途；价格和材质、锁扣、携带方式都与资料一致，没有承诺库存和颜色。「会面也拿得出手」略带评价，「您先看看，合适再说」收尾稍显含糊，但不施压。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 1,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实准确，但完全没有使用客户的偏好、京都或工作会面等信息，像通用产品介绍，没有说明为什么向王先生推荐。「尺寸细节我核实后发您」是 CA 需要兑现的承诺，且包含「到店看实物」的暗示，发送前需要修改。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都使用了正确的价格和产品事实，没有越权承诺。B 最贴合预期的切入点，既有京都又有工作会面，且措辞符合提示要求。A 的需求对应偏离了产品的实际用途。C 缺少个性化，三条的产品信息重合较多，差异主要在切入点上，因此差异度一般。",
+ "case_id": "TC-09",
+ "scenario": "recommendation",
+ "status": "generated"
+}

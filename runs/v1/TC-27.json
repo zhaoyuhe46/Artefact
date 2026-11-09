@@ -1,0 +1,353 @@
+{
+ "case_id": "TC-27",
+ "scenario": "reactivation",
+ "mode": "reactivation",
+ "status": "generated",
+ "flags": {
+  "client_waiting": false,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "纯问候",
+   "text": "韩先生，您好。我是序隅的安然，之前和您联系过。最近天气转凉，问候一下您近况，方便时回一句就好。",
+   "rationale": "纯问候，自我介绍降低陌生感，不涉产品与请求。",
+   "refs": [
+    "BB:6.4"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "47字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "相关资料",
+   "text": "韩先生，您好。我是序隅的安然。您之前买过栗棕色的「折页」卡夹，我这边整理了一份粒面牛皮的日常养护方法，需要发您参考吗？",
+   "rationale": "以已有购买记录和养护服务为由头，给出具体可用的信息，一个问题、易回复。",
+   "refs": [
+    "P:XY-S01",
+    "SVC:CARE-ADVICE"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "59字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "活动或服务",
+   "text": "韩先生，您好。我是序隅的安然。11月14日下午在静安店有一场皮料与养护分享，会现场对比粒面与光面牛皮的手感和打理方法，您有兴趣了解的话我可以把安排发您。",
+   "rationale": "用已确认的活动作为联系由头，与客户的粒面牛皮卡夹相关，不施压。",
+   "refs": [
+    "EVT:CARE-1114",
+    "P:XY-S01"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "76字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.12"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.09"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.15"
+  }
+ ],
+ "ca_note": [
+  "客户为沉睡状态且无对话历史，三条均以自我介绍开头。需注意：其购买已超12个月，免费清洁服务不再适用，勿在C条之外再提；如客户回复活动意向，再核实报名方式与名额。"
+ ],
+ "retrieval": {
+  "focus_sku": null,
+  "facts": [
+   {
+    "ref": "P:XY-S01",
+    "text": "「折页」卡夹（XY-S01，小皮具）：统一售价3,800元；粒面牛皮，6个卡位，中央票据夹层；主要用途：日常随身、小件礼赠；客户于2022-12-20购买，颜色栗棕"
+   },
+   {
+    "ref": "EVT:CARE-1114",
+    "text": "活动：皮料与养护分享；时间：2026-11-14（周六） 14:00-16:00；地点：序隅上海静安店；内容：现场对比粒面与光面牛皮的触感，了解不同皮面的日常打理"
+   },
+   {
+    "ref": "EVT:TRAVEL-1121",
+    "text": "活动：出行收纳小聚；时间：2026-11-21（周六） 15:00-17:00；地点：序隅北京三里屯店；内容：分享短途出行时的收纳与整理方法，现场可以看「远行」旅行袋与「随行」收纳包的实物"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:CLEAN-12M",
+    "text": "免费基础清洁：购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   }
+  ],
+  "rag_query": "沉睡客户唤醒；日常随身",
+  "rag": [
+   {
+    "ref": "BB:6.4",
+    "score": 0.708,
+    "text": "沉睡客户唤醒：场景「沉睡客户唤醒」。沟通重点：用真实相关的理由重新联系，降低回复负担。可以说：「林女士，您好。我是序隅的安然。您之前提过想了解肩包，我整理了「弧」小号的尺寸资料。您现在还有这方面的需要吗？」。不该说：「您已经半年没消费了，什么时候来支持一下？」"
+   },
+   {
+    "ref": "BB:R3",
+    "score": 0.445,
+    "text": "修订：**停止营销**：客户明确要求停止营销联系时，产品推荐、活动邀约、沉睡客户唤醒三个场景不按原场景生成，改为三条发给客户的简短致歉，尊重客户边界，不含任何营销内容。生日与节日祝福、购后关怀、价格异议照常生成。"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "score": 0.433,
+    "text": "养护建议：售后服务「养护建议」：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "BB:2",
+    "score": 0.387,
+    "text": "客户与市场定位：定位：**面向重视个人风格与日常使用体验的高端皮具客户。**\n\n典型客户以 28–45 岁的城市专业人士、管理者、创业者和设计从业者为主，产品与服务面向所有性别。典型需求包括：\n\n- 希望包袋适合工作与日常生活。\n- 喜欢低调、容易搭配的设计。\n- 愿意为设计、制作与服务付费，同时认真比较价格。\n- 希望客户经理记得自己的偏好，并尊重自己的时间。\n\n以上是品牌的目标客群设定。客户经理实际推荐时，以客户主动表达的用途、预算和偏好为依据，不根据职业、年龄或外表推断购买能力。\n\n渠道设定：品牌直营精品店与官方线上渠道，微信用于一对一咨询、服务和预约。"
+   },
+   {
+    "ref": "BB:5",
+    "score": 0.366,
+    "text": "客户经理角色与语气：角色定位：**熟悉客户偏好、能把产品说清楚、尊重客户决定的专业顾问。**\n\n微信语气要自然、温和、有分寸。使用客户认可的称呼；关系尚不熟悉时默认使用「您」。\n\n每条消息一个主要目的、最多一个问题，尽量让客户容易理解和回复。节日祝福可以没有问题，也不必邀请到店。（字数规则见文末修订。）"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "韩先生",
+  "client_waiting": false,
+  "reply_to": null,
+  "usable_hooks": [
+   "2022-12-20 购买「折页」卡夹 XY-S01，栗棕，自用（P:XY-S01）"
+  ],
+  "do_not_mention": [
+   "沉睡时长",
+   "消费金额",
+   "免费清洁已过期",
+   "折扣赠品",
+   "编造需求"
+  ]
+ },
+ "meta": {
+  "version": "v1",
+  "hash": "34b7eab0",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 4.6,
+  "calls": [
+   [
+    "generate",
+    3.19
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-27",
+  "today": "2026-11-09",
+  "advisor_name": "安然",
+  "scenario": "reactivation",
+  "scenario_context": {},
+  "client": {
+   "address": "韩先生",
+   "relationship": "沉睡",
+   "since": "2022-12",
+   "preferences": {
+    "colors": [
+     "栗棕"
+    ],
+    "uses": [
+     "日常随身"
+    ]
+   },
+   "purchases": [
+    {
+     "date": "2022-12-20",
+     "sku": "XY-S01",
+     "color": "栗棕",
+     "note": "自用"
+    }
+   ],
+   "ref": "INPUT:client",
+   "contact_prefs": {},
+   "key_dates": [],
+   "sensitivities": [],
+   "notes": "",
+   "budget": null
+  },
+  "history": [],
+  "products": []
+ },
+ "expect": "自我介绍加纯问候，不编造需求",
+ "edge": "沉默近四年、没有对话历史"
+}

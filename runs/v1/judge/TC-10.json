@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应致谢，再把「内部拉链袋」偏好和「随行」的拉链、小口袋、粒面牛皮、6,800 元对上，事实准确；但「看到您拿到了就放心」略显多余，且用「配」把推荐和托特内袋连起来有点牵强，没有提工地和电脑场景。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "结合客户常带电脑去工地和甲方会议的真实背景，说明收纳小物的用途，产品事实和价格都对；「谢谢您回来说一声」稍显居高，且推荐来得略直接，没有给客户留余地。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制、低压力，只提出整理尺寸和小口袋分法的下一步，并给客户留了不方便的余地，符合「有事再联系」的偏好；个性化较弱，「尺寸」资料中未给出，需要 CA 另行核实后再发。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都先回应致谢，没有提生日、金额等敏感信息，也没有承诺库存。B 个性化最强，C 压力最小，A 居中，策略区分清楚；价格和产品事实都与资料一致。",
+ "case_id": "TC-10",
+ "scenario": "recommendation",
+ "status": "generated"
+}

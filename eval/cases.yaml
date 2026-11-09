@@ -1,0 +1,100 @@
+# 50 条测试用例：6 个场景 × 8 条（每个场景 5–6 条常规 + 2–3 条边界），外加 2 条跨场景用例。
+# 字段：client_id 从 crm 带出客户资料；client / history 手填时覆盖库里的同名字段；latest_message 追加为客户最新一条消息。
+# expect：人工写下的预期行为，用于评估时核对（不进入生成）。
+cases:
+  # ---------------- 1 生日与节日祝福 ----------------
+  - {case_id: TC-01, scenario: birthday, client_id: C01, today: "2026-11-12", expect: "生日祝福，可提通勤或工地细节，不推荐"}
+  - {case_id: TC-02, scenario: birthday, client_id: C04, today: "2026-11-20", expect: "重要客户生日，可提京都行程，不推荐"}
+  - {case_id: TC-03, scenario: birthday, client_id: C08, today: "2026-12-31", scenario_context: {festival: 元旦}, expect: "元旦祝福，简短（客户偏好简短消息）"}
+  - {case_id: TC-04, scenario: birthday, client_id: C05, today: "2027-03-08", expect: "停止营销客户仍可收到生日祝福，不得附带任何推荐或活动"}
+  - {case_id: TC-05, scenario: birthday, client_id: C03, today: "2027-02-16", scenario_context: {festival: 春节}, expect: "沉睡客户春节祝福，不提多久没来"}
+  - case_id: TC-06
+    scenario: birthday
+    today: "2027-09-15"
+    scenario_context: {festival: 中秋}
+    client: {address: 冯女士, relationship: 新客, since: "2027-08", notes: 到店看过一次小皮具}
+    history: []
+    expect: 信息极少的新客，用礼貌得体的节日问候，不编造细节
+  - {case_id: TC-07, scenario: birthday, client_id: C07, today: "2026-11-11", edge: "生日撞上近期投诉", expect: "祝福的同时体谅或跟进拉链评估，不推荐"}
+  - {case_id: TC-08, scenario: birthday, client_id: C06, today: "2026-11-15", edge: "家中长辈离世 21 天", expect: "held，不生成，建议 30 天后再问候"}
+
+  # ---------------- 2 产品推荐 ----------------
+  - {case_id: TC-09, scenario: recommendation, client_id: C04, today: "2026-11-09", expect: "从工作会面或京都出行切入，推荐一款未购买过的产品"}
+  - {case_id: TC-10, scenario: recommendation, client_id: C01, today: "2026-11-09", products: [XY-S02], expect: "结合常去工地、收纳随身小物推荐「随行」收纳包，价格 6,800"}
+  - {case_id: TC-11, scenario: recommendation, client_id: C03, today: "2026-11-09", products: [XY-B01], expect: "接上客户 2025 年想要轻便肩包的需求推荐「弧」，不提多久没来"}
+  - case_id: TC-12
+    scenario: recommendation
+    today: "2026-11-09"
+    client: {address: 罗先生, relationship: 新客, since: "2026-11", preferences: {colors: [墨黑], style: 实用, uses: [短途旅行]}, notes: 下个月去成都出差三天，想找能装两天衣物的包}
+    history:
+      - {time: "2026-11-06 19:30", role: client, text: 下个月去成都出差三天，有没有适合短途出行的包}
+      - {time: "2026-11-06 19:40", role: ca, text: 罗先生您好，我整理一下适合短途出行的款式再发您。}
+    expect: 推荐「远行」旅行袋，事实来自目录（双向拉链、可拆卸肩带），不编造容量
+  - {case_id: TC-13, scenario: recommendation, client_id: C08, today: "2026-11-09", products: [XY-B01], expect: "对注重结构感的客户推荐日常款，理由要与客户用途相关，不夸大"}
+  - {case_id: TC-14, scenario: recommendation, client_id: C10, today: "2026-11-09", edge: "预算内没有符合用途的款式", expect: "先回应超预算，不把卡夹当通勤包推荐，可提议先等等"}
+  - {case_id: TC-15, scenario: recommendation, client_id: C05, today: "2026-11-09", edge: "客户要求停止营销", expect: "改为三条致歉，不含产品"}
+  - {case_id: TC-16, scenario: recommendation, client_id: C06, today: "2026-11-09", edge: "家中长辈离世 15 天", expect: "held"}
+
+  # ---------------- 3 购后关怀 ----------------
+  - {case_id: TC-17, scenario: post_purchase, client_id: C01, today: "2026-11-09", expect: "问「序」托特用得是否顺手，可提内部拉链袋；养护建议取自粒面牛皮"}
+  - {case_id: TC-18, scenario: post_purchase, client_id: C08, today: "2026-11-09", expect: "光面牛皮养护（避免和钥匙同一隔层），消息简短"}
+  - {case_id: TC-19, scenario: post_purchase, client_id: C04, today: "2026-11-09", expect: "旅行袋用了快一年，提醒仍在 12 个月免费基础清洁期内"}
+  - case_id: TC-20
+    scenario: post_purchase
+    client_id: C02
+    today: "2026-11-12"
+    client: {relationship: 常客, purchases: [{date: "2026-11-10", sku: XY-B02, color: 墨黑, note: 通勤用}]}
+    history:
+      - {time: "2026-11-10 18:00", role: ca, text: 周先生，「序」托特已经为您包好，感谢您的信任。}
+      - {time: "2026-11-11 21:10", role: client, text: 包收到了，挺好的}
+    expect: 回应客户的正面反馈，问使用感受或给一条养护建议，不推荐新品
+  - {case_id: TC-21, scenario: post_purchase, client_id: C03, today: "2026-11-09", edge: "购买已三年以上", expect: "不说仍在免费清洁期内；可提养护建议或维修评估"}
+  - {case_id: TC-22, scenario: post_purchase, client_id: C07, today: "2026-11-09", edge: "售后投诉未结", expect: "先就拉链报价迟迟未发致歉并给出跟进，不推荐，不承诺免费"}
+  - {case_id: TC-23, scenario: post_purchase, client_id: C05, today: "2026-11-09", edge: "停止营销但购后关怀允许", expect: "照常关怀，不附带任何推荐或活动"}
+  - {case_id: TC-24, scenario: post_purchase, client_id: C06, today: "2026-11-09", edge: "家中长辈离世 15 天", expect: "held"}
+
+  # ---------------- 4 沉睡客户唤醒 ----------------
+  - {case_id: TC-25, scenario: reactivation, client_id: C03, today: "2026-11-09", expect: "接上肩包需求或周末到店活动，不提多久没来"}
+  - {case_id: TC-26, scenario: reactivation, client_id: C04, today: "2027-04-10", expect: "京都旅行已过去，可问候旅程；不提多久没联系"}
+  - case_id: TC-27
+    scenario: reactivation
+    today: "2026-11-09"
+    client: {address: 韩先生, relationship: 沉睡, since: "2022-12", preferences: {colors: [栗棕], uses: [日常随身]}, purchases: [{date: "2022-12-20", sku: XY-S01, color: 栗棕, note: 自用}]}
+    history: []
+    edge: 沉默近四年、没有对话历史
+    expect: 自我介绍加纯问候，不编造需求
+  - {case_id: TC-28, scenario: reactivation, client_id: C08, today: "2027-05-10", expect: "以皮面养护或活动为由头，消息简短"}
+  - {case_id: TC-29, scenario: reactivation, client_id: C01, today: "2027-06-01", expect: "以「序」托特清洁期或养护为由头，不催促"}
+  - {case_id: TC-30, scenario: reactivation, client_id: C07, today: "2027-01-15", edge: "投诉后的唤醒", expect: "不推荐，可以先关心拉链修好后的使用情况"}
+  - {case_id: TC-31, scenario: reactivation, client_id: C05, today: "2026-11-09", edge: "客户要求停止营销", expect: "改为三条致歉"}
+  - {case_id: TC-32, scenario: reactivation, client_id: C06, today: "2026-12-01", edge: "离世消息已过 37 天", expect: "只发不带任何请求的问候，不提产品、活动、服务"}
+
+  # ---------------- 5 活动邀约 ----------------
+  - {case_id: TC-33, scenario: event, client_id: C08, today: "2026-11-09", scenario_context: {event_id: "EVT:CARE-1114"}, expect: "接上她问过光面和粒面的区别，邀约皮料分享，时间地点准确"}
+  - {case_id: TC-34, scenario: event, client_id: C01, today: "2026-11-09", scenario_context: {event_id: "EVT:CARE-1114"}, expect: "时间地点准确，不抬高身份"}
+  - {case_id: TC-35, scenario: event, client_id: C04, today: "2026-11-09", scenario_context: {event_id: "EVT:TRAVEL-1121"}, expect: "结合十二月京都行程邀约出行收纳小聚"}
+  - {case_id: TC-36, scenario: event, client_id: C03, today: "2026-11-09", scenario_context: {event_id: "EVT:CARE-1114"}, expect: "周末偏好可以利用，沉睡客户不施压"}
+  - case_id: TC-37
+    scenario: event
+    client_id: C01
+    today: "2026-11-09"
+    scenario_context:
+      event: {name: 通勤收纳小分享, date: "2026-11-28", weekday: 周六, time: "15:00-16:30", location: 序隅上海静安店, content: 分享通勤包内部收纳的整理方法，现场可以看「序」中号托特的内部布局}
+    expect: 使用 CA 手填的活动信息，结合通勤需求
+  - {case_id: TC-38, scenario: event, client_id: C02, today: "2026-11-09", scenario_context: {event_id: "EVT:YEAREND-TBD"}, edge: "活动信息缺失", expect: "时间地点写 TBD，ca_note 提示补全；同时先回应客户的价格问题"}
+  - {case_id: TC-39, scenario: event, client_id: C05, today: "2026-11-09", scenario_context: {event_id: "EVT:CARE-1114"}, edge: "客户要求停止营销", expect: "改为三条致歉"}
+  - {case_id: TC-40, scenario: event, client_id: C07, today: "2026-11-09", scenario_context: {event_id: "EVT:TRAVEL-1121"}, edge: "近期投诉", expect: "不邀约或先处理投诉，ca_note 说明"}
+
+  # ---------------- 6 价格异议 ----------------
+  - {case_id: TC-41, scenario: price_objection, client_id: C02, today: "2026-11-09", expect: "品牌手册第七节测试输入；统一定价 24,800，无折扣"}
+  - {case_id: TC-42, scenario: price_objection, client_id: C09, today: "2026-11-09", expect: "代购比价：不贬低、不说假货，可问比较的型号和渠道，28,800 准确"}
+  - {case_id: TC-43, scenario: price_objection, client_id: C10, today: "2026-11-09", expect: "预算两万：如实说明预算内暂无符合通勤用途的款式，不推卡夹"}
+  - {case_id: TC-44, scenario: price_objection, client_id: C01, today: "2026-11-09", latest_message: "「隅」那款28,800，我是老客户了，能给打个折吗", expect: "老客要折扣：统一定价，不因关系让价"}
+  - {case_id: TC-45, scenario: price_objection, client_id: C04, today: "2026-11-09", latest_message: "「隅」翻盖手袋有没有会员价？免税店那边好像便宜一些", expect: "会员价加免税比价：统一定价，不贬低免税渠道"}
+  - {case_id: TC-46, scenario: price_objection, client_id: C08, today: "2026-11-09", latest_message: "「弧」18,800？买第二只能不能便宜点", expect: "第二只要折扣：不打折，消息简短"}
+  - {case_id: TC-47, scenario: price_objection, client_id: C05, today: "2026-11-09", latest_message: "「序」托特24,800太贵了，能便宜吗", edge: "停止营销客户主动问价", expect: "照常回复价格，不附带推荐"}
+  - {case_id: TC-48, scenario: price_objection, client_id: C06, today: "2026-11-09", latest_message: "「随行」收纳包现在多少钱？能少一点吗", edge: "离世 15 天、客户主动来问", expect: "克制地回答价格与政策，不推荐、不邀约"}
+
+  # ---------------- 跨场景 ----------------
+  - {case_id: TC-49, scenario: post_purchase, client_id: C07, today: "2026-11-09", latest_message: "拉链的报价到现在都没发我", edge: "选的是购后关怀，客户实际在投诉", expect: "先致歉并回应报价问题，ca_note 提示意图是投诉"}
+  - {case_id: TC-50, scenario: recommendation, client_id: C02, today: "2026-11-09", edge: "选的是产品推荐，客户正在等价格回复", expect: "先回应价格问题，不另外推荐新品"}

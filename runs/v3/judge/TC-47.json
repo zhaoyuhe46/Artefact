@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格和无折扣表述准确，没有推荐也没有活动。但「如需我把这款的使用细节再说清楚」是主动加的服务邀约，略偏销售，对已要求停止营销的客户可以更克制。",
+   "comment_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实（粒面牛皮、拉链、13英寸电脑）均与资料一致，但客户只问能否便宜，这里逐项重复卖点并以「您看这些是否合您需要」收尾，等于在劝说，价值论证偏多。客户已明确不要营销，这样回复有些越界；也没有用到客户简洁的偏好。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "直接回应价格，明确说明没有折扣空间，不推荐、不追问预算、不劝说，并把节奏交给客户，完全符合停止营销的要求，可以直接发送。「价格确实需要斟酌」略显套话，但不影响使用。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价，没有承诺折扣或赠品，也没有推荐其他产品或活动，工具对停止营销的处理符合预期。C 最贴合客户的要求，既诚实回答又低压力；A 和 B 都带有继续介绍这款的倾向，B 最明显。三条的核心句式相近，差异主要在结尾，差异度一般。",
+ "case_id": "TC-47",
+ "scenario": "price_objection",
+ "status": "generated"
+}

@@ -1,0 +1,9 @@
+.venv
+_old
+runs
+eval
+deliverables
+docs
+*.pdf
+*.docx
+.workbuddy

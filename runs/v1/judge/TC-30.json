@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "语气克制、无推销，但「还在核实」距上次报价说明已近三个月，没有对久等致歉；「一切都好吗」与客户当前最关心的事（拉链）脱节，显得泛泛，且没有关心拉链修好后的使用情况。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "拉链还没修好就提醒「别硬拉」，像是暗示客户使用不当，对曾投诉的客户很不合适；「相关资料」也只是泛泛的养护提醒，并非真实资料；两个主题并存，目的不单一。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": false,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "准确承接评估结论和待报价状态，邀请客户表达想法，比较务实；但没有为拖延致歉，且「活动或服务」策略并未体现活动，实际只是进度跟进。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "三条都围绕「报价还在核实」，差异小；且距上次沟通已近三个月，「还在核实」可信度低，也没有致歉。工具提示要求先内部确认报价后再发送，应先核实或改成致歉并说明进展；预期是先关心拉链修好后的使用情况，三条都没有做到。",
+ "case_id": "TC-30",
+ "scenario": "reactivation",
+ "status": "generated"
+}

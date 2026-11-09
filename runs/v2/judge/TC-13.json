@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 4,
+   "factuality": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "呼应客户问过光面和粒面区别，个性化最强；但「表面起伏更耐日常摩擦」资料中没有，是推断出的产品性能，略有夸大。另外「您问过」是五十天前的旧话题，开头略突兀，不过没有当新消息回应。结尾问题只有一个，合规。",
+   "sendable": 4
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用途对应客户的工作会面和晚间场合，也合偏好；但资料写的是「轻装出门、日常搭配」，「晚间场合、工作会面都合适」属于延伸，「与墨黑协调」也暗示有该颜色且没有结构感的依据。结尾「您看是否合您的用法」不算严格的问句，信息偏密。",
+   "sendable": 3
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "事实全部来自资料，价格正确；「到店看实物和皮面手感」贴合客户对皮面质感的兴趣。「不做预留」是不必要的声明，像在回应没人提过的事，反而生硬。个性化弱，且邀约略带推动。",
+   "sendable": 3
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条角度不同：A 从皮面问题切入，B 从使用场景切入，C 邀请到店。均未提已购款、未暗示库存、未施压。主要风险是 A 和 B 对资料之外的性能或用途有推断，建议改为只引用「粒面牛皮、轻装出门、日常搭配」。资料里没有结构感信息，所以预期行为中的「结构感」无法被有效对应。",
+ "case_id": "TC-13",
+ "scenario": "recommendation",
+ "status": "generated"
+}

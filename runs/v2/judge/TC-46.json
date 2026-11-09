@@ -1,0 +1,47 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确不打折、价格18,800元与资料一致，语气克制；但「理解这个价格需要考虑」略带猜测，「在您常在的场合」较含糊，结尾提议偏泛，不够具体。",
+   "_note": "整体可发，略有小瑕疵"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 5,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "个性化最好，承接了光面与粒面的提问和她的用途；「比您之前问的光面更耐日常痕迹」是对光面的推断，资料只给了粒面牛皮，没有写耐痕，略有越界；客户在谈价格时转向产品讲解，稍显回避，也比其他两条长。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先明确无折扣和价格，再征得同意并询问预算，完全符合 DER:NO-BUDGET 与 PRICE-OPEN；只问一个问题，简短，与工具提示一致。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都守住了不打折和价格18,800元，没有越权。C 最贴合工具提示和客户要求简短的偏好；B 个性化强，但「更耐日常痕迹」超出资料；A 稍泛。三条的策略（政策、用途、预算）有明显区分。",
+ "case_id": "TC-46",
+ "scenario": "price_objection",
+ "status": "generated"
+}

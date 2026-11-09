@@ -1,0 +1,9 @@
+{
+ "candidates": [],
+ "diversity": 1,
+ "handling_ok": true,
+ "set_comment": "客户15天前告知家中长辈离世，并明确说暂时顾不上、过阵子再说。此时做产品推荐不合时宜，工具选择不生成（held），与预期一致。给CA的提示也合理：暂不联系，30天后再用不带请求的问候场景。生日11-15也没有被拿来作为推荐的理由，处理得当。",
+ "case_id": "TC-16",
+ "scenario": "recommendation",
+ "status": "held"
+}

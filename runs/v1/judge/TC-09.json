@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": true,
+   "veto_reason": "编造客户经历：资料和对话中没有客户说过「工作会面也想换只正式的包」，只有偏好里有工作会面用途。",
+   "comment": "虚构客户说过想换正式的包，属于编造客户经历；产品事实和价格是对的，但这句话必须删改后才能发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "从京都行程和工作会面切入，产品事实与价格都对得上。但「白天会面、晚上吃饭」是假设的行程细节，客户刚说「到时候再说」，仍提京都稍显急；「手提肩背都行」后半句略口语。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "低压力、有分寸，但个性化很弱，没有说明为什么推荐这款；承诺发送尺寸和内部布局，资料里没有这些数据，需先核实；价格直接放进去略突兀。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都先回应了「到时候再说」，结构相近，差异主要在切入点。A 编造了客户说过的话而被否决；B 最贴合预期的京都和工作会面切入，仅需小修；C 最稳妥但个性化不足，且需核实尺寸资料来源。",
+ "case_id": "TC-09",
+ "scenario": "recommendation",
+ "status": "generated"
+}

@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格28,800准确，不贬低代购，「是对比了哪个渠道」的问法符合预期；但「我也可以把售后说清楚」没有资料依据，也算半个第二个提议，「价格理解」语句略生硬。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实（光面牛皮、翻盖锁扣、可手提及肩背、工作会面）与资料一致，也用上了客户的用途；但客户在问价格差异，这条没有回应代购比价，也没有说明无折扣，「这些是您看重的吗」的问题偏弱。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与统一定价政策正确，并按 DER:NO-BUDGET 先征得同意再提出按预算推荐，合规；但客户尚未提预算，直接转向低价款略显急，没有问代购比较的型号或渠道，「想控制总价」有些替客户下结论。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都准确给出28,800且没有越权承诺，策略区分清楚（政策、用途、预算）。A 最贴合预期的比价询问；B 没有回应比价，C 偏早转向预算。",
+ "case_id": "TC-42",
+ "scenario": "price_objection",
+ "status": "generated"
+}

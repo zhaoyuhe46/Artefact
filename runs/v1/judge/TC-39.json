@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，但「之前给您发过相关内容」略含糊，也没有说明之后不再发送，客户可能仍然不踏实。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "致歉后明确承诺不再主动推送并说已记下，直接回应了客户8月提出的边界，也没有带产品、没有提问，最适合发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "道歉和承诺到位，但补上「使用中遇到问题随时找我」属于多带一层服务邀约，在客户已划界后略显多余，不过没有营销产品。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具在客户已停止营销的情况下，把活动场景改成了三条致歉，没有生成活动邀约，符合预期。三条内容都没有推销，也没有施压。三条的核心意思相近，差异主要在是否明确承诺不再推送、是否保留服务渠道。B 最贴合客户边界，C 稍微多说了一点。",
+ "case_id": "TC-39",
+ "scenario": "event",
+ "status": "generated"
+}

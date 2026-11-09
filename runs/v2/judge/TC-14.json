@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "先回应超预算，价格24,800元与资料一致，只有一个问题且不硬推；「我不好硬推」略口语，也没有利用13寸电脑的需求，个性化一般，但整体可直接发送。",
+   "tier": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "用到13英寸电脑和拉链闭合，个性化最好；但「可惜价格过不去」显得惋惜且有点拉扯，「另找两款」承诺了具体数量，而资料里并没有可选款，需要修改后再发。",
+   "tier": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "如实说明超预算，并给出「不合适您也不必勉强」的低压力出口，语气得体；但「整理好发您」默认了两万以内有通勤款，资料尚未核实，发送前需补齐价格事实。",
+   "tier": null
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": true,
+ "set_comment": "三条都先承认超预算，没有把卡夹当通勤包推荐，也没有越权承诺折扣。差异主要在语气，结构相近，多样性偏低。共同风险是两万以内的款式资料尚缺，发送前需要补齐；A 最稳妥，C 压力最低，B 个性化最强但承诺「两款」偏具体。",
+ "case_id": "TC-14",
+ "scenario": "recommendation",
+ "status": "generated"
+}

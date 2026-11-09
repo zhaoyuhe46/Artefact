@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "没有任何请求，也不提产品和活动，克制得体；但「天气转凉」是泛泛的季节问候，没有直接回应对方家中的丧亲，稍显轻飘，不过也避免了重提伤痛。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「这段时间没打扰您」隐含了对客户近况的了解，与客户说「过阵子再说」相呼应，语气温和；但「没打扰」略带提示断联之意，「安稳」一词稍显书面，发送前可略作微调。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「这条不必回复」明确去除了客户的回复压力，最贴合只发无请求问候的预期，措辞简短自然，几乎可直接发送。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条均无产品、活动、请求，没有触碰一票否决项，处理符合预期。三条结构相近（自报身份加祝福），差异主要在落点：A 是季节问候，B 是体谅客户近况，C 是明确免回复。C 最稳妥，B 次之，A 的回应性偏弱。",
+ "case_id": "TC-32",
+ "scenario": "reactivation",
+ "status": "generated"
+}

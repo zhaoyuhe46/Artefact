@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，但「之前还给您发消息」与事实不符：客户8月提出后并无记录显示CA继续发送，等于编造了一次打扰；致歉缘由不清，且发这条本身也是一次主动触达。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「之后我不会再主动推送任何信息」明确回应了客户8月的要求，边界清晰；但「抱歉之前打扰到您」同样缺乏事实依据，需要改写成更中性的确认。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「之前发送的消息打扰您了」同样缺乏事实依据；补充「售后服务方面若有问题」是合理的服务渠道说明，但在致歉里多带出一层内容，略显多余，且有变相保持联系的意味。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具正确拦截了产品推荐，改为三条致歉，不含产品、价格或活动，符合预期。但三条都默认「之前打扰过」，缺少事实依据；提示中本可选择不发送，建议最多发一条，其中B最贴合客户的要求。三条差异不大，主要是致歉加边界承诺的措辞变化。",
+ "case_id": "TC-15",
+ "scenario": "recommendation",
+ "status": "generated"
+}

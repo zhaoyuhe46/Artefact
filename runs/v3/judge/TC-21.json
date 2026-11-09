@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「卡位和中央夹层」与资料吻合，也没有提免费清洁；但一次问了用得是否顺手、松紧两件事，对沉睡了两年多的客户略显突然，也没有说明为什么此刻联系。「这段时间」时间感模糊，可直接发送但略显泛。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容对应 GRAIN-01 和 GRAIN-03，事实准确，也没有提免费清洁。但整条是说明书式的陈述，没有开场或收尾，缺少与客户的关系感，像群发的养护贴士；对沉睡客户来说没有理由，略突兀。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 3,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "依据 SVC:CARE-ADVICE 和 GEN-02，「带过来做评估」与维修评估服务一致，没有承诺免费，也没有提免费清洁；语气克制、不施压，还给客户留了主动联系的余地，是三条里最稳妥的一条。小瑕疵：「先不要自行用清洁剂」略像提醒而非关怀。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都只围绕 2023 年购买的「折页」卡夹，没有把 2025 年的肩包咨询当作刚发生，也没有提免费清洁，符合预期。三条的内容和事实都没有问题，区别主要在策略：问感受、讲养护、提供服务入口，差异度中等，且都偏通用，C 最适合沉睡客户。",
+ "case_id": "TC-21",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

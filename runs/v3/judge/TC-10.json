@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「内部拉链袋」是客户对托特的评价，与独立的收纳包是两个产品，「也是拉链闭合」的类比有点牵强；「适合把工地的小物分开放」超出资料中「收纳随身小物、旅行整理」的用途，并带出工地场景。工具提示A未通过检查，需CA人工确认后才能发。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "贴合预期的工地加电脑场景，产品事实与资料一致，价格6,800正确；但「往返工地和甲方会议」来自CA内部备注，直接说出可能让客户觉得被记录，且「随身小物和整理分开」表述略绕，需要改写。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "克制，无压力，只有一个小问题和一个下一步，产品事实与价格正确，「不看也没关系」很得体；缺少与客户情况的联系，个性化弱；「打扰一下」略显多余，且需要CA确实能核实尺寸。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条的产品事实和价格都正确，也没有越权承诺和提及生日。差异主要在个性化切入点：A用托特内部拉链袋的偏好，B用工地场景，C用轻量的尺寸下一步。三条的产品描述句式相近，差异度中等。C最稳妥，B的个性化最强但涉及内部记录，A的类比牵强且未通过检查。",
+ "case_id": "TC-10",
+ "scenario": "recommendation",
+ "status": "generated"
+}

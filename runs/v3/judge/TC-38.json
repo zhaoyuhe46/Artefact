@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「价格这块我暂时没法给您答复，核实后回您」暗示价格可能有调整空间，而品牌是统一定价，CA 本应直接说明；TBD 未补全不能直接发；紧接着转入茶叙，对价格异议的回应过于简短。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "引用客户之前找「带拉链、能放13英寸电脑的通勤包」是真实偏好，但「茶叙上也会聊到这类日常使用」是编造的活动内容（资料只写具体安排待定）；同样暗示价格可议，且 TBD 未补全，一句话里塞了价格、茶叙、提问，目的不单一。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 2,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「可以现场看看包款、聊聊日常通勤使用」属于编造的活动内容，资料只说安排待定；价格回应同样含糊，暗示可能有调整；TBD 未补全。"
+  }
+ ],
+ "diversity": 2,
+ "handling_ok": false,
+ "set_comment": "三条都以「价格我没法答复，核实后回您」开头，实际上是暗示价格可能松动，与统一定价、CA 无权打折的规则不符，应先明确说明统一售价24,800元，并回应客户觉得贵的感受，可顺带强调拉链闭合、能放13英寸电脑等产品事实。三条的结构和内容高度相似，差异主要在茶叙描述上，其中 B、C 还编造了茶叙内容。TBD 与 ca_note 提示的处理基本符合预期，但在客户刚提出价格异议时就推茶叙，时机略显生硬，因此整体处理未达预期。",
+ "case_id": "TC-38",
+ "scenario": "event",
+ "status": "generated"
+}

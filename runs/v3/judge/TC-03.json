@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 2,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "简短克制，没有产品和提问，符合客户偏好简短消息，可直接发送；缺少个性化，但对纯节日祝福而言可以接受。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「对皮面质感一直很有兴趣」出自9月客户的真实提问，没有编造；「一直」略有夸大，「喜欢的东西都能慢慢遇到」略带购物暗示，但整体仍温和，小改即可发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「新年将至」与今天12月31日相符，但「祝您元旦快乐」与「新年将至」略重复，句子偏模板化、偏长；「工作顺手」对应设计师身份，没有编造。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都避开了产品、价格和提问，没有越权，也没有提消费记录。差异主要在个性化程度：A 纯祝福，B 带兴趣点，C 偏礼貌。整体偏相近，其中 A 最贴合「简短」的预期。",
+ "case_id": "TC-03",
+ "scenario": "birthday",
+ "status": "generated"
+}

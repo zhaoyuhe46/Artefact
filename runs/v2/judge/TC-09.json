@@ -1,0 +1,49 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "承接客户十二月带家人去京都的真实信息，价格与产品事实都准确，一个目的且无问句；「除了旅行袋还想带一只」略带假设，句子稍长，但整体可直接发送。",
+   "_note": null
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「白天出门、晚上吃饭」「旅行袋可能偏大」是对行程和客户已有产品的推测，并非客户所说，有编造之嫌；「够用」「应付」偏口语，不够克制，需要修改后再发。",
+   "_note": null
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 4,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「尺寸和内部布局我核实后发您」是对核实并跟进的承诺，资料里并没有这些信息，实际发送前要先确认；「快到日子了」带有催促感，「您先看看」收尾生硬，需要较多修改。",
+   "_note": null
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都只推「隅」翻盖手袋，也没有提及生日、旧款旅行袋和收纳件，符合工具提示；价格与产品事实准确。差异主要体现在切入角度上，句式和产品信息高度重合。A 最稳妥，B 有推测行程的问题，C 附带了未经核实的跟进承诺。",
+ "case_id": "TC-09",
+ "scenario": "recommendation",
+ "status": "generated"
+}

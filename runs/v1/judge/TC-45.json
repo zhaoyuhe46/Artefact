@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "如实回答没有会员价、统一定价28,800元，也没有让价暗示；结尾的问题是二选一，稍显生硬，且几乎没有用到客户信息。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实准确，不贬低免税渠道；但对比价没有给出有效回应，结尾缺少下一步，「我不便比较」略显防御，回应偏冷。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 3,
+   "appropriateness": 2,
+   "factuality": 3,
+   "sendable": 2,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "客户没有提预算，却直接追问预算，并暗示可以推荐更低价的款式，这会冲淡对价格的明确回应；「按京都行程的收纳需要」把手袋与旅行收纳牵强地联系起来，与该款的工作会面用途不符，「没有就先等等」也不自然。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "三条都守住了统一定价、没有越权承诺。A最稳妥；B事实最扎实但缺少推进；C过早询问预算，并把京都行程硬套到手袋上，需要修改。三条的开头相近，差异度一般。",
+ "case_id": "TC-45",
+ "scenario": "price_objection",
+ "status": "generated"
+}

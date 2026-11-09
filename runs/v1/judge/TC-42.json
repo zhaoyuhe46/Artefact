@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 5,
+   "personalization": 4,
+   "appropriateness": 5,
+   "factuality": 5,
+   "sendable": 5,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格准确，明确无折扣，不评价代购，只问一个问题确认型号和渠道，完全符合预期行为，可直接发送。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 2,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "产品事实准确，用途也对应工作会面，但完全回避客户的代购比价，直接转到看实物细节，回应不到当下关切，显得绕开问题；「正好对应」略带推销。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与无折扣表述准确，但客户尚未提预算，直接引导降价款有些抢先，也暗示客户嫌贵；「我也不便帮您申请」容易让人联想到可以申请。未先征得同意，虽以问句形式提出，仍需微调。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "A 最贴合场景和提示，先确认比较对象；B 回避比价；C 过早转向预算。三条策略差异清晰，价格 28,800 均准确，无越权承诺。",
+ "case_id": "TC-42",
+ "scenario": "price_objection",
+ "status": "generated"
+}

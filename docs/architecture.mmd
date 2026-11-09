@@ -1,0 +1,47 @@
+flowchart LR
+  subgraph UI["CA 前端（Vercel 网页 / CLI / 批量评估）"]
+    IN["输入：客户ID或手填资料<br/>场景（6选1）+ 今天<br/>客户最新消息 / 指定产品 / 活动"]
+    OUT["三张候选卡片<br/>策略标签 · 理由 · 引用编号 · 规则结果<br/>CA 选择 → 复制 → 企微发送"]
+  end
+
+  subgraph PG["Neon Postgres + pgvector"]
+    direction TB
+    subgraph CRM["schema crm（客户库）"]
+      C1["clients · purchases · key_dates<br/>sensitivities · messages"]
+    end
+    subgraph BR["schema brand（品牌库）"]
+      B1["products · services · policies<br/>care · events · rules"]
+      B2["chunks（50块）<br/>embedding vector(1536) · HNSW<br/>scenario_tags 过滤"]
+    end
+  end
+
+  subgraph ENG["xuyu 引擎（Python，最多 3 次模型调用）"]
+    direction TB
+    L["① load<br/>客户画像 + 最近 8 条对话"]
+    G["② guards（纯代码）<br/>停止营销→致歉 · 丧亲30天→不生成<br/>投诉未结→致歉跟进 · 3天内消息→先回应<br/>活动缺字段→TBD"]
+    R["③ retrieve<br/>硬事实：SQL 按 SKU/ID 精确查<br/>软知识：pgvector 语义检索 top-5"]
+    S["skills/&lt;场景&gt;/SKILL.md<br/>声明资料包 + A/B/C 三条策略"]
+    W["④ generate<br/>DeepSeek V4.1 Flash（固定快照）<br/>一次调用出三条 + refs"]
+    V["⑤ validate R1–R13（代码）<br/>禁用词·折扣·价格·产品·字数·问句<br/>承诺·差异度·引用·编号泄漏"]
+    F["⑥ repair<br/>不通过的合并重写一次"]
+  end
+
+  subgraph EV["评估（离线）"]
+    J["LLM judge：Claude Sonnet 5.5<br/>5 维 1–5 分 · 一票否决 · 差异度"]
+    H["人工盲评 18 条<br/>与 judge 一致率"]
+    X["Test_Cases.xlsx（50 例 × 3）"]
+  end
+
+  IN --> L
+  C1 --> L
+  L --> G --> R
+  S --> R
+  B1 -- SQL --> R
+  B2 -- 向量检索 --> R
+  EMB["OpenRouter embeddings<br/>text-embedding-3-small"] -.查询向量.-> R
+  R --> W --> V
+  V -- 不通过 --> F --> V
+  V -- 通过/标红 --> OUT
+  G -- held：不生成 + 给 CA 的提示 --> OUT
+  OUT -.批量结果.-> J --> X
+  J --> H

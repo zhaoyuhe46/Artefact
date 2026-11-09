@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "一个目的、一个问题，提到通勤和内部拉链袋，贴合客户上次的喜好。「用了这十天」按10月30日到11月9日算是准确的。「跟我说一声」略显客套，「拉链和内部拉链袋有不惯的地方」可以再自然些。没有带她的电脑、工地等细节，个性化还有空间。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "养护内容与CARE:GRAIN-01、02一致，没有编造。但是纯信息推送，没有提问，也没有结合客户的通勤和工地场景，个性化弱。客户刚收到包十天，主动讲沾水处理有点突兀，开头也没有任何关心。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 3,
+   "personalization": 2,
+   "appropriateness": 2,
+   "factuality": 4,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "免费基础清洁在12个月内可预约，事实无误。但新包才用十天就提醒清洁，时机偏早，像售后营销，没有回应客户当前的使用需要。「哪天路过店里」也隐含到店的暗示。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条的目的各不相同（使用反馈、养护、服务提醒），差异度好。A最贴合预期行为和提示，既问用得顺不顺，又提到内部拉链袋，适合优先推荐。B信息正确但缺少关心和个性化，C事实正确但时机偏早。三条都没有提生日，符合工具提示，也没有越权承诺。",
+ "case_id": "TC-17",
+ "scenario": "post_purchase",
+ "status": "generated"
+}

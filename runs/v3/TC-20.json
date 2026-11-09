@@ -1,0 +1,411 @@
+{
+ "case_id": "TC-20",
+ "scenario": "post_purchase",
+ "mode": "post_purchase",
+ "status": "generated",
+ "flags": {
+  "client_waiting": true,
+  "no_marketing": false
+ },
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "strategy_name": "问使用感受",
+   "text": "周先生，收到就好。这几天「序」托特通勤用着顺手吗？拉链开合、收电脑这些细节有需要随时跟我说。",
+   "rationale": "先回应客户「收到了，挺好的」，再就所购托特点一个轻问题，不推荐其他产品。",
+   "refs": [
+    "P:XY-B02"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "46字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "1个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "B",
+   "strategy_name": "养护建议",
+   "text": "周先生，收到就放心了。粒面牛皮平时用干燥软布轻拭表面灰尘即可，通勤放在桌面或抽屉里也够。有养护问题随时发我。",
+   "rationale": "回应后给出一条取自养护记录的粒面牛皮日常清洁做法，不额外延伸。",
+   "refs": [
+    "CARE:GRAIN-01",
+    "SVC:CARE-ADVICE"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "54字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  },
+  {
+   "strategy_id": "C",
+   "strategy_name": "服务提醒",
+   "text": "周先生，收到就好。您这只「序」托特在购买后12个月内可预约一次免费基础清洁，需要时提前跟我说，我帮您安排。",
+   "rationale": "回应后只提醒一项资料中的售后服务及条件，与所购产品对应。",
+   "refs": [
+    "DER:CLEAN-XY-B02",
+    "SVC:CLEAN-12M"
+   ],
+   "checks": [
+    {
+     "rule": "R1 禁用表达",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R2 价格政策",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R3 价格与数字",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R4 产品真实性",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R5 字数与格式",
+     "ok": true,
+     "detail": "53字（10–80）"
+    },
+    {
+     "rule": "R6 问句数",
+     "ok": true,
+     "detail": "0个问句"
+    },
+    {
+     "rule": "R7 越权承诺",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R10 禁区",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R11 场景专属",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R13 编号泄漏",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "rule": "R12 引用",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false,
+   "previous_text": null,
+   "passed": true
+  }
+ ],
+ "set_checks": [
+  {
+   "rule": "R9 齐备性",
+   "ok": true,
+   "detail": "A、B、C"
+  },
+  {
+   "rule": "R8 差异度 A-B",
+   "ok": true,
+   "detail": "0.05"
+  },
+  {
+   "rule": "R8 差异度 A-C",
+   "ok": true,
+   "detail": "0.12"
+  },
+  {
+   "rule": "R8 差异度 B-C",
+   "ok": true,
+   "detail": "0.02"
+  }
+ ],
+ "ca_note": [
+  "客户只是简单确认收货，三条均为一问或零问的轻收尾，不回也不会有压力；C 条若要预约须先核实门店可约时段再答。"
+ ],
+ "retrieval": {
+  "focus_sku": "XY-B02",
+  "facts": [
+   {
+    "ref": "P:XY-B02",
+    "text": "「序」中号托特（XY-B02，手袋）：统一售价24,800元；粒面牛皮，拉链闭合，可容纳13英寸笔记本电脑，内设拉链袋；主要用途：工作通勤"
+   },
+   {
+    "ref": "CARE:GRAIN-01",
+    "text": "粒面牛皮·日常清洁：日常用干燥的软布轻拭表面灰尘即可"
+   },
+   {
+    "ref": "CARE:GRAIN-02",
+    "text": "粒面牛皮·水渍：沾到水时先用干软布轻按吸干，放在阴凉通风处自然晾干，避免吹风机或暴晒"
+   },
+   {
+    "ref": "CARE:GRAIN-03",
+    "text": "粒面牛皮·存放：不用时在包内放些填充物保持包型，装进防尘袋，放在通风干燥处"
+   },
+   {
+    "ref": "CARE:GRAIN-04",
+    "text": "粒面牛皮·染色：尽量避免长时间与深色牛仔等易掉色衣物摩擦"
+   },
+   {
+    "ref": "CARE:GEN-01",
+    "text": "通用·五金：五金尽量避免接触香水、护手霜，用后可用干布擦拭"
+   },
+   {
+    "ref": "CARE:GEN-02",
+    "text": "通用·污渍：遇到不确定的污渍不要自行使用清洁剂，可以联系客户经理安排评估"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "text": "通用·拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "DER:CLEAN-XY-B02",
+    "text": "客户于2026-11-10购买「序」中号托特，目前仍在购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "text": "养护建议：客户可随时向客户经理咨询所购产品的日常养护方法"
+   },
+   {
+    "ref": "SVC:CLEAN-12M",
+    "text": "免费基础清洁：购买后12个月内，可预约一次免费基础清洁"
+   },
+   {
+    "ref": "SVC:REPAIR-EVAL",
+    "text": "维修评估：污损修复和换件需先评估、报价，评估后再确定方案"
+   }
+  ],
+  "rag_query": "购后关怀；包收到了，挺好的；工作通勤；简洁；在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+  "rag": [
+   {
+    "ref": "BB:6.3",
+    "score": 0.627,
+    "text": "购后关怀：场景「购后关怀」。沟通重点：确认体验，提供与所购物品有关的帮助。可以说：「林女士，想问问这几天「序」托特用得是否顺手？如果收纳或日常养护上有疑问，随时发我。」。不该说：「包应该收到了吧？顺便再给您推荐个卡夹。」"
+   },
+   {
+    "ref": "BB:5.2",
+    "score": 0.451,
+    "text": "具体解释产品：沟通原则「具体解释产品」。应该这样说：「这款有拉链闭合，也能容纳13英寸电脑。」；应避免：「顶级工艺，绝对值得。」"
+   },
+   {
+    "ref": "CARE:GEN-03",
+    "score": 0.413,
+    "text": "通用·拉链：通用的拉链：拉链开合不顺时不要用力拉扯，可以带到店里检查"
+   },
+   {
+    "ref": "BB:5.1",
+    "score": 0.387,
+    "text": "用已知偏好建立联系：沟通原则「用已知偏好建立联系」。应该这样说：「您之前提到通勤需要放电脑……」；应避免：「您这个收入层次肯定需要……」"
+   },
+   {
+    "ref": "SVC:CARE-ADVICE",
+    "score": 0.369,
+    "text": "养护建议：售后服务「养护建议」：客户可随时向客户经理咨询所购产品的日常养护方法"
+   }
+  ]
+ },
+ "analysis": {
+  "address_form": "周先生",
+  "client_waiting": true,
+  "reply_to": "包收到了，挺好的",
+  "usable_hooks": [
+   "2026-11-10 购买「序」中号托特（墨黑），通勤用（C:C02 purchases）",
+   "线上咨询时在找带拉链、能放13英寸电脑的通勤包（C:C02 notes，属内部记录，只可作背景不可当作客户原话引用）"
+  ],
+  "do_not_mention": [
+   "价格",
+   "常客身份",
+   "墨黑以外的颜色",
+   "库存交期",
+   "赠品折扣"
+  ]
+ },
+ "meta": {
+  "version": "v3",
+  "hash": "876346cd",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "seconds": 5.4,
+  "calls": [
+   [
+    "generate",
+    3.46
+   ]
+  ]
+ },
+ "input": {
+  "case_id": "TC-20",
+  "today": "2026-11-12",
+  "advisor_name": "安然",
+  "scenario": "post_purchase",
+  "scenario_context": {},
+  "client": {
+   "id": "C02",
+   "address": "周先生",
+   "relationship": "常客",
+   "since": "2026-10",
+   "preferences": {
+    "uses": [
+     "工作通勤"
+    ],
+    "style": "简洁",
+    "colors": [
+     "墨黑"
+    ]
+   },
+   "budget": null,
+   "contact_prefs": {
+    "time": null,
+    "frequency": null,
+    "no_marketing": false
+   },
+   "no_marketing": false,
+   "notes": "在线上咨询，之前在找带拉链、能放13英寸电脑的通勤包",
+   "purchases": [
+    {
+     "date": "2026-11-10",
+     "sku": "XY-B02",
+     "color": "墨黑",
+     "note": "通勤用"
+    }
+   ],
+   "key_dates": [],
+   "sensitivities": [],
+   "ref": "C:C02"
+  },
+  "history": [
+   {
+    "time": "2026-11-10 18:00",
+    "role": "ca",
+    "text": "周先生，「序」托特已经为您包好，感谢您的信任。"
+   },
+   {
+    "time": "2026-11-11 21:10",
+    "role": "client",
+    "text": "包收到了，挺好的"
+   }
+  ],
+  "products": []
+ },
+ "expect": "回应客户的正面反馈，问使用感受或给一条养护建议，不推荐新品",
+ "edge": null
+}

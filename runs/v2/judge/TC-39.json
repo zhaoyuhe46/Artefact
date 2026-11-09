@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「是我这边没留意好分寸」克制诚恳，无问句。但客户 8 月已确认停止，之后并无新的违规推送，此时主动致歉略显突兀，且没有给出后续安排，客户读完不知道要做什么。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 4,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「之后我不会再主动给您发信息」明确回应了客户「不要主动推送」的要求，并把联络主动权交还客户，三条中最贴合客户诉求。「之前打扰到您」略笼统，但无营销、无问句，几乎可直接发送。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 3,
+   "appropriateness": 3,
+   "factuality": 3,
+   "sendable": 3,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "「若遇到售后问题，您可以随时联系我」是服务性说明，不算营销，但客户并未提过售后需求，在致歉中多加这一句有轻微引导联系的意味。「售后」的具体服务范围资料里也没有给出，需要 CA 自行确认后再发。"
+  }
+ ],
+ "diversity": 3,
+ "handling_ok": true,
+ "set_comment": "工具遵守了停止营销的要求，没有生成活动邀约，改为三条简短致歉，符合预期行为，也提示了可以不发。三条都无问句、无营销、无越权承诺，但内容相近，差异主要在是否明确后续边界，以及是否保留售后渠道。B 最稳妥。需要注意的是，客户 8 月后并无新的打扰记录，致歉本身是可选动作，CA 应先确认此前推送已停止再决定是否发送。",
+ "case_id": "TC-39",
+ "scenario": "event",
+ "status": "generated"
+}

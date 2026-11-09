@@ -1,0 +1,46 @@
+{
+ "candidates": [
+  {
+   "strategy_id": "A",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "明确说明统一定价、无折扣权限，语气得体；但「理解您会想再确认价格」略显套话，也没有结合客户的老客户身份或通勤场景，个性化弱。结尾邀请式说明较空泛，没有给出具体产品信息。"
+  },
+  {
+   "strategy_id": "B",
+   "brand_voice": 4,
+   "personalization": 2,
+   "appropriateness": 3,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "价格与产品事实均与资料一致，且只问一个问题；但材质和携带方式的提问偏产品介绍，没有回应客户的老客户身份，也未结合客户的通勤用途（客户上次买的是通勤包），个性化不足，且直接说「没有额外折扣」略显生硬。"
+  },
+  {
+   "strategy_id": "C",
+   "brand_voice": 4,
+   "personalization": 4,
+   "appropriateness": 4,
+   "factuality": 5,
+   "sendable": 4,
+   "strategy_match": true,
+   "veto": false,
+   "veto_reason": null,
+   "comment": "依据 POL:PRICE-OPEN 征得同意并询问预算，并提到通勤用途，符合资料；但客户只是要折扣，并未提预算限制，「明白价格需要合预算」属于替客户下判断，且没有明确说明无折扣，对「能否打折」的回应不够直接。"
+  }
+ ],
+ "diversity": 4,
+ "handling_ok": true,
+ "set_comment": "三条都守住统一定价、没有让价或施压，也没有主动提生日；策略分别为政策、用途、预算，差异清晰。共同不足是对客户「老客户」身份缺少一句有分寸的回应，个性化偏弱；C 对折扣的回应最不直接。",
+ "case_id": "TC-44",
+ "scenario": "price_objection",
+ "status": "generated"
+}
